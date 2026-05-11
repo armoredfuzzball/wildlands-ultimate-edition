@@ -1,0 +1,16 @@
+filename = 'FazRoleplayClothes-Neo1.21.1-1.6.1.jar'
+name = "Faz's Roleplay Clothes"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0b3bc3638e958b93a48fd9bcb76d45d6ba69f751ce5fad293d343ef00ce697f8f8aa13aa9922ca8ee0265aec84e74fa9b74fcd4a11423a947e5726ea1a546b4b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zjMFbe7B/versions/urYgvUDy/FazRoleplayClothes-Neo1.21.1-1.6.1.jar'
+
+[update.modrinth]
+mod-id = 'zjMFbe7B'
+version = 'urYgvUDy'

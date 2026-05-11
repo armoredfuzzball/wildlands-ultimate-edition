@@ -1,0 +1,16 @@
+filename = 'player-locator-plus-2.2.0.jar'
+name = 'Player Locator Plus'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '334ecfed2e21ffe10d78c9e0446ad19e41706a1e2f06062cea5db0a310e544c6cecc347c4d39cae4e5ca1db2326df10eafcfa64f3d85fbf16c55343ae71c87b8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/e0Yt2i7Q/versions/hAFRkZV8/player-locator-plus-2.2.0.jar'
+
+[update.modrinth]
+mod-id = 'e0Yt2i7Q'
+version = 'hAFRkZV8'
