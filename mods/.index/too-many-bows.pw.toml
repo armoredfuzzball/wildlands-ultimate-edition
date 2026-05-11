@@ -1,0 +1,26 @@
+filename = 'too_many_bows-neoforge-1.21.1-3.0.0.jar'
+name = 'Too Many Bows'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-3.0.0'
+
+[download]
+hash = '0067d72206c655c0a68bd58eb08095819e75a3b3dac2f37faac045c19475c65eef3d5ed773c382dc0db2c8b2b9b6a391132ec1a7330e382f2f26ec115c899e12'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FOiJ92uI/versions/jkgwiMjB/too_many_bows-neoforge-1.21.1-3.0.0.jar'
+
+[update.modrinth]
+mod-id = 'FOiJ92uI'
+version = 'jkgwiMjB'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5sy6g3kz'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'REQUIRED'
+version = 'yohfFbgD'

@@ -1,0 +1,21 @@
+filename = 'darkdoppelganger-3.2.1-1.21.1.jar'
+name = 'Dark Doppelganger - Irons Spells And Spellbooks Addon'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.2.1-1.21.1'
+
+[download]
+hash = '4b9b4ac6de67ebb139aa617684a11bfc43105e990dceb9f391579a2b7f3cbf27c7d85af4e7acf5772f7e265cf1c321f552ded5f4b7aaf83d82579cc78537197f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2vzHL83v/versions/KA1omJSd/darkdoppelganger-3.2.1-1.21.1.jar'
+
+[update.modrinth]
+mod-id = '2vzHL83v'
+version = 'KA1omJSd'
+
+[[x-prismlauncher-dependencies]]
+addonId = 's4OWxYQQ'
+type = 'REQUIRED'

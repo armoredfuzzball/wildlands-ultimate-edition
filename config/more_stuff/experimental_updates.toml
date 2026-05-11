@@ -1,0 +1,2 @@
+#If true, combat update experimental features will be enabled.
+isCombatUpdateAllowed = false

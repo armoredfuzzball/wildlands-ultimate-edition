@@ -1,0 +1,14 @@
+#Add Life Token Bits to spawner loot
+addLifeTokenBitsToSpawnerLoot = true
+#Add Life Token Bits to dungeon loot
+addLifeTokenBitsToDungeonLoot = true
+#Maximum life that can be obtained
+# Default: 60
+# Range: > 1
+maxLife = 60
+#How much life is gained per token
+# Default: 1
+# Range: > 1
+lifeIncrement = 1
+#Whether to drop life tokens at all
+addLifeTokens = true

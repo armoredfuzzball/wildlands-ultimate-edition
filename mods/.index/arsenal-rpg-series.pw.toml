@@ -1,0 +1,33 @@
+filename = 'arsenal-neoforge-1.4.2+1.21.1.jar'
+name = 'Arsenal (RPG Series)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.2+1.21.1-neoforge'
+
+[download]
+hash = 'b30c255ebdcf8e1996deebd450e67ddbc489760460bb55263f0cec2c120f041e10463d653e6081c35297615cba454a6b0dc6af370471459544425dfd7f8be7bd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LiP9Q3KV/versions/gdFGw2hh/arsenal-neoforge-1.4.2%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'LiP9Q3KV'
+version = 'gdFGw2hh'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'y9clIFY4'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AqaIIO6D'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Aqlf1Shp'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XvoWJaA2'
+type = 'REQUIRED'

@@ -1,0 +1,6 @@
+{
+  "entityTypePriority": {
+    "minecraft:player": 1.0,
+    "minecraft:iron_golem": 2.0
+  }
+}
