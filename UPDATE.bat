@@ -16,19 +16,18 @@ if not exist "PortableGit" (
   )
 )
 
-@REM delete the archive after extraction
 if exist "PortableGit-2.54.0-64-bit.7z.exe" (
   del "PortableGit-2.54.0-64-bit.7z.exe"
 )
-@REM delete everything inside .\PortableGit\ except for bin folder and mingw64 folder
-for /d %%i in (.\PortableGit\*) do (
-  if /i not "%%~nxi"=="bin" if /i not "%%~nxi"=="mingw64" rd /s /q "%%i"
-)
-@REM delete everything inside .\PortableGit\mingw64\ except for bin folder and libexec folder
-for /d %%i in (.\PortableGit\mingw64\*) do (
-  if /i not "%%~nxi"=="bin" if /i not "%%~nxi"=="libexec" rd /s /q "%%i"
-)
-echo Cleanup of PortableGit directory complete.
+@REM @REM delete everything inside .\PortableGit\ except for bin folder and mingw64 folder
+@REM for /d %%i in (.\PortableGit\*) do (
+@REM   if /i not "%%~nxi"=="bin" if /i not "%%~nxi"=="mingw64" rd /s /q "%%i"
+@REM )
+@REM @REM delete everything inside .\PortableGit\mingw64\ except for bin folder and libexec folder
+@REM for /d %%i in (.\PortableGit\mingw64\*) do (
+@REM   if /i not "%%~nxi"=="bin" if /i not "%%~nxi"=="libexec" rd /s /q "%%i"
+@REM )
+@REM echo Cleanup of PortableGit directory complete.
 
 if not exist ".git" (
   echo Git repository not found. Initializing...
@@ -39,8 +38,12 @@ if not exist ".git" (
   echo Checking out main branch...
   .\PortableGit\bin\git.exe checkout -b main origin/main -f
 ) else (
-  echo Updating repository...
-  .\PortableGit\bin\git.exe pull origin main
+  echo Available branches:
+  .\PortableGit\bin\git.exe branch -r
+  set /p branch="Enter the branch to switch to. Do not include origin/ (default: main): "
+  if "%branch%"=="" set branch=main
+  .\PortableGit\bin\git.exe fetch origin
+  .\PortableGit\bin\git.exe checkout %branch% -f
 )
 
 echo Update complete!

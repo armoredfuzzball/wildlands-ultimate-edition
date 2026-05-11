@@ -1,10 +1,15 @@
+.mixin.out
+.pg-native
+.sable
 .vscode
 downloads
 logs
 PortableGit
 saves
+schematics
 screenshots
 options.txt
+ponders_watched.json
 PortableGit-*.7z.exe
 usercache.json
 usernamecache.json
