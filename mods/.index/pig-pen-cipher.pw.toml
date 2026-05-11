@@ -1,0 +1,25 @@
+filename = 'pigpen-neoforge-1.21.1-21.1.5.jar'
+name = 'Pig Pen Cipher'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.1.5'
+
+[download]
+hash = '147f49ac54b13ec87a2c7a20413dde029c38a064b697f196fed906f2b41c12fe02dfe25b0d5c14ead6de524b30d9cd4bf4f55b6e382c8fd5b075c35d26661b7e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2xZPITh8/versions/Lzdj6xkS/pigpen-neoforge-1.21.1-21.1.5.jar'
+
+[update.modrinth]
+mod-id = '2xZPITh8'
+version = 'Lzdj6xkS'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'uy4Cnpcm'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'aaRl8GiW'
+type = 'REQUIRED'
