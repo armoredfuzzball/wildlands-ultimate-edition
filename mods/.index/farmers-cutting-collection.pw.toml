@@ -1,0 +1,57 @@
+filename = 'farmers-cutting-collection-1.21.1-1.3-neoforge.jar'
+name = "Farmer's Cutting Collection"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-1.3-neoforge+mod'
+
+[download]
+hash = 'd016130a86c4744ec4046cab4a9808e3a750c873e420334f791de4cc275d67920342ab32035e141f1fd6e9bd71326fcef6a8450a5a2b07af39cd03823817212f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bApGjY4X/versions/CS9Y6j0L/farmers-cutting-collection-1.21.1-1.3-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'bApGjY4X'
+version = 'CS9Y6j0L'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'IcERKldh'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'NTi7d3Xc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qnQsVE2z'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XvcfUGfB'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Tkikq67H'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'YhmgMVyu'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '3e4LaIlU'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fxX3RlL5'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HXF82T3G'
+type = 'OPTIONAL'

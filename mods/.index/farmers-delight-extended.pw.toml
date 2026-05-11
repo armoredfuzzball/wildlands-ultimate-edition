@@ -1,0 +1,25 @@
+filename = 'farmersdelight_extended-1.21.1-0.2.2.jar'
+name = "Farmer's Delight: Extended"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-0.2.2'
+
+[download]
+hash = '6cfe7093c1e1ee9ee798087658e5f43005dff7e3c8fd91f86f56ba2010c309ee923ff6cd1842737a6f882ef97881ef8260f396f36cf3b222d2e67bee5d84803c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CxjQ2P6f/versions/3zUEyjxn/farmersdelight_extended-1.21.1-0.2.2.jar'
+
+[update.modrinth]
+mod-id = 'CxjQ2P6f'
+version = '3zUEyjxn'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
+type = 'REQUIRED'
