@@ -1,0 +1,5 @@
+/spark profiler start
+/spark profiler stop
+/sparkc profiler start
+/sparkc profiler stop
+/flyspeed 5

@@ -117,6 +117,22 @@
           "operation": "ADD_VALUE"
         }
       ]
+    },
+    "ruby_knuckle": {
+      "attack_damage": 7.0,
+      "attack_speed": -2.2,
+      "attributes": [
+        {
+          "attribute": "spell_power:arcane",
+          "value": 5.5,
+          "operation": "ADD_VALUE"
+        },
+        {
+          "attribute": "generic.armor",
+          "value": 3.0,
+          "operation": "ADD_VALUE"
+        }
+      ]
     }
   },
   "armor_sets": {

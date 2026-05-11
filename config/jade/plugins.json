@@ -52,18 +52,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddontfmgcompat": {
-    "multimeter.detailed": false,
-    "multimeter.requires_goggles": false,
-    "multimeter": true,
-    "multimeter.requires_multimeter": false
-  },
-  "figuraname": {
-    "player_name": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -81,12 +69,6 @@
     "entity": true,
     "entity_variant": true
   },
-  "jadeaddons.lootr": {
-    "info": true
-  },
-  "supplementaries": {
-    "hat_stand": true
-  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -98,11 +80,55 @@
     "block_properties": false,
     "mod_name": true
   },
+  "adorablehamsterpets": {
+    "hamster_debug_info": true,
+    "hamster_bed_info": true,
+    "wild_bush_tooltips": true,
+    "hamster_genetics": true
+  },
   "balm": {
     "jade": true
   },
   "ddjade": {
     "power_level": true,
     "show_attribute_details": false
+  },
+  "jadeaddontfmgcompat": {
+    "multimeter.detailed": false,
+    "multimeter.requires_goggles": false,
+    "multimeter": true,
+    "multimeter.requires_multimeter": false
+  },
+  "create_mobile_packages": {
+    "bee_port": true
+  },
+  "figuraname": {
+    "player_name": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "spawn": {
+    "stickbug_as_item": true
+  },
+  "betternether": {
+    "plant_growth": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "toms_storage": {
+    "inventory_hopper": true,
+    "inventory_config": true,
+    "inventory_connector": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "gravestone": {
+    "grave": true
+  },
+  "barbequesdelight": {
+    "grill": true
   }
 }

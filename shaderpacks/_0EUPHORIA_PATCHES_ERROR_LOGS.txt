@@ -1,7 +1,0 @@
-2026-05-10 22:56:43 [ERROR] EuphoriaPatcher: === SHADER NOT FOUND ===
-2026-05-10 22:56:43 [ERROR] EuphoriaPatcher: Required: ComplementaryShaders r5.7.1
-2026-05-10 22:56:43 [ERROR] EuphoriaPatcher: 
-2026-05-10 22:56:43 [ERROR] EuphoriaPatcher: No Complementary shader found in your shaderpacks folder.
-2026-05-10 22:56:43 [ERROR] EuphoriaPatcher: 
-2026-05-10 22:56:43 [ERROR] EuphoriaPatcher: SOLUTION: Download ComplementaryShaders r5.7.1
-2026-05-10 22:56:43 [ERROR] EuphoriaPatcher: Download from: https://www.complementary.dev/

@@ -285,6 +285,22 @@
           "operation": "ADD_MULTIPLIED_BASE"
         }
       ]
+    },
+    "ruby_witcher_sword": {
+      "attack_damage": 7.0,
+      "attack_speed": -2.4,
+      "attributes": [
+        {
+          "attribute": "witcher_rpg:sign_intensity",
+          "value": 4.0,
+          "operation": "ADD_VALUE"
+        },
+        {
+          "attribute": "witcher_rpg:adrenaline_modifier",
+          "value": 0.1,
+          "operation": "ADD_MULTIPLIED_BASE"
+        }
+      ]
     }
   },
   "armor_sets": {
