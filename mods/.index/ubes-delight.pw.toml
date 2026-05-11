@@ -1,0 +1,37 @@
+filename = 'ubesdelight-neoforge-1.21.1-0.4.13.jar'
+name = "Ube's Delight"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'neoforge-1.21.1-0.4.13'
+
+[download]
+hash = '09bbf4e8938d27fed83ad37406c815d320e693d97d6e7862dbe6c904da11199b77f7d239f1d1d07ff27aa1451115559660591d6a322202eb1d2bdc2533af0cbe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PYjpoAys/versions/Nvae2Qs4/ubesdelight-neoforge-1.21.1-0.4.13.jar'
+
+[update.modrinth]
+mod-id = 'PYjpoAys'
+version = 'Nvae2Qs4'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nfn13YXA'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'codAaoxh'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRiHVvU7'
+type = 'OPTIONAL'
