@@ -1,0 +1,48 @@
+enable_upscale = true
+upscale_ratio = 1.7
+upscale_algo = "fsr1"
+sharpness = 0.55
+capture_mode = "A"
+pause_game_on_gui = false
+inject_post_chain_blacklist = []
+interop_sync_mode = "LowLatency"
+theme = "Light"
+theme_color = "#78DC77"
+theme_scheme_variant = "FIDELITY"
+theme_contrast_level = 0.0
+compat_shader_compiler = false
+force_disable_shader_compat = false
+disable_upscale_on_vanilla = false
+internal_texture_format = "AUTO"
+
+[debug]
+	debug_dump_shader = false
+	skip_init_vulkan = true
+	enable_render_doc = false
+	enable_imgui = false
+	enable_debug = false
+	enable_detailed_profiling = false
+
+[experiment]
+	enable_experimental_features = false
+	generate_motion_vectors = false
+
+[dataset]
+	enable_dataset_generator = false
+	dataset_path = "msrDataset"
+
+	[special.fsr1]
+		fp16 = true
+
+	[special.fsr2]
+		version = "V233"
+		fp16 = true
+
+	[special.fsr]
+		version = "V2"
+
+	[special.dlss]
+		render_preset = "K"
+
+	[special.sgsr2]
+		variant = "CS_2"

@@ -1,0 +1,18 @@
+filename = 'super_resolution-neoforge-1.21..1.21.1-0.8.3-alpha.3+opengl.jar'
+name = 'Super Resolution'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '1.21-0.8.3-alpha.3+gl-neo'
+
+[download]
+hash = '23dc0f75f80cb61e786baaf566fd5479585a0900b30265730fa093ca99bac7850be51886a3716671d91f6f2482c2dea44492d979b205c7261290875cc2b07b9a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Hf3Qz2H3/versions/M7Tfgcod/super_resolution-neoforge-1.21..1.21.1-0.8.3-alpha.3%2Bopengl.jar'
+
+[update.modrinth]
+mod-id = 'Hf3Qz2H3'
+version = 'M7Tfgcod'
