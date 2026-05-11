@@ -2,7 +2,10 @@
 .pg-native
 .sable
 .vscode
+crash-reports
 downloads
+dynamic-data-pack-cache
+dynamic-resource-pack-cache
 logs
 PortableGit
 saves
