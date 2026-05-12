@@ -25,6 +25,47 @@ threadPoolPriority = "default"
 # (Default: 9) Configures the parallelism of global executor
 globalExecutorParallelism = "default"
 
+[generalOptimizations]
+	# (Default: 100000) The task interval of mid-tick chunk tasks in nanoseconds (-1 to disable)  
+	# Mid-tick chunk tasks is to execute chunk tasks during server tick loop  
+	# to speed up chunk loading and generation  
+	# This helps chunks loading and generating under high MSPT but may raise  
+	# MSPT when chunks are loading or generating  
+	#  
+	# It is generally not recommended to adjust this value unless you know  
+	# what you are doing  
+	#  
+	# Incompatible with Dimensional Threading (dimthread)
+	# 
+	midTickChunkTasksInterval = "default"
+
+	[generalOptimizations.autoSave]
+		# (Default: ENHANCED) Defines how auto save should be handled  
+		# VANILLA: Use vanilla auto-save behavior (auto-save performed every tick during ticking)  
+		# ENHANCED: Use C2ME enhanced auto-save (auto-save performed when the server have spare time after ticking)  
+		# PERIODIC: Use pre-1.18 vanilla auto-save behavior (auto-save performed every 6000 ticks during ticking)  
+		#  
+		# Please preserve quotes so this config don't break
+		# 
+		mode = "default"
+
+[ioSystem]
+	# (Default: true) Whether to use the optimized implementation of IO system
+	replaceImpl = "default"
+	# (Default: false) EXPERIMENTAL FEATURE
+	# This replaces the way your chunks are saved.
+	# Please keep regular backups of your world if you are using this feature,
+	# and report any world issues you encounter with this feature to our GitHub.
+	# 
+	# Whether to use the fast reduced allocation chunk serializer
+	# (may cause incompatibility with other mods)
+	# 
+	gcFreeChunkSerializer = "default"
+	# (Default: 8192) Soft limit for io worker nbt cache
+	chunkDataCacheSoftLimit = "default"
+	# (Default: 32678) Hard limit for io worker nbt cache
+	chunkDataCacheLimit = "default"
+
 [fixes]
 	# (Default: true) Enforces safe world random access.  
 	# This feature detects unsafe off-thread world random access, helping to find the causes  
@@ -36,23 +77,6 @@ globalExecutorParallelism = "default"
 	# 
 	# 
 	enforceSafeWorldRandomAccess = "default"
-
-[ioSystem]
-	# (Default: false) EXPERIMENTAL FEATURE
-	# This replaces the way your chunks are saved.
-	# Please keep regular backups of your world if you are using this feature,
-	# and report any world issues you encounter with this feature to our GitHub.
-	# 
-	# Whether to use the fast reduced allocation chunk serializer
-	# (may cause incompatibility with other mods)
-	# 
-	gcFreeChunkSerializer = "default"
-	# (Default: true) Whether to use the optimized implementation of IO system
-	replaceImpl = "default"
-	# (Default: 8192) Soft limit for io worker nbt cache
-	chunkDataCacheSoftLimit = "default"
-	# (Default: 32678) Hard limit for io worker nbt cache
-	chunkDataCacheLimit = "default"
 
 [vanillaWorldGenOptimizations]
 	# (Default: false) Whether to use density function compiler to accelerate world generation
@@ -160,30 +184,6 @@ globalExecutorParallelism = "default"
 	# Do not change this unless you know what you are doing
 	# 
 	delayFullChunkEvents = "default"
-
-[generalOptimizations]
-	# (Default: 100000) The task interval of mid-tick chunk tasks in nanoseconds (-1 to disable)  
-	# Mid-tick chunk tasks is to execute chunk tasks during server tick loop  
-	# to speed up chunk loading and generation  
-	# This helps chunks loading and generating under high MSPT but may raise  
-	# MSPT when chunks are loading or generating  
-	#  
-	# It is generally not recommended to adjust this value unless you know  
-	# what you are doing  
-	#  
-	# Incompatible with Dimensional Threading (dimthread)
-	# 
-	midTickChunkTasksInterval = "default"
-
-	[generalOptimizations.autoSave]
-		# (Default: ENHANCED) Defines how auto save should be handled  
-		# VANILLA: Use vanilla auto-save behavior (auto-save performed every tick during ticking)  
-		# ENHANCED: Use C2ME enhanced auto-save (auto-save performed when the server have spare time after ticking)  
-		# PERIODIC: Use pre-1.18 vanilla auto-save behavior (auto-save performed every 6000 ticks during ticking)  
-		#  
-		# Please preserve quotes so this config don't break
-		# 
-		mode = "default"
 
 [noTickViewDistance]
 	# (Default: true) Whether to enable no-tick view distance

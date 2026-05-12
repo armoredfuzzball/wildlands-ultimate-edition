@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "melee_weapons": {
-    "enabled": false,
+    "enabled": true,
     "blacklist": "#spell_engine:non_combat_tools",
     "enable_specifiers": true,
     "specifiers": [

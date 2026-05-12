@@ -9,7 +9,7 @@
     "force_betterx_world_type": true
   },
   "loading": {
-    "disable_experimental_warning": true
+    "disable_experimental_warning": false
   },
   "modify_version": "21.0.20"
 }

@@ -60,6 +60,17 @@
         }
       ]
     },
+    "ruby_berserker_axe": {
+      "attack_damage": 15.0,
+      "attack_speed": -3.1,
+      "attributes": [
+        {
+          "attribute": "more_rpg_classes:rage_modifier",
+          "value": 0.1,
+          "operation": "ADD_MULTIPLIED_BASE"
+        }
+      ]
+    },
     "unique_berserker_axe_1": {
       "attack_damage": 15.0,
       "attack_speed": -3.1,
@@ -89,17 +100,6 @@
         {
           "attribute": "more_rpg_classes:rage_modifier",
           "value": 0.05,
-          "operation": "ADD_MULTIPLIED_BASE"
-        }
-      ]
-    },
-    "ruby_berserker_axe": {
-      "attack_damage": 15.0,
-      "attack_speed": -3.1,
-      "attributes": [
-        {
-          "attribute": "more_rpg_classes:rage_modifier",
-          "value": 0.1,
           "operation": "ADD_MULTIPLIED_BASE"
         }
       ]
