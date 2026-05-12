@@ -8,7 +8,9 @@ data
 downloads
 dynamic-data-pack-cache
 dynamic-resource-pack-cache
+figura
 logs
+mods/.connector/
 figura
 PortableGit
 saves
@@ -19,6 +21,8 @@ moonlight-global-datapacks
 patchouli_books
 vinurl
 xaero
+XaeroWaypoints_BACKUP*
+command_history.txt
 fabricloader.log
 patchouli_data.json
 ponders_watched.json
