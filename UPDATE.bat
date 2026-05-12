@@ -42,8 +42,16 @@ if not exist ".git" (
   .\PortableGit\bin\git.exe branch -r
   set /p branch="Enter the branch to switch to. Do not include origin/ (default: main): "
   if "%branch%"=="" set branch=main
+  echo Switching to branch: %branch%
   .\PortableGit\bin\git.exe fetch origin
-  .\PortableGit\bin\git.exe checkout %branch% -f
+  .\PortableGit\bin\git.exe checkout -B %branch% origin/%branch%
+  set /p reset="Discard local changes and force update? (y/N): "
+  if /i "%reset%"=="y" (
+    echo Forcing local branch to match remote (discarding local changes)...
+    .\PortableGit\bin\git.exe reset --hard origin/%branch%
+  ) else (
+    echo Keeping local changes.
+  )
 )
 
 echo Update complete!
