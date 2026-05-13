@@ -35,13 +35,13 @@ if not exist ".git" (
   .\PortableGit\bin\git.exe remote add origin https://github.com/ArmoredFuzzball/Wildlands-Ultimate-Edition.git
   echo Fetching from remote...
   .\PortableGit\bin\git.exe fetch origin
-  echo Checking out main branch...
-  .\PortableGit\bin\git.exe checkout -b main origin/main -f
+  echo Checking out release branch...
+  .\PortableGit\bin\git.exe checkout -b release origin/release -f
 ) else (
   echo Available branches:
   .\PortableGit\bin\git.exe branch -r
-  set /p branch="Enter the branch to switch to. Do not include origin/ (default: main): "
-  if "%branch%"=="" set branch=main
+  set /p branch="Enter the branch to switch to. Do not include origin/ (default: release): "
+  if "%branch%"=="" set branch=release
   echo Switching to branch: %branch%
   .\PortableGit\bin\git.exe fetch origin
   .\PortableGit\bin\git.exe checkout -B %branch% origin/%branch%
