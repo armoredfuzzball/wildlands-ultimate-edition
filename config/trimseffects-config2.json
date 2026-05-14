@@ -46,10 +46,12 @@
     "wayfinder": ["slow_falling"],
     "shaper": ["luck"],
     "silence": ["health_boost"],
-    "raiser": ["saturation"],
+    "raiser": ["night_vision"],
     "host": ["glowing"],
     "flow": ["jump_boost"],
-    "bolt": ["dolphins_grace"]
+    "bolt": ["dolphins_grace"],
+    "supplementaries:blast_armor_trim_smithing_template": [],
+    "yungscavebiomes:ancient_armor_trim_smithing_template": []
   },
 
   // Controls potion effect level based on number of matching armor pieces
@@ -63,7 +65,6 @@
   "materialEffectLevels": {
     // Format: "material": level
     // Uncomment to enable:
-    /*
     "copper": 0,
     "iron": 0,
     "redstone": 0,
@@ -72,15 +73,14 @@
     "gold": 0,
     "emerald": 0,
     "amethyst": 0,
-    "resin": 1,
+    "resin": 0,
     "diamond": 1,
     "netherite": 2
-    */
   },
 
   // Legacy v1 feature: Minimum number of matching armor pieces required before an
   // effect is applied when using "materialEffectLevels"
-  "materialEffectLevelsMinimumMatching": 4,
+  "materialEffectLevelsMinimumMatching": 1,
 
   // Override potion effects based on trim material instead of pattern
   // Note: The "minecraft:" prefix is omitted from material and effect names
@@ -91,7 +91,7 @@
     // "gold": ["haste", "luck"],
 
     // Default values:
-    "resin": ["night_vision"]
+    //"resin": ["night_vision"]
   },
 
   // If true, mobs wearing trimmed armor will get the effects
@@ -100,6 +100,6 @@
 
   // Prevents absorption effect from making players invincible
   // Waits this many seconds after damage before refreshing absorption hearts
-  "absorptionStunSeconds": 12.0
+  "absorptionStunSeconds": 8.0
 
 }

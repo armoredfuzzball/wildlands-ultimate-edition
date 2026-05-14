@@ -16,7 +16,9 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "examplemod:example_item"
+    "artifacts:eternal_steak",
+    "artifacts:everlasting_beef",
+    "born_in_chaos_v1:eternal_candy"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

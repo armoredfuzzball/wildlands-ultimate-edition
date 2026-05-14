@@ -1,0 +1,25 @@
+filename = 'darkpaintings-neoforge-1.21.1-21.1.7.jar'
+name = 'Dark Paintings'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.1.7'
+
+[download]
+hash = 'ae8382b38bee167e1e710a96eae8e7347fb9a4b70d5e5250662478eb6d26567c7d4070c7adc85ea1fc2bd4bf3e0761e1fe15b12ba87301c281d7d52f7c0c2ba5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lFGQ4Hnk/versions/G4l3EuRR/darkpaintings-neoforge-1.21.1-21.1.7.jar'
+
+[update.modrinth]
+mod-id = 'lFGQ4Hnk'
+version = 'G4l3EuRR'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'aaRl8GiW'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'uy4Cnpcm'
+type = 'REQUIRED'

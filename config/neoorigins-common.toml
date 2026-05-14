@@ -11,9 +11,13 @@ hide_hud_bars = true
 #hunger instead (resource_cost_amount food points are deducted).
 #Useful for packs that prefer vanilla hunger as the universal cost.
 disable_resource_bars = false
+#Send in-game chat feedback when a compat power action resolves to no-op (unsupported action type).
+#Useful for pack authors debugging why their imported powers aren't working.
+debug_compat_actions = false
 
 #Enable or disable built-in origins.
-#Set to false to remove an origin from the selection screen.
+#Set to false to hide an origin from the selection screen.
+#Disabled origins can still be assigned via /neoorigins set.
 #Datapack and originpack origins are not affected by these toggles.
 [origins]
 	human = true
@@ -1513,3 +1517,11 @@ disable_resource_bars = false
 	# Default: 0.07
 	# Range: 0.0 ~ 1.0
 	helmet_dura_damage_chance = 0.07
+
+#Auto-human mode.
+#When enabled, new players are automatically assigned neoorigins:human
+#on the origin layer and skip straight to the class selection screen.
+#Useful for servers that want to bypass origin selection entirely.
+[auto_human]
+	#Automatically assign human origin and open class selection only.
+	enabled = false
