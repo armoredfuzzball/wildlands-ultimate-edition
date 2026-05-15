@@ -599,7 +599,7 @@ _version = 4
 		# CHAT 
 		# LOG 
 		# DISABLED
-		showGenerationProgress = "DISABLED"
+		showGenerationProgress = "OVERLAY"
 		#
 		# How often should the distant generator progress be displayed?
 		generationProgressDisplayIntervalInSeconds = 2

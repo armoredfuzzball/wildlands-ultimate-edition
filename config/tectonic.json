@@ -22,7 +22,7 @@
   "continents": {
     "continents_scale": 0.13,
     "erosion_scale": 0.2,
-    "flat_terrain_skew": 0.1,
+    "flat_terrain_skew": 0.05,
     "jungle_pillars": true,
     "ocean_offset": -0.8,
     "ridge_scale": 0.25,
