@@ -12,6 +12,8 @@ dynamic-resource-pack-cache
 figura
 logs
 mods/.connector/
+config/skinshuffle/skins/
+config/skinshuffle/presets.json
 config/skinshuffle/skin-caches.json
 figura
 PortableGit
