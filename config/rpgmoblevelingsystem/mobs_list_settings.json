@@ -8,9 +8,10 @@
   ],
   "deathMessages": false,
   "lockedMobs": {
-    "minecraft:ender_dragon": 10.0,
-    "minecraft:warden": 10.0,
-    "minecraft:wither": 10.0
+    "minecraft:ender_dragon": 40.0,
+    "minecraft:warden": 40.0,
+    "minecraft:wither": 40.0,
+    "minecraft:elder_guardian": 40.0
   },
   "canBeAscendant": [
     "minecraft:zombie",
