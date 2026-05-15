@@ -41,7 +41,7 @@
 	#- SORTED: The basic implementation of batching layer storage that renders opaque and translucent geometries together in a single stage with better performance but slight visual glitches on translucent geometries.
 	#- SEPARATED: The visually-precise implementation of batching layer storage that separates opaque and translucent geometries into two rendering stages to prevent visual glitches, slightly slower than basic implementation.
 	#Allowed Values: SORTED, SEPARATED
-	layer_storage_type = "SEPARATED"
+	layer_storage_type = "SORTED"
 	#- IGNORED: Meshes with identical vertices will not be merged, which will use less RAM but more VRAM in storing duplicated meshes.
 	#- MERGED: Meshes with identical vertices will be merged together, which will use less VRAM more RAM in storing the data of meshes used in merging.
 	#Allowed Values: IGNORED, MERGED
