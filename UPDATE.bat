@@ -19,15 +19,6 @@ if not exist "PortableGit" (
 if exist "PortableGit-2.54.0-64-bit.7z.exe" (
   del "PortableGit-2.54.0-64-bit.7z.exe"
 )
-@REM @REM delete everything inside .\PortableGit\ except for bin folder and mingw64 folder
-@REM for /d %%i in (.\PortableGit\*) do (
-@REM   if /i not "%%~nxi"=="bin" if /i not "%%~nxi"=="mingw64" rd /s /q "%%i"
-@REM )
-@REM @REM delete everything inside .\PortableGit\mingw64\ except for bin folder and libexec folder
-@REM for /d %%i in (.\PortableGit\mingw64\*) do (
-@REM   if /i not "%%~nxi"=="bin" if /i not "%%~nxi"=="libexec" rd /s /q "%%i"
-@REM )
-@REM echo Cleanup of PortableGit directory complete.
 
 if not exist ".git" (
   echo Git repository not found. Initializing...
@@ -40,18 +31,11 @@ if not exist ".git" (
 ) else (
   echo Available branches:
   .\PortableGit\bin\git.exe branch -r
-  set /p branch="Enter the branch to switch to. Do not include origin/ (default: release): "
+  set /p branch="Enter the branch to switch to. If you don't know what you're doing, just press Enter. Do not include origin/ (default: release): "
   if "%branch%"=="" set branch=release
   echo Switching to branch: %branch%
-  .\PortableGit\bin\git.exe fetch origin
-  .\PortableGit\bin\git.exe checkout -B %branch% origin/%branch%
-  set /p reset="Discard local changes and force update? (y/N): "
-  if /i "%reset%"=="y" (
-    echo Forcing local branch to match remote (discarding local changes)...
-    .\PortableGit\bin\git.exe reset --hard origin/%branch%
-  ) else (
-    echo Keeping local changes.
-  )
+  .\PortableGit\bin\git.exe checkout %branch% -f
+  .\PortableGit\bin\git.exe reset --hard origin/%branch%
 )
 
 echo Update complete!
