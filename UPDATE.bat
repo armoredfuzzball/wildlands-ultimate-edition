@@ -1,4 +1,5 @@
 @echo off
+setlocal enabledelayedexpansion
 if not exist "PortableGit" (
   if not exist "PortableGit-2.54.0-64-bit.7z.exe" (
     echo PortableGit archive not found. Please ensure "PortableGit-2.54.0-64-bit.7z.exe" is in the same directory as this script.
@@ -16,10 +17,6 @@ if not exist "PortableGit" (
   )
 )
 
-if exist "PortableGit-2.54.0-64-bit.7z.exe" (
-  del "PortableGit-2.54.0-64-bit.7z.exe"
-)
-
 if not exist ".git" (
   echo Git repository not found. Initializing...
   .\PortableGit\bin\git.exe init
@@ -31,11 +28,18 @@ if not exist ".git" (
 ) else (
   echo Available branches:
   .\PortableGit\bin\git.exe branch -r
-  set /p branch="Enter the branch to switch to. If you don't know what you're doing, just press Enter. Do not include origin/ (default: release): "
-  if "%branch%"=="" set branch=release
-  echo Switching to branch: %branch%
-  .\PortableGit\bin\git.exe checkout %branch% -f
-  .\PortableGit\bin\git.exe reset --hard origin/%branch%
+  echo.
+  set "userinput="
+  set /p "userinput=Enter the branch to switch to. If you don't know what you're doing, just press Enter. Do not include origin/ (default: release): "
+  if "!userinput!"=="" (
+    set "branch=release"
+  ) else (
+    set "branch=!userinput!"
+  )
+  echo Switching to branch: !branch!
+  .\PortableGit\bin\git.exe fetch origin
+  .\PortableGit\bin\git.exe checkout !branch! 2>nul || .\PortableGit\bin\git.exe checkout -b !branch! origin/!branch! -f
+  .\PortableGit\bin\git.exe reset --hard origin/!branch!
 )
 
 echo Update complete!
