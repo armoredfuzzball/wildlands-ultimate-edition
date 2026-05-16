@@ -3,6 +3,7 @@
 .pg-native
 .sable
 .vscode
+config/
 crash-reports
 CustomSkinLoader
 data
