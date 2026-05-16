@@ -7,6 +7,7 @@ crash-reports
 CustomSkinLoader
 data
 downloads
+Distant_Horizons_server_data/
 dynamic-data-pack-cache
 dynamic-resource-pack-cache
 figura
@@ -34,3 +35,4 @@ ponders_watched.json
 PortableGit-*.7z.exe
 usercache.json
 usernamecache.json
+/config/inventoryprofilesnext/
