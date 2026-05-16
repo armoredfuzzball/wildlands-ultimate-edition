@@ -4,7 +4,9 @@
 .sable
 .vscode
 config/
-crash-reports
+crash-reports/
+debug/
+defaultconfigs/
 CustomSkinLoader
 data
 downloads
@@ -14,10 +16,6 @@ dynamic-resource-pack-cache
 figura
 logs
 mods/.connector/
-config/jei/world/
-config/skinshuffle/skins/
-config/skinshuffle/presets.json
-config/skinshuffle/skin-caches.json
 figura
 PortableGit
 saves
@@ -36,4 +34,3 @@ ponders_watched.json
 PortableGit-*.7z.exe
 usercache.json
 usernamecache.json
-/config/inventoryprofilesnext/
