@@ -1438,7 +1438,7 @@ debug_compat_actions = false
 	#is silently cancelled. Set to false to let them eat anything (powered by
 	#the aquatic_fish_diet power's runtime check on this flag).
 	#Default true: matches the long-standing pescivore design.
-	fish_diet_required = true
+	fish_diet_required = false
 
 #Friendly-fire filter for origin area-of-effect actions (poison sting,
 #fire burst, ink shot, etc.). When a toggle is true, that category of
