@@ -23,16 +23,16 @@ if not exist ".git" (
   .\PortableGit\bin\git.exe remote add origin https://github.com/ArmoredFuzzball/Wildlands-Ultimate-Edition.git
   echo Fetching from remote...
   .\PortableGit\bin\git.exe fetch origin
-  echo Checking out release-2 branch...
-  .\PortableGit\bin\git.exe checkout -b release-2 origin/release-2 -f
+  echo Checking out release-2-min branch...
+  .\PortableGit\bin\git.exe checkout -b release-2-min origin/release-2-min -f
 ) else (
   echo Available branches:
   .\PortableGit\bin\git.exe branch -r
   echo.
   set "userinput="
-  set /p "userinput=Enter the branch to switch to. If you don't know what you're doing, just press Enter. Do not include origin/ (default: release-2): "
+  set /p "userinput=Enter the branch to switch to. If you don't know what you're doing, just press Enter. Do not include origin/ (default: release-2-min): "
   if "!userinput!"=="" (
-    set "branch=release-2"
+    set "branch=release-2-min"
   ) else (
     set "branch=!userinput!"
   )
