@@ -1,20 +1,20 @@
-filename = 'neoorigins-2.0.37+1.21.1.jar'
+filename = 'neoorigins-2.1.4+1.21.1.jar'
 name = 'NeoOrigins'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'v2.0.37+1.21.1'
+x-prismlauncher-version-number = 'v2.1.4+1.21.1'
 
 [download]
-hash = '30f449477fe1ee9926b8f362065d134b59e0495438f9a4923a6e691938eb9ef5070d1c688c90ec6df4ef77c39db10ef7d2f7e25596167a2b69911aca14499e1b'
+hash = '769c7ac99c48f5f3e972ce6a336b883054dbac7fc0ceae9ea28afed25999c3ccf444eaf739d4a28fb80a358553c3b9ddf806393049c8974b6ec37ca9005a403c'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/RUtQ9kfe/versions/dEmuf2ua/neoorigins-2.0.37%2B1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/RUtQ9kfe/versions/RZ5b3s64/neoorigins-2.1.4%2B1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'RUtQ9kfe'
-version = 'dEmuf2ua'
+version = 'RZ5b3s64'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'u6dRKJwZ'
