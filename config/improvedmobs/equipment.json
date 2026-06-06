@@ -1,0 +1,7242 @@
+{
+  "version": 2,
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "Value is the item. It also accepts item components. The default config has an example with a harming potion",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": [
+    {
+      "value": "aquaculture:diamond_fillet_knife",
+      "weight": 7846914,
+      "quality": 1378.8086
+    },
+    {
+      "value": "aquaculture:diamond_fishing_rod",
+      "weight": 10938257,
+      "quality": 1339.0844
+    },
+    {
+      "value": "aquaculture:gold_fillet_knife",
+      "weight": 43504996,
+      "quality": 955.8755
+    },
+    {
+      "value": "aquaculture:gold_fishing_rod",
+      "weight": 11998564,
+      "quality": 1325.5931
+    },
+    {
+      "value": "aquaculture:iron_fillet_knife",
+      "weight": 17409896,
+      "quality": 1257.803
+    },
+    {
+      "value": "aquaculture:iron_fishing_rod",
+      "weight": 11968623,
+      "quality": 1325.9731
+    },
+    {
+      "value": "aquaculture:neptunium_axe",
+      "weight": 2142936,
+      "quality": 1453.6299
+    },
+    {
+      "value": "aquaculture:neptunium_fillet_knife",
+      "weight": 28550156,
+      "quality": 1123.846
+    },
+    {
+      "value": "aquaculture:neptunium_fishing_rod",
+      "weight": 9660475,
+      "quality": 1355.4337
+    },
+    {
+      "value": "aquaculture:neptunium_sword",
+      "weight": 3914651,
+      "quality": 1430.1779
+    },
+    {
+      "value": "aquaculture:stone_fillet_knife",
+      "weight": 38680852,
+      "quality": 1008.5749
+    },
+    {
+      "value": "aquaculture:wooden_fillet_knife",
+      "weight": 45571748,
+      "quality": 933.7308
+    },
+    {
+      "value": "aquaculturedelight:neptunium_knife",
+      "weight": 8689177,
+      "quality": 1367.9281
+    },
+    {
+      "value": "bakery:bread_knife",
+      "weight": 33956996,
+      "quality": 1061.5487
+    },
+    {
+      "value": "bakery:rolling_pin",
+      "weight": 41259580,
+      "quality": 980.22876
+    },
+    {
+      "value": "beachparty:pool_noodle",
+      "weight": 45571748,
+      "quality": 933.7308
+    },
+    {
+      "value": "betternether:cincinnasite_axe",
+      "weight": 2230896,
+      "quality": 1452.4608
+    },
+    {
+      "value": "betternether:cincinnasite_axe_diamond",
+      "weight": 2014459,
+      "quality": 1455.3379
+    },
+    {
+      "value": "betternether:cincinnasite_sword",
+      "weight": 6027554,
+      "quality": 1402.4591
+    },
+    {
+      "value": "betternether:cincinnasite_sword_diamond",
+      "weight": 3634345,
+      "quality": 1433.8754
+    },
+    {
+      "value": "betternether:flaming_ruby_axe",
+      "weight": 1575310,
+      "quality": 1461.1837
+    },
+    {
+      "value": "betternether:flaming_ruby_sword",
+      "weight": 1804185,
+      "quality": 1458.1357
+    },
+    {
+      "value": "betternether:nether_ruby_axe",
+      "weight": 2347162,
+      "quality": 1450.917
+    },
+    {
+      "value": "betternether:nether_ruby_sword",
+      "weight": 4267283,
+      "quality": 1425.5332
+    },
+    {
+      "value": "born_in_chaos_v1:birch_branches",
+      "weight": 23483114,
+      "quality": 1183.8402
+    },
+    {
+      "value": "born_in_chaos_v1:carrot_sword",
+      "weight": 5815612,
+      "quality": 1405.2274
+    },
+    {
+      "value": "born_in_chaos_v1:dark_ritual_dagger",
+      "weight": 6984239,
+      "quality": 1389.9977
+    },
+    {
+      "value": "born_in_chaos_v1:darkwarblade",
+      "weight": 1290750,
+      "quality": 1464.9778
+    },
+    {
+      "value": "born_in_chaos_v1:frostbitten_blade",
+      "weight": 6736553,
+      "quality": 1393.2189
+    },
+    {
+      "value": "born_in_chaos_v1:great_reaper_axe",
+      "weight": 1893015,
+      "quality": 1456.9531
+    },
+    {
+      "value": "born_in_chaos_v1:icy_sweetness",
+      "weight": 6261653,
+      "quality": 1399.4048
+    },
+    {
+      "value": "born_in_chaos_v1:intoxicating_dagger",
+      "weight": 6736553,
+      "quality": 1393.2189
+    },
+    {
+      "value": "born_in_chaos_v1:nightmare_scythe",
+      "weight": 2563563,
+      "quality": 1448.0446
+    },
+    {
+      "value": "born_in_chaos_v1:nut_hammer",
+      "weight": 11502221,
+      "quality": 1331.9
+    },
+    {
+      "value": "born_in_chaos_v1:sharpened_dark_metal_sword",
+      "weight": 4769005,
+      "quality": 1418.9371
+    },
+    {
+      "value": "born_in_chaos_v1:shell_mace",
+      "weight": 3573422,
+      "quality": 1434.6798
+    },
+    {
+      "value": "born_in_chaos_v1:skullbreaker_hammer",
+      "weight": 1654796,
+      "quality": 1460.1248
+    },
+    {
+      "value": "born_in_chaos_v1:soul_cutlass",
+      "weight": 7048385,
+      "quality": 1389.1644
+    },
+    {
+      "value": "born_in_chaos_v1:soulbane",
+      "weight": 1582065,
+      "quality": 1461.0934
+    },
+    {
+      "value": "born_in_chaos_v1:spider_bite_sword",
+      "weight": 6680259,
+      "quality": 1393.9514
+    },
+    {
+      "value": "born_in_chaos_v1:spiritual_sword",
+      "weight": 10718270,
+      "quality": 1341.892
+    },
+    {
+      "value": "born_in_chaos_v1:supreme_measure",
+      "weight": 102,
+      "quality": 1482.2488
+    },
+    {
+      "value": "born_in_chaos_v1:sweet_axe",
+      "weight": 2551291,
+      "quality": 1448.2074
+    },
+    {
+      "value": "born_in_chaos_v1:sweet_sword",
+      "weight": 5815612,
+      "quality": 1405.2274
+    },
+    {
+      "value": "born_in_chaos_v1:trident_hayfork",
+      "weight": 2668759,
+      "quality": 1446.6497
+    },
+    {
+      "value": "born_in_chaos_v1:wood_splitter_axe",
+      "weight": 1953539,
+      "quality": 1456.1481
+    },
+    {
+      "value": "cataclysm:athame",
+      "weight": 12945819,
+      "quality": 1313.5979
+    },
+    {
+      "value": "cataclysm:black_steel_axe",
+      "weight": 2535779,
+      "quality": 1448.4133
+    },
+    {
+      "value": "cataclysm:black_steel_sword",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "cataclysm:khopesh",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "create:cardboard_sword",
+      "weight": 218019376,
+      "quality": 0.25
+    },
+    {
+      "value": "create_confectionery:candy_cane_axe",
+      "weight": 5575619,
+      "quality": 1408.3651
+    },
+    {
+      "value": "create_confectionery:candy_cane_sword",
+      "weight": 13425966,
+      "quality": 1307.5387
+    },
+    {
+      "value": "create_deep_dark:echo_sword",
+      "weight": 3293683,
+      "quality": 1438.3759
+    },
+    {
+      "value": "create_sa:blazing_axe",
+      "weight": 3123182,
+      "quality": 1440.6309
+    },
+    {
+      "value": "create_sa:blazing_cleaver",
+      "weight": 14735564,
+      "quality": 1291.0834
+    },
+    {
+      "value": "create_sa:brass_axe",
+      "weight": 2606753,
+      "quality": 1447.4718
+    },
+    {
+      "value": "create_sa:brass_sword",
+      "weight": 10900968,
+      "quality": 1339.5602
+    },
+    {
+      "value": "create_sa:copper_axe",
+      "weight": 5386217,
+      "quality": 1410.844
+    },
+    {
+      "value": "create_sa:copper_sword",
+      "weight": 19320950,
+      "quality": 1234.2877
+    },
+    {
+      "value": "create_sa:experience_axe",
+      "weight": 2193404,
+      "quality": 1452.9592
+    },
+    {
+      "value": "create_sa:experience_sword",
+      "weight": 3204026,
+      "quality": 1439.5613
+    },
+    {
+      "value": "create_sa:rose_quartz_axe",
+      "weight": 2484551,
+      "quality": 1449.0931
+    },
+    {
+      "value": "create_sa:rose_quartz_sword",
+      "weight": 6481657,
+      "quality": 1396.5374
+    },
+    {
+      "value": "create_sa:zinc_axe",
+      "weight": 2653258,
+      "quality": 1446.8553
+    },
+    {
+      "value": "create_sa:zinc_sword",
+      "weight": 17847168,
+      "quality": 1252.403
+    },
+    {
+      "value": "create_things_and_misc:brass_knife",
+      "weight": 37326272,
+      "quality": 1023.62665
+    },
+    {
+      "value": "create_things_and_misc:copper_knife",
+      "weight": 54504844,
+      "quality": 841.0
+    },
+    {
+      "value": "create_things_and_misc:zinc_knife",
+      "weight": 54504844,
+      "quality": 841.0
+    },
+    {
+      "value": "deeperdarker:resonarium_axe",
+      "weight": 2496513,
+      "quality": 1448.9342
+    },
+    {
+      "value": "deeperdarker:resonarium_sword",
+      "weight": 4682867,
+      "quality": 1420.0685
+    },
+    {
+      "value": "deeperdarker:warden_axe",
+      "weight": 1629913,
+      "quality": 1460.4559
+    },
+    {
+      "value": "deeperdarker:warden_sword",
+      "weight": 2416945,
+      "quality": 1449.9901
+    },
+    {
+      "value": "hybrid-aquatic:coral_axe",
+      "weight": 7686581,
+      "quality": 1380.8849
+    },
+    {
+      "value": "hybrid-aquatic:coral_blade",
+      "weight": 11670136,
+      "quality": 1329.7646
+    },
+    {
+      "value": "hybrid-aquatic:seashell_axe",
+      "weight": 1695749,
+      "quality": 1459.5793
+    },
+    {
+      "value": "hybrid-aquatic:seashell_spear",
+      "weight": 17633918,
+      "quality": 1255.0349
+    },
+    {
+      "value": "magistuarmory:barbedclub",
+      "weight": 2338294,
+      "quality": 1451.0344
+    },
+    {
+      "value": "magistuarmory:blacksmith_hammer",
+      "weight": 1945417,
+      "quality": 1456.2561
+    },
+    {
+      "value": "magistuarmory:bronze_ahlspiess",
+      "weight": 6881530,
+      "quality": 1391.3333
+    },
+    {
+      "value": "magistuarmory:bronze_bastardsword",
+      "weight": 4324026,
+      "quality": 1424.7863
+    },
+    {
+      "value": "magistuarmory:bronze_chainmorgenstern",
+      "weight": 1754362,
+      "quality": 1458.7988
+    },
+    {
+      "value": "magistuarmory:bronze_chivalrylance",
+      "weight": 4690881,
+      "quality": 1419.9633
+    },
+    {
+      "value": "magistuarmory:bronze_claymore",
+      "weight": 2716368,
+      "quality": 1446.0182
+    },
+    {
+      "value": "magistuarmory:bronze_concavehalberd",
+      "weight": 1702219,
+      "quality": 1459.493
+    },
+    {
+      "value": "magistuarmory:bronze_estoc",
+      "weight": 4563678,
+      "quality": 1421.6346
+    },
+    {
+      "value": "magistuarmory:bronze_flamebladedsword",
+      "weight": 2048223,
+      "quality": 1454.8889
+    },
+    {
+      "value": "magistuarmory:bronze_guisarme",
+      "weight": 5244862,
+      "quality": 1412.6956
+    },
+    {
+      "value": "magistuarmory:bronze_heavymace",
+      "weight": 3028525,
+      "quality": 1441.8835
+    },
+    {
+      "value": "magistuarmory:bronze_heavywarhammer",
+      "weight": 2612077,
+      "quality": 1447.4012
+    },
+    {
+      "value": "magistuarmory:bronze_katzbalger",
+      "weight": 7333985,
+      "quality": 1385.4563
+    },
+    {
+      "value": "magistuarmory:bronze_lochaberaxe",
+      "weight": 1726109,
+      "quality": 1459.175
+    },
+    {
+      "value": "magistuarmory:bronze_lucernhammer",
+      "weight": 3313021,
+      "quality": 1438.1201
+    },
+    {
+      "value": "magistuarmory:bronze_morgenstern",
+      "weight": 3367686,
+      "quality": 1437.3977
+    },
+    {
+      "value": "magistuarmory:bronze_pike",
+      "weight": 5812089,
+      "quality": 1405.2731
+    },
+    {
+      "value": "magistuarmory:bronze_ranseur",
+      "weight": 5189533,
+      "quality": 1413.4205
+    },
+    {
+      "value": "magistuarmory:bronze_shortsword",
+      "weight": 9992555,
+      "quality": 1351.1752
+    },
+    {
+      "value": "magistuarmory:bronze_stylet",
+      "weight": 11727203,
+      "quality": 1329.0394
+    },
+    {
+      "value": "magistuarmory:bronze_zweihander",
+      "weight": 2048223,
+      "quality": 1454.8889
+    },
+    {
+      "value": "magistuarmory:club",
+      "weight": 3764856,
+      "quality": 1432.1534
+    },
+    {
+      "value": "magistuarmory:copper_ahlspiess",
+      "weight": 20945092,
+      "quality": 1214.4772
+    },
+    {
+      "value": "magistuarmory:copper_bastardsword",
+      "weight": 11058043,
+      "quality": 1337.5569
+    },
+    {
+      "value": "magistuarmory:copper_chainmorgenstern",
+      "weight": 4987186,
+      "quality": 1416.0739
+    },
+    {
+      "value": "magistuarmory:copper_chivalrylance",
+      "weight": 23744682,
+      "quality": 1180.7051
+    },
+    {
+      "value": "magistuarmory:copper_claymore",
+      "weight": 7090060,
+      "quality": 1388.623
+    },
+    {
+      "value": "magistuarmory:copper_concavehalberd",
+      "weight": 3371236,
+      "quality": 1437.3508
+    },
+    {
+      "value": "magistuarmory:copper_estoc",
+      "weight": 11813857,
+      "quality": 1327.9382
+    },
+    {
+      "value": "magistuarmory:copper_flamebladedsword",
+      "weight": 5378667,
+      "quality": 1410.9429
+    },
+    {
+      "value": "magistuarmory:copper_guisarme",
+      "weight": 17997846,
+      "quality": 1250.5447
+    },
+    {
+      "value": "magistuarmory:copper_heavymace",
+      "weight": 8724740,
+      "quality": 1367.4696
+    },
+    {
+      "value": "magistuarmory:copper_heavywarhammer",
+      "weight": 8020779,
+      "quality": 1376.5591
+    },
+    {
+      "value": "magistuarmory:copper_katzbalger",
+      "weight": 17617726,
+      "quality": 1255.2349
+    },
+    {
+      "value": "magistuarmory:copper_lochaberaxe",
+      "weight": 3736262,
+      "quality": 1432.5309
+    },
+    {
+      "value": "magistuarmory:copper_lucernhammer",
+      "weight": 10359451,
+      "quality": 1346.4779
+    },
+    {
+      "value": "magistuarmory:copper_morgenstern",
+      "weight": 9101377,
+      "quality": 1362.6188
+    },
+    {
+      "value": "magistuarmory:copper_pike",
+      "weight": 19224154,
+      "quality": 1235.4735
+    },
+    {
+      "value": "magistuarmory:copper_ranseur",
+      "weight": 16844340,
+      "quality": 1264.8048
+    },
+    {
+      "value": "magistuarmory:copper_shortsword",
+      "weight": 23744682,
+      "quality": 1180.7051
+    },
+    {
+      "value": "magistuarmory:copper_stylet",
+      "weight": 28764176,
+      "quality": 1121.3462
+    },
+    {
+      "value": "magistuarmory:copper_zweihander",
+      "weight": 5378667,
+      "quality": 1410.9429
+    },
+    {
+      "value": "magistuarmory:diamond_ahlspiess",
+      "weight": 3925062,
+      "quality": 1430.0408
+    },
+    {
+      "value": "magistuarmory:diamond_bastardsword",
+      "weight": 2754984,
+      "quality": 1445.5068
+    },
+    {
+      "value": "magistuarmory:diamond_chainmorgenstern",
+      "weight": 1634774,
+      "quality": 1460.3915
+    },
+    {
+      "value": "magistuarmory:diamond_chivalrylance",
+      "weight": 2350613,
+      "quality": 1450.8707
+    },
+    {
+      "value": "magistuarmory:diamond_claymore",
+      "weight": 1693354,
+      "quality": 1459.6111
+    },
+    {
+      "value": "magistuarmory:diamond_concavehalberd",
+      "weight": 1576864,
+      "quality": 1461.1627
+    },
+    {
+      "value": "magistuarmory:diamond_estoc",
+      "weight": 2883334,
+      "quality": 1443.806
+    },
+    {
+      "value": "magistuarmory:diamond_flamebladedsword",
+      "weight": 1659089,
+      "quality": 1460.0673
+    },
+    {
+      "value": "magistuarmory:diamond_guisarme",
+      "weight": 2966250,
+      "quality": 1442.7079
+    },
+    {
+      "value": "magistuarmory:diamond_heavymace",
+      "weight": 1896195,
+      "quality": 1456.9109
+    },
+    {
+      "value": "magistuarmory:diamond_heavywarhammer",
+      "weight": 1682514,
+      "quality": 1459.7554
+    },
+    {
+      "value": "magistuarmory:diamond_katzbalger",
+      "weight": 4536700,
+      "quality": 1421.9891
+    },
+    {
+      "value": "magistuarmory:diamond_lochaberaxe",
+      "weight": 1606843,
+      "quality": 1460.7635
+    },
+    {
+      "value": "magistuarmory:diamond_lucernhammer",
+      "weight": 2010027,
+      "quality": 1455.3967
+    },
+    {
+      "value": "magistuarmory:diamond_morgenstern",
+      "weight": 2140784,
+      "quality": 1453.6584
+    },
+    {
+      "value": "magistuarmory:diamond_pike",
+      "weight": 3289730,
+      "quality": 1438.4282
+    },
+    {
+      "value": "magistuarmory:diamond_ranseur",
+      "weight": 2996830,
+      "quality": 1442.303
+    },
+    {
+      "value": "magistuarmory:diamond_shortsword",
+      "weight": 5916036,
+      "quality": 1403.9155
+    },
+    {
+      "value": "magistuarmory:diamond_stylet",
+      "weight": 6608924,
+      "quality": 1394.8799
+    },
+    {
+      "value": "magistuarmory:diamond_zweihander",
+      "weight": 1659089,
+      "quality": 1460.0673
+    },
+    {
+      "value": "magistuarmory:gold_ahlspiess",
+      "weight": 21388746,
+      "quality": 1209.0933
+    },
+    {
+      "value": "magistuarmory:gold_bastardsword",
+      "weight": 11180480,
+      "quality": 1335.9965
+    },
+    {
+      "value": "magistuarmory:gold_chainmorgenstern",
+      "weight": 5011940,
+      "quality": 1415.7489
+    },
+    {
+      "value": "magistuarmory:gold_chivalrylance",
+      "weight": 24316482,
+      "quality": 1173.8658
+    },
+    {
+      "value": "magistuarmory:gold_claymore",
+      "weight": 7140196,
+      "quality": 1387.9714
+    },
+    {
+      "value": "magistuarmory:gold_concavehalberd",
+      "weight": 3382529,
+      "quality": 1437.2017
+    },
+    {
+      "value": "magistuarmory:gold_estoc",
+      "weight": 11953709,
+      "quality": 1326.1624
+    },
+    {
+      "value": "magistuarmory:gold_flamebladedsword",
+      "weight": 5407470,
+      "quality": 1410.5657
+    },
+    {
+      "value": "magistuarmory:gold_guisarme",
+      "weight": 18324454,
+      "quality": 1246.522
+    },
+    {
+      "value": "magistuarmory:gold_heavymace",
+      "weight": 8800782,
+      "quality": 1366.4894
+    },
+    {
+      "value": "magistuarmory:gold_heavywarhammer",
+      "weight": 8084999,
+      "quality": 1375.7286
+    },
+    {
+      "value": "magistuarmory:gold_katzbalger",
+      "weight": 17930566,
+      "quality": 1251.3744
+    },
+    {
+      "value": "magistuarmory:gold_lochaberaxe",
+      "weight": 3750138,
+      "quality": 1432.3478
+    },
+    {
+      "value": "magistuarmory:gold_lucernhammer",
+      "weight": 10466833,
+      "quality": 1345.1049
+    },
+    {
+      "value": "magistuarmory:gold_morgenstern",
+      "weight": 9184157,
+      "quality": 1361.5535
+    },
+    {
+      "value": "magistuarmory:gold_pike",
+      "weight": 19597246,
+      "quality": 1230.906
+    },
+    {
+      "value": "magistuarmory:gold_ranseur",
+      "weight": 17130092,
+      "quality": 1261.2648
+    },
+    {
+      "value": "magistuarmory:gold_shortsword",
+      "weight": 24316482,
+      "quality": 1173.8658
+    },
+    {
+      "value": "magistuarmory:gold_stylet",
+      "weight": 29607568,
+      "quality": 1111.5228
+    },
+    {
+      "value": "magistuarmory:gold_zweihander",
+      "weight": 5407470,
+      "quality": 1410.5657
+    },
+    {
+      "value": "magistuarmory:heavy_crossbow",
+      "weight": 10055400,
+      "quality": 1350.3701
+    },
+    {
+      "value": "magistuarmory:iron_ahlspiess",
+      "weight": 6825224,
+      "quality": 1392.0652
+    },
+    {
+      "value": "magistuarmory:iron_bastardsword",
+      "weight": 4302692,
+      "quality": 1425.0668
+    },
+    {
+      "value": "magistuarmory:iron_chainmorgenstern",
+      "weight": 1750680,
+      "quality": 1458.8478
+    },
+    {
+      "value": "magistuarmory:iron_chivalrylance",
+      "weight": 4665784,
+      "quality": 1420.293
+    },
+    {
+      "value": "magistuarmory:iron_claymore",
+      "weight": 2707551,
+      "quality": 1446.1355
+    },
+    {
+      "value": "magistuarmory:iron_concavehalberd",
+      "weight": 1698752,
+      "quality": 1459.5394
+    },
+    {
+      "value": "magistuarmory:iron_estoc",
+      "weight": 4538847,
+      "quality": 1421.9609
+    },
+    {
+      "value": "magistuarmory:iron_flamebladedsword",
+      "weight": 2043206,
+      "quality": 1454.9554
+    },
+    {
+      "value": "magistuarmory:iron_guisarme",
+      "weight": 5212090,
+      "quality": 1413.1249
+    },
+    {
+      "value": "magistuarmory:iron_heavymace",
+      "weight": 3017569,
+      "quality": 1442.0283
+    },
+    {
+      "value": "magistuarmory:iron_heavywarhammer",
+      "weight": 2604276,
+      "quality": 1447.5046
+    },
+    {
+      "value": "magistuarmory:iron_katzbalger",
+      "weight": 7272822,
+      "quality": 1386.2499
+    },
+    {
+      "value": "magistuarmory:iron_lochaberaxe",
+      "weight": 1722545,
+      "quality": 1459.2223
+    },
+    {
+      "value": "magistuarmory:iron_lucernhammer",
+      "weight": 3300483,
+      "quality": 1438.2859
+    },
+    {
+      "value": "magistuarmory:iron_morgenstern",
+      "weight": 3354731,
+      "quality": 1437.569
+    },
+    {
+      "value": "magistuarmory:iron_pike",
+      "weight": 5771873,
+      "quality": 1405.7988
+    },
+    {
+      "value": "magistuarmory:iron_ranseur",
+      "weight": 5158834,
+      "quality": 1413.823
+    },
+    {
+      "value": "magistuarmory:iron_shortsword",
+      "weight": 9874269,
+      "quality": 1352.6914
+    },
+    {
+      "value": "magistuarmory:iron_stylet",
+      "weight": 11564620,
+      "quality": 1331.1063
+    },
+    {
+      "value": "magistuarmory:iron_zweihander",
+      "weight": 2043206,
+      "quality": 1454.9554
+    },
+    {
+      "value": "magistuarmory:messer_sword",
+      "weight": 6235198,
+      "quality": 1399.7499
+    },
+    {
+      "value": "magistuarmory:netherite_ahlspiess",
+      "weight": 2601804,
+      "quality": 1447.5374
+    },
+    {
+      "value": "magistuarmory:netherite_bastardsword",
+      "weight": 1947590,
+      "quality": 1456.2269
+    },
+    {
+      "value": "magistuarmory:netherite_chainmorgenstern",
+      "weight": 1558800,
+      "quality": 1461.4037
+    },
+    {
+      "value": "magistuarmory:netherite_chivalrylance",
+      "weight": 1643174,
+      "quality": 1460.2795
+    },
+    {
+      "value": "magistuarmory:netherite_claymore",
+      "weight": 1629221,
+      "quality": 1460.4652
+    },
+    {
+      "value": "magistuarmory:netherite_concavehalberd",
+      "weight": 1493400,
+      "quality": 1462.2753
+    },
+    {
+      "value": "magistuarmory:netherite_estoc",
+      "weight": 2029804,
+      "quality": 1455.1339
+    },
+    {
+      "value": "magistuarmory:netherite_flamebladedsword",
+      "weight": 1589668,
+      "quality": 1460.9922
+    },
+    {
+      "value": "magistuarmory:netherite_guisarme",
+      "weight": 1924923,
+      "quality": 1456.5286
+    },
+    {
+      "value": "magistuarmory:netherite_heavymace",
+      "weight": 1635052,
+      "quality": 1460.3877
+    },
+    {
+      "value": "magistuarmory:netherite_heavywarhammer",
+      "weight": 1610890,
+      "quality": 1460.7094
+    },
+    {
+      "value": "magistuarmory:netherite_katzbalger",
+      "weight": 3230460,
+      "quality": 1439.2119
+    },
+    {
+      "value": "magistuarmory:netherite_lochaberaxe",
+      "weight": 1530204,
+      "quality": 1461.7849
+    },
+    {
+      "value": "magistuarmory:netherite_lucernhammer",
+      "weight": 1639944,
+      "quality": 1460.3224
+    },
+    {
+      "value": "magistuarmory:netherite_morgenstern",
+      "weight": 1652800,
+      "quality": 1460.1512
+    },
+    {
+      "value": "magistuarmory:netherite_pike",
+      "weight": 2146772,
+      "quality": 1453.5787
+    },
+    {
+      "value": "magistuarmory:netherite_ranseur",
+      "weight": 1975260,
+      "quality": 1455.8593
+    },
+    {
+      "value": "magistuarmory:netherite_shortsword",
+      "weight": 4168087,
+      "quality": 1426.8389
+    },
+    {
+      "value": "magistuarmory:netherite_stylet",
+      "weight": 4536700,
+      "quality": 1421.9891
+    },
+    {
+      "value": "magistuarmory:netherite_zweihander",
+      "weight": 1589668,
+      "quality": 1460.9922
+    },
+    {
+      "value": "magistuarmory:noble_sword",
+      "weight": 4565851,
+      "quality": 1421.6062
+    },
+    {
+      "value": "magistuarmory:pitchfork",
+      "weight": 5829749,
+      "quality": 1405.0426
+    },
+    {
+      "value": "magistuarmory:rusted_bastardsword",
+      "weight": 11007288,
+      "quality": 1338.204
+    },
+    {
+      "value": "magistuarmory:rusted_heavymace",
+      "weight": 11007288,
+      "quality": 1338.204
+    },
+    {
+      "value": "magistuarmory:silver_ahlspiess",
+      "weight": 11180480,
+      "quality": 1335.9965
+    },
+    {
+      "value": "magistuarmory:silver_bastardsword",
+      "weight": 6532416,
+      "quality": 1395.876
+    },
+    {
+      "value": "magistuarmory:silver_chainmorgenstern",
+      "weight": 2805338,
+      "quality": 1444.8395
+    },
+    {
+      "value": "magistuarmory:silver_chivalrylance",
+      "weight": 9675091,
+      "quality": 1355.2463
+    },
+    {
+      "value": "magistuarmory:silver_claymore",
+      "weight": 4168993,
+      "quality": 1426.8268
+    },
+    {
+      "value": "magistuarmory:silver_concavehalberd",
+      "weight": 1758060,
+      "quality": 1458.7496
+    },
+    {
+      "value": "magistuarmory:silver_estoc",
+      "weight": 6923747,
+      "quality": 1390.784
+    },
+    {
+      "value": "magistuarmory:silver_flamebladedsword",
+      "weight": 3161263,
+      "quality": 1440.127
+    },
+    {
+      "value": "magistuarmory:silver_guisarme",
+      "weight": 9015838,
+      "quality": 1363.7196
+    },
+    {
+      "value": "magistuarmory:silver_heavymace",
+      "weight": 4843652,
+      "quality": 1417.9573
+    },
+    {
+      "value": "magistuarmory:silver_heavywarhammer",
+      "weight": 4298836,
+      "quality": 1425.1178
+    },
+    {
+      "value": "magistuarmory:silver_katzbalger",
+      "weight": 10646895,
+      "quality": 1342.8038
+    },
+    {
+      "value": "magistuarmory:silver_lochaberaxe",
+      "weight": 2197172,
+      "quality": 1452.9089
+    },
+    {
+      "value": "magistuarmory:silver_lucernhammer",
+      "weight": 5483197,
+      "quality": 1409.5745
+    },
+    {
+      "value": "magistuarmory:silver_morgenstern",
+      "weight": 5233417,
+      "quality": 1412.8455
+    },
+    {
+      "value": "magistuarmory:silver_pike",
+      "weight": 9823709,
+      "quality": 1353.3397
+    },
+    {
+      "value": "magistuarmory:silver_ranseur",
+      "weight": 8701000,
+      "quality": 1367.7754
+    },
+    {
+      "value": "magistuarmory:silver_shortsword",
+      "weight": 14328383,
+      "quality": 1296.1885
+    },
+    {
+      "value": "magistuarmory:silver_stylet",
+      "weight": 17053960,
+      "quality": 1262.2073
+    },
+    {
+      "value": "magistuarmory:silver_zweihander",
+      "weight": 3161263,
+      "quality": 1440.127
+    },
+    {
+      "value": "magistuarmory:steel_ahlspiess",
+      "weight": 5257798,
+      "quality": 1412.526
+    },
+    {
+      "value": "magistuarmory:steel_bastardsword",
+      "weight": 3480716,
+      "quality": 1435.9042
+    },
+    {
+      "value": "magistuarmory:steel_chainmorgenstern",
+      "weight": 1710566,
+      "quality": 1459.3817
+    },
+    {
+      "value": "magistuarmory:steel_chivalrylance",
+      "weight": 3307310,
+      "quality": 1438.1959
+    },
+    {
+      "value": "magistuarmory:steel_claymore",
+      "weight": 2196920,
+      "quality": 1452.9125
+    },
+    {
+      "value": "magistuarmory:steel_concavehalberd",
+      "weight": 1654225,
+      "quality": 1460.1323
+    },
+    {
+      "value": "magistuarmory:steel_estoc",
+      "weight": 3659997,
+      "quality": 1433.5371
+    },
+    {
+      "value": "magistuarmory:steel_flamebladedsword",
+      "weight": 1732344,
+      "quality": 1459.0917
+    },
+    {
+      "value": "magistuarmory:steel_guisarme",
+      "weight": 3964808,
+      "quality": 1429.5168
+    },
+    {
+      "value": "magistuarmory:steel_heavymace",
+      "weight": 2402117,
+      "quality": 1450.187
+    },
+    {
+      "value": "magistuarmory:steel_heavywarhammer",
+      "weight": 2054144,
+      "quality": 1454.8099
+    },
+    {
+      "value": "magistuarmory:steel_katzbalger",
+      "weight": 5876173,
+      "quality": 1404.4362
+    },
+    {
+      "value": "magistuarmory:steel_lochaberaxe",
+      "weight": 1681776,
+      "quality": 1459.7653
+    },
+    {
+      "value": "magistuarmory:steel_lucernhammer",
+      "weight": 2585675,
+      "quality": 1447.7513
+    },
+    {
+      "value": "magistuarmory:steel_morgenstern",
+      "weight": 2697273,
+      "quality": 1446.2715
+    },
+    {
+      "value": "magistuarmory:steel_pike",
+      "weight": 4404432,
+      "quality": 1423.7285
+    },
+    {
+      "value": "magistuarmory:steel_ranseur",
+      "weight": 3968909,
+      "quality": 1429.4629
+    },
+    {
+      "value": "magistuarmory:steel_shortsword",
+      "weight": 7888859,
+      "quality": 1378.2659
+    },
+    {
+      "value": "magistuarmory:steel_stylet",
+      "weight": 9062685,
+      "quality": 1363.1167
+    },
+    {
+      "value": "magistuarmory:steel_zweihander",
+      "weight": 1732344,
+      "quality": 1459.0917
+    },
+    {
+      "value": "magistuarmory:stone_ahlspiess",
+      "weight": 12647135,
+      "quality": 1317.3743
+    },
+    {
+      "value": "magistuarmory:stone_bastardsword",
+      "weight": 7007197,
+      "quality": 1389.6993
+    },
+    {
+      "value": "magistuarmory:stone_chainmorgenstern",
+      "weight": 2889413,
+      "quality": 1443.7255
+    },
+    {
+      "value": "magistuarmory:stone_chivalrylance",
+      "weight": 10754319,
+      "quality": 1341.4316
+    },
+    {
+      "value": "magistuarmory:stone_claymore",
+      "weight": 4357416,
+      "quality": 1424.3469
+    },
+    {
+      "value": "magistuarmory:stone_concavehalberd",
+      "weight": 1790714,
+      "quality": 1458.3146
+    },
+    {
+      "value": "magistuarmory:stone_estoc",
+      "weight": 7459449,
+      "quality": 1383.8287
+    },
+    {
+      "value": "magistuarmory:stone_flamebladedsword",
+      "weight": 3268434,
+      "quality": 1438.7098
+    },
+    {
+      "value": "magistuarmory:stone_guisarme",
+      "weight": 9945932,
+      "quality": 1351.7726
+    },
+    {
+      "value": "magistuarmory:stone_heavymace",
+      "weight": 5099868,
+      "quality": 1414.596
+    },
+    {
+      "value": "magistuarmory:stone_heavywarhammer",
+      "weight": 4499462,
+      "quality": 1422.4788
+    },
+    {
+      "value": "magistuarmory:stone_katzbalger",
+      "weight": 11968623,
+      "quality": 1325.9731
+    },
+    {
+      "value": "magistuarmory:stone_lochaberaxe",
+      "weight": 2248413,
+      "quality": 1452.2279
+    },
+    {
+      "value": "magistuarmory:stone_lucernhammer",
+      "weight": 5813850,
+      "quality": 1405.2502
+    },
+    {
+      "value": "magistuarmory:stone_morgenstern",
+      "weight": 5533806,
+      "quality": 1408.9124
+    },
+    {
+      "value": "magistuarmory:stone_pike",
+      "weight": 10938257,
+      "quality": 1339.0844
+    },
+    {
+      "value": "magistuarmory:stone_ranseur",
+      "weight": 9564159,
+      "quality": 1356.6702
+    },
+    {
+      "value": "magistuarmory:stone_shortsword",
+      "weight": 16829566,
+      "quality": 1264.988
+    },
+    {
+      "value": "magistuarmory:stone_stylet",
+      "weight": 20718902,
+      "quality": 1217.2263
+    },
+    {
+      "value": "magistuarmory:stone_zweihander",
+      "weight": 3268434,
+      "quality": 1438.7098
+    },
+    {
+      "value": "magistuarmory:tin_ahlspiess",
+      "weight": 19418730,
+      "quality": 1233.0905
+    },
+    {
+      "value": "magistuarmory:tin_bastardsword",
+      "weight": 10611562,
+      "quality": 1343.255
+    },
+    {
+      "value": "magistuarmory:tin_chainmorgenstern",
+      "weight": 4894312,
+      "quality": 1417.2922
+    },
+    {
+      "value": "magistuarmory:tin_chivalrylance",
+      "weight": 21801936,
+      "quality": 1204.0901
+    },
+    {
+      "value": "magistuarmory:tin_claymore",
+      "weight": 6903816,
+      "quality": 1391.0432
+    },
+    {
+      "value": "magistuarmory:tin_concavehalberd",
+      "weight": 3328540,
+      "quality": 1437.915
+    },
+    {
+      "value": "magistuarmory:tin_estoc",
+      "weight": 11305659,
+      "quality": 1334.4017
+    },
+    {
+      "value": "magistuarmory:tin_flamebladedsword",
+      "weight": 5272247,
+      "quality": 1412.3368
+    },
+    {
+      "value": "magistuarmory:tin_guisarme",
+      "weight": 16859142,
+      "quality": 1264.6215
+    },
+    {
+      "value": "magistuarmory:tin_heavymace",
+      "weight": 8444412,
+      "quality": 1371.0854
+    },
+    {
+      "value": "magistuarmory:tin_heavywarhammer",
+      "weight": 7786406,
+      "quality": 1379.592
+    },
+    {
+      "value": "magistuarmory:tin_katzbalger",
+      "weight": 16510933,
+      "quality": 1268.9414
+    },
+    {
+      "value": "magistuarmory:tin_lochaberaxe",
+      "weight": 3683891,
+      "quality": 1433.2213
+    },
+    {
+      "value": "magistuarmory:tin_lucernhammer",
+      "weight": 9966599,
+      "quality": 1351.5078
+    },
+    {
+      "value": "magistuarmory:tin_morgenstern",
+      "weight": 8800782,
+      "quality": 1366.4894
+    },
+    {
+      "value": "magistuarmory:tin_pike",
+      "weight": 17913822,
+      "quality": 1251.5807
+    },
+    {
+      "value": "magistuarmory:tin_ranseur",
+      "weight": 15842861,
+      "quality": 1277.251
+    },
+    {
+      "value": "magistuarmory:tin_shortsword",
+      "weight": 21801936,
+      "quality": 1204.0901
+    },
+    {
+      "value": "magistuarmory:tin_stylet",
+      "weight": 25961710,
+      "quality": 1154.2985
+    },
+    {
+      "value": "magistuarmory:tin_zweihander",
+      "weight": 5272247,
+      "quality": 1412.3368
+    },
+    {
+      "value": "magistuarmory:wood_ahlspiess",
+      "weight": 21901488,
+      "quality": 1202.8864
+    },
+    {
+      "value": "magistuarmory:wood_bastardsword",
+      "weight": 11312326,
+      "quality": 1334.317
+    },
+    {
+      "value": "magistuarmory:wood_chainmorgenstern",
+      "weight": 5038263,
+      "quality": 1415.4036
+    },
+    {
+      "value": "magistuarmory:wood_chivalrylance",
+      "weight": 24948900,
+      "quality": 1166.3247
+    },
+    {
+      "value": "magistuarmory:wood_claymore",
+      "weight": 7193740,
+      "quality": 1387.2764
+    },
+    {
+      "value": "magistuarmory:wood_concavehalberd",
+      "weight": 3394498,
+      "quality": 1437.0431
+    },
+    {
+      "value": "magistuarmory:wood_estoc",
+      "weight": 12104545,
+      "quality": 1324.2484
+    },
+    {
+      "value": "magistuarmory:wood_flamebladedsword",
+      "weight": 5438125,
+      "quality": 1410.1646
+    },
+    {
+      "value": "magistuarmory:wood_guisarme",
+      "weight": 18681310,
+      "quality": 1242.1335
+    },
+    {
+      "value": "magistuarmory:wood_heavymace",
+      "weight": 8882270,
+      "quality": 1365.4396
+    },
+    {
+      "value": "magistuarmory:wood_heavywarhammer",
+      "weight": 8153721,
+      "quality": 1374.8402
+    },
+    {
+      "value": "magistuarmory:wood_katzbalger",
+      "weight": 18272098,
+      "quality": 1247.1661
+    },
+    {
+      "value": "magistuarmory:wood_lochaberaxe",
+      "weight": 3764856,
+      "quality": 1432.1534
+    },
+    {
+      "value": "magistuarmory:wood_lucernhammer",
+      "weight": 10582296,
+      "quality": 1343.6289
+    },
+    {
+      "value": "magistuarmory:wood_morgenstern",
+      "weight": 9277420,
+      "quality": 1360.3542
+    },
+    {
+      "value": "magistuarmory:wood_pike",
+      "weight": 20005948,
+      "quality": 1225.9126
+    },
+    {
+      "value": "magistuarmory:wood_ranseur",
+      "weight": 17441548,
+      "quality": 1257.4119
+    },
+    {
+      "value": "magistuarmory:wood_shortsword",
+      "weight": 24948900,
+      "quality": 1166.3247
+    },
+    {
+      "value": "magistuarmory:wood_stylet",
+      "weight": 30550484,
+      "quality": 1100.5912
+    },
+    {
+      "value": "magistuarmory:wood_zweihander",
+      "weight": 5438125,
+      "quality": 1410.1646
+    },
+    {
+      "value": "magistuarmoryaddon:rich_saxon_sword",
+      "weight": 5497337,
+      "quality": 1409.3898
+    },
+    {
+      "value": "magistuarmoryaddon:steel_arming_sword_type_xiii",
+      "weight": 5116188,
+      "quality": 1414.3818
+    },
+    {
+      "value": "magistuarmoryaddon:steel_arming_sword_type_xiv",
+      "weight": 5116188,
+      "quality": 1414.3818
+    },
+    {
+      "value": "magistuarmoryaddon:steel_arming_sword_type_xv",
+      "weight": 5116188,
+      "quality": 1414.3818
+    },
+    {
+      "value": "magistuarmoryaddon:steel_bar_mace",
+      "weight": 2663941,
+      "quality": 1446.7135
+    },
+    {
+      "value": "magistuarmoryaddon:steel_battleaxe",
+      "weight": 1747969,
+      "quality": 1458.8837
+    },
+    {
+      "value": "magistuarmoryaddon:steel_billhook",
+      "weight": 6173007,
+      "quality": 1400.5612
+    },
+    {
+      "value": "magistuarmoryaddon:steel_boar_spear",
+      "weight": 4314303,
+      "quality": 1424.9142
+    },
+    {
+      "value": "magistuarmoryaddon:steel_bollock_dagger",
+      "weight": 7387642,
+      "quality": 1384.7598
+    },
+    {
+      "value": "magistuarmoryaddon:steel_broadaxe",
+      "weight": 1694701,
+      "quality": 1459.5933
+    },
+    {
+      "value": "magistuarmoryaddon:steel_cavalry_sabre",
+      "weight": 4770190,
+      "quality": 1418.9215
+    },
+    {
+      "value": "magistuarmoryaddon:steel_crow_beak",
+      "weight": 3187524,
+      "quality": 1439.7795
+    },
+    {
+      "value": "magistuarmoryaddon:steel_cutlass",
+      "weight": 4411521,
+      "quality": 1423.6353
+    },
+    {
+      "value": "magistuarmoryaddon:steel_dagger",
+      "weight": 7387642,
+      "quality": 1384.7598
+    },
+    {
+      "value": "magistuarmoryaddon:steel_daneaxe",
+      "weight": 1664992,
+      "quality": 1459.9889
+    },
+    {
+      "value": "magistuarmoryaddon:steel_english_poleaxe",
+      "weight": 1633104,
+      "quality": 1460.4137
+    },
+    {
+      "value": "magistuarmoryaddon:steel_executioners_sword",
+      "weight": 1732344,
+      "quality": 1459.0917
+    },
+    {
+      "value": "magistuarmoryaddon:steel_falchion",
+      "weight": 4880617,
+      "quality": 1417.4718
+    },
+    {
+      "value": "magistuarmoryaddon:steel_fauchard",
+      "weight": 3878250,
+      "quality": 1430.6577
+    },
+    {
+      "value": "magistuarmoryaddon:steel_feder",
+      "weight": 18306968,
+      "quality": 1246.7369
+    },
+    {
+      "value": "magistuarmoryaddon:steel_francisca_axe",
+      "weight": 2933146,
+      "quality": 1443.1464
+    },
+    {
+      "value": "magistuarmoryaddon:steel_french_halberd",
+      "weight": 1659950,
+      "quality": 1460.0559
+    },
+    {
+      "value": "magistuarmoryaddon:steel_gallowglass_axe",
+      "weight": 1664992,
+      "quality": 1459.9889
+    },
+    {
+      "value": "magistuarmoryaddon:steel_german_greatsword",
+      "weight": 1738938,
+      "quality": 1459.004
+    },
+    {
+      "value": "magistuarmoryaddon:steel_glaive",
+      "weight": 4166277,
+      "quality": 1426.8625
+    },
+    {
+      "value": "magistuarmoryaddon:steel_goedendag",
+      "weight": 3025182,
+      "quality": 1441.9279
+    },
+    {
+      "value": "magistuarmoryaddon:steel_grand_falchion",
+      "weight": 1728598,
+      "quality": 1459.1418
+    },
+    {
+      "value": "magistuarmoryaddon:steel_hammer_spear",
+      "weight": 1674437,
+      "quality": 1459.8633
+    },
+    {
+      "value": "magistuarmoryaddon:steel_italian_poleaxe",
+      "weight": 1650525,
+      "quality": 1460.1815
+    },
+    {
+      "value": "magistuarmoryaddon:steel_king_sword",
+      "weight": 3119627,
+      "quality": 1440.678
+    },
+    {
+      "value": "magistuarmoryaddon:steel_lance",
+      "weight": 5116188,
+      "quality": 1414.3818
+    },
+    {
+      "value": "magistuarmoryaddon:steel_long_seax",
+      "weight": 3940379,
+      "quality": 1429.8389
+    },
+    {
+      "value": "magistuarmoryaddon:steel_longsword",
+      "weight": 3586783,
+      "quality": 1434.5035
+    },
+    {
+      "value": "magistuarmoryaddon:steel_maciejowski_messer",
+      "weight": 4756001,
+      "quality": 1419.1078
+    },
+    {
+      "value": "magistuarmoryaddon:steel_messer_sword",
+      "weight": 4905575,
+      "quality": 1417.1443
+    },
+    {
+      "value": "magistuarmoryaddon:steel_military_fork",
+      "weight": 4324026,
+      "quality": 1424.7863
+    },
+    {
+      "value": "magistuarmoryaddon:steel_parrying_dagger",
+      "weight": 8952732,
+      "quality": 1364.532
+    },
+    {
+      "value": "magistuarmoryaddon:steel_partisan",
+      "weight": 3901119,
+      "quality": 1430.3561
+    },
+    {
+      "value": "magistuarmoryaddon:steel_rapier",
+      "weight": 5307249,
+      "quality": 1411.878
+    },
+    {
+      "value": "magistuarmoryaddon:steel_rondel_dagger",
+      "weight": 8298315,
+      "quality": 1372.9718
+    },
+    {
+      "value": "magistuarmoryaddon:steel_round_mace",
+      "weight": 2697273,
+      "quality": 1446.2715
+    },
+    {
+      "value": "magistuarmoryaddon:steel_sabre",
+      "weight": 4860833,
+      "quality": 1417.7317
+    },
+    {
+      "value": "magistuarmoryaddon:steel_saxon_sword",
+      "weight": 5116188,
+      "quality": 1414.3818
+    },
+    {
+      "value": "magistuarmoryaddon:steel_scimitar",
+      "weight": 4182626,
+      "quality": 1426.6473
+    },
+    {
+      "value": "magistuarmoryaddon:steel_scythe",
+      "weight": 1727819,
+      "quality": 1459.1521
+    },
+    {
+      "value": "magistuarmoryaddon:steel_short_seax",
+      "weight": 5861810,
+      "quality": 1404.624
+    },
+    {
+      "value": "magistuarmoryaddon:steel_short_spear",
+      "weight": 4539921,
+      "quality": 1421.9468
+    },
+    {
+      "value": "magistuarmoryaddon:steel_sickle",
+      "weight": 11045311,
+      "quality": 1337.7192
+    },
+    {
+      "value": "magistuarmoryaddon:steel_sidesword",
+      "weight": 4403421,
+      "quality": 1423.7417
+    },
+    {
+      "value": "magistuarmoryaddon:steel_swiss_halberd",
+      "weight": 1656082,
+      "quality": 1460.1075
+    },
+    {
+      "value": "magistuarmoryaddon:steel_swordbreaker",
+      "weight": 6155183,
+      "quality": 1400.7936
+    },
+    {
+      "value": "magistuarmoryaddon:steel_two_handed_evening_star",
+      "weight": 1674437,
+      "quality": 1459.8633
+    },
+    {
+      "value": "magistuarmoryaddon:steel_two_handed_messer",
+      "weight": 1749084,
+      "quality": 1458.869
+    },
+    {
+      "value": "magistuarmoryaddon:steel_voulge",
+      "weight": 4024692,
+      "quality": 1428.7274
+    },
+    {
+      "value": "magistuarmoryaddon:steel_war_axe",
+      "weight": 1747969,
+      "quality": 1458.8837
+    },
+    {
+      "value": "magistuarmoryaddon:steel_war_hammer",
+      "weight": 2669130,
+      "quality": 1446.6447
+    },
+    {
+      "value": "magistuarmoryaddon:steel_welsh_guisarme",
+      "weight": 3332587,
+      "quality": 1437.8617
+    },
+    {
+      "value": "magistuarmoryaddon:training_sword",
+      "weight": 45571748,
+      "quality": 933.7308
+    },
+    {
+      "value": "minecraft:crossbow",
+      "weight": 10135078,
+      "quality": 1349.3496
+    },
+    {
+      "value": "minecraft:diamond_axe",
+      "weight": 2503027,
+      "quality": 1448.848
+    },
+    {
+      "value": "minecraft:diamond_sword",
+      "weight": 4704685,
+      "quality": 1419.7819
+    },
+    {
+      "value": "minecraft:enchanted_book",
+      "weight": 7808590,
+      "quality": 1379.3048
+    },
+    {
+      "value": "minecraft:ender_pearl",
+      "weight": 8227146,
+      "quality": 1373.8914
+    },
+    {
+      "value": "minecraft:fishing_rod",
+      "weight": 14076086,
+      "quality": 1299.3566
+    },
+    {
+      "value": "minecraft:flint_and_steel",
+      "weight": 15572811,
+      "quality": 1280.6176
+    },
+    {
+      "value": "minecraft:golden_axe",
+      "weight": 5407470,
+      "quality": 1410.5657
+    },
+    {
+      "value": "minecraft:golden_sword",
+      "weight": 19597246,
+      "quality": 1230.906
+    },
+    {
+      "value": "minecraft:iron_axe",
+      "weight": 2643023,
+      "quality": 1446.9908
+    },
+    {
+      "value": "minecraft:iron_sword",
+      "weight": 7686581,
+      "quality": 1380.8849
+    },
+    {
+      "value": "minecraft:lava_bucket",
+      "weight": 6774614,
+      "quality": 1392.7234
+    },
+    {
+      "value": "minecraft:netherite_axe",
+      "weight": 1855305,
+      "quality": 1457.4552
+    },
+    {
+      "value": "minecraft:netherite_sword",
+      "weight": 3309592,
+      "quality": 1438.1655
+    },
+    {
+      "value": "minecraft:stone_axe",
+      "weight": 2709080,
+      "quality": 1446.1151
+    },
+    {
+      "value": "minecraft:stone_sword",
+      "weight": 12945819,
+      "quality": 1313.5979
+    },
+    {
+      "value": "minecraft:trident",
+      "weight": 2464129,
+      "quality": 1449.3641
+    },
+    {
+      "value": "minecraft:wooden_axe",
+      "weight": 5438125,
+      "quality": 1410.1646
+    },
+    {
+      "value": "minecraft:wooden_sword",
+      "weight": 20005948,
+      "quality": 1225.9126
+    },
+    {
+      "value": "mowziesmobs:wrought_axe",
+      "weight": 1903344,
+      "quality": 1456.8157
+    },
+    {
+      "value": "powergrid:electrobaton",
+      "weight": 39314964,
+      "quality": 1001.5671
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_chakram",
+      "weight": 9758751,
+      "quality": 1354.1729
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_claymore",
+      "weight": 3458753,
+      "quality": 1436.1945
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_cutlass",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_glaive",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_greataxe",
+      "weight": 2535779,
+      "quality": 1448.4133
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_greathammer",
+      "weight": 1901269,
+      "quality": 1456.8434
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_halberd",
+      "weight": 2535779,
+      "quality": 1448.4133
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_katana",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_longsword",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_rapier",
+      "weight": 9758751,
+      "quality": 1354.1729
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_sai",
+      "weight": 17781004,
+      "quality": 1253.2192
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_scythe",
+      "weight": 4821740,
+      "quality": 1418.2445
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_spear",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_twinblade",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:ancient_metal_warglaive",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:black_steel_chakram",
+      "weight": 9758751,
+      "quality": 1354.1729
+    },
+    {
+      "value": "simplycataclysm:black_steel_claymore",
+      "weight": 3458753,
+      "quality": 1436.1945
+    },
+    {
+      "value": "simplycataclysm:black_steel_cutlass",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:black_steel_glaive",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:black_steel_greataxe",
+      "weight": 2535779,
+      "quality": 1448.4133
+    },
+    {
+      "value": "simplycataclysm:black_steel_greathammer",
+      "weight": 1901269,
+      "quality": 1456.8434
+    },
+    {
+      "value": "simplycataclysm:black_steel_halberd",
+      "weight": 2535779,
+      "quality": 1448.4133
+    },
+    {
+      "value": "simplycataclysm:black_steel_katana",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:black_steel_longsword",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:black_steel_rapier",
+      "weight": 9758751,
+      "quality": 1354.1729
+    },
+    {
+      "value": "simplycataclysm:black_steel_sai",
+      "weight": 17781004,
+      "quality": 1253.2192
+    },
+    {
+      "value": "simplycataclysm:black_steel_scythe",
+      "weight": 4821740,
+      "quality": 1418.2445
+    },
+    {
+      "value": "simplycataclysm:black_steel_spear",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:black_steel_twinblade",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:black_steel_warglaive",
+      "weight": 6842263,
+      "quality": 1391.8435
+    },
+    {
+      "value": "simplycataclysm:cursium_chakram",
+      "weight": 2698411,
+      "quality": 1446.2567
+    },
+    {
+      "value": "simplycataclysm:cursium_claymore",
+      "weight": 1008924,
+      "quality": 1468.7405
+    },
+    {
+      "value": "simplycataclysm:cursium_cutlass",
+      "weight": 1909595,
+      "quality": 1456.7327
+    },
+    {
+      "value": "simplycataclysm:cursium_glaive",
+      "weight": 1909595,
+      "quality": 1456.7327
+    },
+    {
+      "value": "simplycataclysm:cursium_greataxe",
+      "weight": 757490,
+      "quality": 1472.1013
+    },
+    {
+      "value": "simplycataclysm:cursium_greathammer",
+      "weight": 670876,
+      "quality": 1473.2603
+    },
+    {
+      "value": "simplycataclysm:cursium_halberd",
+      "weight": 757490,
+      "quality": 1472.1013
+    },
+    {
+      "value": "simplycataclysm:cursium_katana",
+      "weight": 1909595,
+      "quality": 1456.7327
+    },
+    {
+      "value": "simplycataclysm:cursium_longsword",
+      "weight": 1909595,
+      "quality": 1456.7327
+    },
+    {
+      "value": "simplycataclysm:cursium_rapier",
+      "weight": 2698411,
+      "quality": 1446.2567
+    },
+    {
+      "value": "simplycataclysm:cursium_sai",
+      "weight": 5292608,
+      "quality": 1412.0702
+    },
+    {
+      "value": "simplycataclysm:cursium_scythe",
+      "weight": 1373449,
+      "quality": 1463.8748
+    },
+    {
+      "value": "simplycataclysm:cursium_spear",
+      "weight": 1909595,
+      "quality": 1456.7327
+    },
+    {
+      "value": "simplycataclysm:cursium_twinblade",
+      "weight": 1909595,
+      "quality": 1456.7327
+    },
+    {
+      "value": "simplycataclysm:cursium_warglaive",
+      "weight": 1909595,
+      "quality": 1456.7327
+    },
+    {
+      "value": "simplycataclysm:ignitium_chakram",
+      "weight": 1909595,
+      "quality": 1456.7327
+    },
+    {
+      "value": "simplycataclysm:ignitium_claymore",
+      "weight": 757490,
+      "quality": 1472.1013
+    },
+    {
+      "value": "simplycataclysm:ignitium_cutlass",
+      "weight": 1373449,
+      "quality": 1463.8748
+    },
+    {
+      "value": "simplycataclysm:ignitium_glaive",
+      "weight": 1373449,
+      "quality": 1463.8748
+    },
+    {
+      "value": "simplycataclysm:ignitium_greataxe",
+      "weight": 670876,
+      "quality": 1473.2603
+    },
+    {
+      "value": "simplycataclysm:ignitium_greathammer",
+      "weight": 657225,
+      "quality": 1473.443
+    },
+    {
+      "value": "simplycataclysm:ignitium_halberd",
+      "weight": 670876,
+      "quality": 1473.2603
+    },
+    {
+      "value": "simplycataclysm:ignitium_katana",
+      "weight": 1373449,
+      "quality": 1463.8748
+    },
+    {
+      "value": "simplycataclysm:ignitium_longsword",
+      "weight": 1373449,
+      "quality": 1463.8748
+    },
+    {
+      "value": "simplycataclysm:ignitium_rapier",
+      "weight": 1909595,
+      "quality": 1456.7327
+    },
+    {
+      "value": "simplycataclysm:ignitium_sai",
+      "weight": 3824901,
+      "quality": 1431.3613
+    },
+    {
+      "value": "simplycataclysm:ignitium_scythe",
+      "weight": 1008924,
+      "quality": 1468.7405
+    },
+    {
+      "value": "simplycataclysm:ignitium_spear",
+      "weight": 1373449,
+      "quality": 1463.8748
+    },
+    {
+      "value": "simplycataclysm:ignitium_twinblade",
+      "weight": 1373449,
+      "quality": 1463.8748
+    },
+    {
+      "value": "simplycataclysm:ignitium_warglaive",
+      "weight": 1373449,
+      "quality": 1463.8748
+    },
+    {
+      "value": "simplycataclysm:witherite_chakram",
+      "weight": 2714446,
+      "quality": 1446.0438
+    },
+    {
+      "value": "simplycataclysm:witherite_claymore",
+      "weight": 1011104,
+      "quality": 1468.7115
+    },
+    {
+      "value": "simplycataclysm:witherite_cutlass",
+      "weight": 1917420,
+      "quality": 1456.6284
+    },
+    {
+      "value": "simplycataclysm:witherite_glaive",
+      "weight": 1917420,
+      "quality": 1456.6284
+    },
+    {
+      "value": "simplycataclysm:witherite_greataxe",
+      "weight": 758718,
+      "quality": 1472.085
+    },
+    {
+      "value": "simplycataclysm:witherite_greathammer",
+      "weight": 671839,
+      "quality": 1473.2471
+    },
+    {
+      "value": "simplycataclysm:witherite_halberd",
+      "weight": 758718,
+      "quality": 1472.085
+    },
+    {
+      "value": "simplycataclysm:witherite_katana",
+      "weight": 1917420,
+      "quality": 1456.6284
+    },
+    {
+      "value": "simplycataclysm:witherite_longsword",
+      "weight": 1917420,
+      "quality": 1456.6284
+    },
+    {
+      "value": "simplycataclysm:witherite_rapier",
+      "weight": 2714446,
+      "quality": 1446.0438
+    },
+    {
+      "value": "simplycataclysm:witherite_sai",
+      "weight": 5353155,
+      "quality": 1411.277
+    },
+    {
+      "value": "simplycataclysm:witherite_scythe",
+      "weight": 1377492,
+      "quality": 1463.8208
+    },
+    {
+      "value": "simplycataclysm:witherite_spear",
+      "weight": 1917420,
+      "quality": 1456.6284
+    },
+    {
+      "value": "simplycataclysm:witherite_twinblade",
+      "weight": 1917420,
+      "quality": 1456.6284
+    },
+    {
+      "value": "simplycataclysm:witherite_warglaive",
+      "weight": 1917420,
+      "quality": 1456.6284
+    },
+    {
+      "value": "simplymore:ascended_idol",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:black_pearl",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplymore:blade_of_the_grotesque",
+      "weight": 1568228,
+      "quality": 1461.278
+    },
+    {
+      "value": "simplymore:boas_fang",
+      "weight": 4193597,
+      "quality": 1426.5029
+    },
+    {
+      "value": "simplymore:brassturn",
+      "weight": 3122673,
+      "quality": 1440.6375
+    },
+    {
+      "value": "simplymore:cindergorge",
+      "weight": 1599342,
+      "quality": 1460.8633
+    },
+    {
+      "value": "simplymore:culterex",
+      "weight": 3122673,
+      "quality": 1440.6375
+    },
+    {
+      "value": "simplymore:darksent",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:deaths_eyrie",
+      "weight": 1568228,
+      "quality": 1461.278
+    },
+    {
+      "value": "simplymore:diamond_backhand_blade",
+      "weight": 9290898,
+      "quality": 1360.1809
+    },
+    {
+      "value": "simplymore:diamond_dagger",
+      "weight": 9290898,
+      "quality": 1360.1809
+    },
+    {
+      "value": "simplymore:diamond_deer_horns",
+      "weight": 6608924,
+      "quality": 1394.8799
+    },
+    {
+      "value": "simplymore:diamond_grandsword",
+      "weight": 1599609,
+      "quality": 1460.8601
+    },
+    {
+      "value": "simplymore:diamond_great_katana",
+      "weight": 3397504,
+      "quality": 1437.0035
+    },
+    {
+      "value": "simplymore:diamond_great_spear",
+      "weight": 1882797,
+      "quality": 1457.0891
+    },
+    {
+      "value": "simplymore:diamond_khopesh",
+      "weight": 6608924,
+      "quality": 1394.8799
+    },
+    {
+      "value": "simplymore:diamond_lance",
+      "weight": 4704685,
+      "quality": 1419.7819
+    },
+    {
+      "value": "simplymore:diamond_pernach",
+      "weight": 3397504,
+      "quality": 1437.0035
+    },
+    {
+      "value": "simplymore:diamond_quarterstaff",
+      "weight": 9290898,
+      "quality": 1360.1809
+    },
+    {
+      "value": "simplymore:earthshatter",
+      "weight": 1568228,
+      "quality": 1461.278
+    },
+    {
+      "value": "simplymore:exedrill",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplymore:glimmerstep",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplymore:gold_backhand_blade",
+      "weight": 39558152,
+      "quality": 998.886
+    },
+    {
+      "value": "simplymore:gold_dagger",
+      "weight": 39558152,
+      "quality": 998.886
+    },
+    {
+      "value": "simplymore:gold_deer_horns",
+      "weight": 29607568,
+      "quality": 1111.5228
+    },
+    {
+      "value": "simplymore:gold_grandsword",
+      "weight": 1986098,
+      "quality": 1455.7148
+    },
+    {
+      "value": "simplymore:gold_great_katana",
+      "weight": 12498830,
+      "quality": 1319.2516
+    },
+    {
+      "value": "simplymore:gold_great_spear",
+      "weight": 5407470,
+      "quality": 1410.5657
+    },
+    {
+      "value": "simplymore:gold_khopesh",
+      "weight": 29607568,
+      "quality": 1111.5228
+    },
+    {
+      "value": "simplymore:gold_lance",
+      "weight": 19597246,
+      "quality": 1230.906
+    },
+    {
+      "value": "simplymore:gold_pernach",
+      "weight": 12498830,
+      "quality": 1319.2516
+    },
+    {
+      "value": "simplymore:gold_quarterstaff",
+      "weight": 39558152,
+      "quality": 998.886
+    },
+    {
+      "value": "simplymore:grandfrost",
+      "weight": 1502522,
+      "quality": 1462.1536
+    },
+    {
+      "value": "simplymore:great_slither",
+      "weight": 1599342,
+      "quality": 1460.8633
+    },
+    {
+      "value": "simplymore:holylight",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:iron_backhand_blade",
+      "weight": 17409896,
+      "quality": 1257.803
+    },
+    {
+      "value": "simplymore:iron_dagger",
+      "weight": 17409896,
+      "quality": 1257.803
+    },
+    {
+      "value": "simplymore:iron_deer_horns",
+      "weight": 11564620,
+      "quality": 1331.1063
+    },
+    {
+      "value": "simplymore:iron_grandsword",
+      "weight": 1693504,
+      "quality": 1459.609
+    },
+    {
+      "value": "simplymore:iron_great_katana",
+      "weight": 5226289,
+      "quality": 1412.9387
+    },
+    {
+      "value": "simplymore:iron_great_spear",
+      "weight": 2643023,
+      "quality": 1446.9908
+    },
+    {
+      "value": "simplymore:iron_khopesh",
+      "weight": 11564620,
+      "quality": 1331.1063
+    },
+    {
+      "value": "simplymore:iron_lance",
+      "weight": 7686581,
+      "quality": 1380.8849
+    },
+    {
+      "value": "simplymore:iron_pernach",
+      "weight": 5226289,
+      "quality": 1412.9387
+    },
+    {
+      "value": "simplymore:iron_quarterstaff",
+      "weight": 17409896,
+      "quality": 1257.803
+    },
+    {
+      "value": "simplymore:jester_penetrate",
+      "weight": 8530771,
+      "quality": 1369.971
+    },
+    {
+      "value": "simplymore:lustrous_moxie",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:matterbane",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplymore:mimicry_backhand_blade",
+      "weight": 3122673,
+      "quality": 1440.6375
+    },
+    {
+      "value": "simplymore:mimicry_chakram",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplymore:mimicry_claymore",
+      "weight": 1568228,
+      "quality": 1461.278
+    },
+    {
+      "value": "simplymore:mimicry_cutlass",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:mimicry_dagger",
+      "weight": 3122673,
+      "quality": 1440.6375
+    },
+    {
+      "value": "simplymore:mimicry_deer_horns",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplymore:mimicry_glaive",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:mimicry_grandsword",
+      "weight": 1433588,
+      "quality": 1463.0724
+    },
+    {
+      "value": "simplymore:mimicry_great_katana",
+      "weight": 1599342,
+      "quality": 1460.8633
+    },
+    {
+      "value": "simplymore:mimicry_great_spear",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplymore:mimicry_greataxe",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplymore:mimicry_greathammer",
+      "weight": 1502522,
+      "quality": 1462.1536
+    },
+    {
+      "value": "simplymore:mimicry_halberd",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplymore:mimicry_katana",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:mimicry_khopesh",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplymore:mimicry_lance",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:mimicry_longsword",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:mimicry_pernach",
+      "weight": 1599342,
+      "quality": 1460.8633
+    },
+    {
+      "value": "simplymore:mimicry_quarterstaff",
+      "weight": 3122673,
+      "quality": 1440.6375
+    },
+    {
+      "value": "simplymore:mimicry_rapier",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplymore:mimicry_sai",
+      "weight": 4193597,
+      "quality": 1426.5029
+    },
+    {
+      "value": "simplymore:mimicry_scythe",
+      "weight": 1599342,
+      "quality": 1460.8633
+    },
+    {
+      "value": "simplymore:mimicry_spear",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:mimicry_twinblade",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:mimicry_warglaive",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:molten_flare",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplymore:myrmedge",
+      "weight": 3122673,
+      "quality": 1440.6375
+    },
+    {
+      "value": "simplymore:netherite_backhand_blade",
+      "weight": 6282156,
+      "quality": 1399.1373
+    },
+    {
+      "value": "simplymore:netherite_dagger",
+      "weight": 6282156,
+      "quality": 1399.1373
+    },
+    {
+      "value": "simplymore:netherite_deer_horns",
+      "weight": 4536700,
+      "quality": 1421.9891
+    },
+    {
+      "value": "simplymore:netherite_grandsword",
+      "weight": 1544494,
+      "quality": 1461.5941
+    },
+    {
+      "value": "simplymore:netherite_great_katana",
+      "weight": 2454670,
+      "quality": 1449.4896
+    },
+    {
+      "value": "simplymore:netherite_great_spear",
+      "weight": 1646983,
+      "quality": 1460.2288
+    },
+    {
+      "value": "simplymore:netherite_khopesh",
+      "weight": 4536700,
+      "quality": 1421.9891
+    },
+    {
+      "value": "simplymore:netherite_lance",
+      "weight": 3309592,
+      "quality": 1438.1655
+    },
+    {
+      "value": "simplymore:netherite_pernach",
+      "weight": 2454670,
+      "quality": 1449.4896
+    },
+    {
+      "value": "simplymore:netherite_quarterstaff",
+      "weight": 6282156,
+      "quality": 1399.1373
+    },
+    {
+      "value": "simplymore:perforiscus",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:revvengine",
+      "weight": 3122673,
+      "quality": 1440.6375
+    },
+    {
+      "value": "simplymore:runic_backhand_blade",
+      "weight": 4451440,
+      "quality": 1423.1102
+    },
+    {
+      "value": "simplymore:runic_dagger",
+      "weight": 4451440,
+      "quality": 1423.1102
+    },
+    {
+      "value": "simplymore:runic_deer_horns",
+      "weight": 3263430,
+      "quality": 1438.7758
+    },
+    {
+      "value": "simplymore:runic_grandsword",
+      "weight": 1498766,
+      "quality": 1462.2037
+    },
+    {
+      "value": "simplymore:runic_great_katana",
+      "weight": 1840708,
+      "quality": 1457.6495
+    },
+    {
+      "value": "simplymore:runic_great_spear",
+      "weight": 1603084,
+      "quality": 1460.8137
+    },
+    {
+      "value": "simplymore:runic_khopesh",
+      "weight": 3263430,
+      "quality": 1438.7758
+    },
+    {
+      "value": "simplymore:runic_lance",
+      "weight": 2429185,
+      "quality": 1449.828
+    },
+    {
+      "value": "simplymore:runic_pernach",
+      "weight": 1840708,
+      "quality": 1457.6495
+    },
+    {
+      "value": "simplymore:runic_quarterstaff",
+      "weight": 4451440,
+      "quality": 1423.1102
+    },
+    {
+      "value": "simplymore:ruptured_idol",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:ruyi_jingu_bang",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplymore:serpentine_valour",
+      "weight": 1599342,
+      "quality": 1460.8633
+    },
+    {
+      "value": "simplymore:smouldering_ruin",
+      "weight": 4193597,
+      "quality": 1426.5029
+    },
+    {
+      "value": "simplymore:soul_foreseer",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplymore:stasis",
+      "weight": 3122673,
+      "quality": 1440.6375
+    },
+    {
+      "value": "simplymore:tarnished_idol",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplymore:the_blood_harvester",
+      "weight": 3122673,
+      "quality": 1440.6375
+    },
+    {
+      "value": "simplymore:the_pan",
+      "weight": 22439420,
+      "quality": 1196.3914
+    },
+    {
+      "value": "simplymore:the_vessel_breach",
+      "weight": 5642854,
+      "quality": 1407.486
+    },
+    {
+      "value": "simplymore:tidebreaker",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplymore:timekeeper",
+      "weight": 3122673,
+      "quality": 1440.6375
+    },
+    {
+      "value": "simplymore:vipers_call",
+      "weight": 5642854,
+      "quality": 1407.486
+    },
+    {
+      "value": "simplyswords:arcanethyst",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplyswords:awakened_lichblade",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplyswords:bramblethorn",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:brimstone_claymore",
+      "weight": 1568228,
+      "quality": 1461.278
+    },
+    {
+      "value": "simplyswords:caelestis",
+      "weight": 1568228,
+      "quality": 1461.278
+    },
+    {
+      "value": "simplyswords:chompolotl",
+      "weight": 5642854,
+      "quality": 1407.486
+    },
+    {
+      "value": "simplyswords:decaying_relic",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplyswords:diamond_chakram",
+      "weight": 6608924,
+      "quality": 1394.8799
+    },
+    {
+      "value": "simplyswords:diamond_claymore",
+      "weight": 2503027,
+      "quality": 1448.848
+    },
+    {
+      "value": "simplyswords:diamond_cutlass",
+      "weight": 4704685,
+      "quality": 1419.7819
+    },
+    {
+      "value": "simplyswords:diamond_glaive",
+      "weight": 4704685,
+      "quality": 1419.7819
+    },
+    {
+      "value": "simplyswords:diamond_greataxe",
+      "weight": 1882797,
+      "quality": 1457.0891
+    },
+    {
+      "value": "simplyswords:diamond_greathammer",
+      "weight": 1668612,
+      "quality": 1459.9408
+    },
+    {
+      "value": "simplyswords:diamond_halberd",
+      "weight": 1882797,
+      "quality": 1457.0891
+    },
+    {
+      "value": "simplyswords:diamond_katana",
+      "weight": 4704685,
+      "quality": 1419.7819
+    },
+    {
+      "value": "simplyswords:diamond_longsword",
+      "weight": 4704685,
+      "quality": 1419.7819
+    },
+    {
+      "value": "simplyswords:diamond_rapier",
+      "weight": 6608924,
+      "quality": 1394.8799
+    },
+    {
+      "value": "simplyswords:diamond_sai",
+      "weight": 12714185,
+      "quality": 1316.5262
+    },
+    {
+      "value": "simplyswords:diamond_scythe",
+      "weight": 3397504,
+      "quality": 1437.0035
+    },
+    {
+      "value": "simplyswords:diamond_spear",
+      "weight": 4704685,
+      "quality": 1419.7819
+    },
+    {
+      "value": "simplyswords:diamond_twinblade",
+      "weight": 4704685,
+      "quality": 1419.7819
+    },
+    {
+      "value": "simplyswords:diamond_warglaive",
+      "weight": 4704685,
+      "quality": 1419.7819
+    },
+    {
+      "value": "simplyswords:dormant_relic",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:emberblade",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:emberlash",
+      "weight": 5642854,
+      "quality": 1407.486
+    },
+    {
+      "value": "simplyswords:enigma",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplyswords:flamewind",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:frostfall",
+      "weight": 1599342,
+      "quality": 1460.8633
+    },
+    {
+      "value": "simplyswords:gold_chakram",
+      "weight": 29607568,
+      "quality": 1111.5228
+    },
+    {
+      "value": "simplyswords:gold_claymore",
+      "weight": 8084999,
+      "quality": 1375.7286
+    },
+    {
+      "value": "simplyswords:gold_cutlass",
+      "weight": 19597246,
+      "quality": 1230.906
+    },
+    {
+      "value": "simplyswords:gold_glaive",
+      "weight": 19597246,
+      "quality": 1230.906
+    },
+    {
+      "value": "simplyswords:gold_greataxe",
+      "weight": 5407470,
+      "quality": 1410.5657
+    },
+    {
+      "value": "simplyswords:gold_greathammer",
+      "weight": 3750138,
+      "quality": 1432.3478
+    },
+    {
+      "value": "simplyswords:gold_halberd",
+      "weight": 5407470,
+      "quality": 1410.5657
+    },
+    {
+      "value": "simplyswords:gold_katana",
+      "weight": 19597246,
+      "quality": 1230.906
+    },
+    {
+      "value": "simplyswords:gold_longsword",
+      "weight": 19597246,
+      "quality": 1230.906
+    },
+    {
+      "value": "simplyswords:gold_rapier",
+      "weight": 29607568,
+      "quality": 1111.5228
+    },
+    {
+      "value": "simplyswords:gold_sai",
+      "weight": 43504996,
+      "quality": 955.8755
+    },
+    {
+      "value": "simplyswords:gold_scythe",
+      "weight": 12498830,
+      "quality": 1319.2516
+    },
+    {
+      "value": "simplyswords:gold_spear",
+      "weight": 19597246,
+      "quality": 1230.906
+    },
+    {
+      "value": "simplyswords:gold_twinblade",
+      "weight": 19597246,
+      "quality": 1230.906
+    },
+    {
+      "value": "simplyswords:gold_warglaive",
+      "weight": 19597246,
+      "quality": 1230.906
+    },
+    {
+      "value": "simplyswords:harbinger",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:hearthflame",
+      "weight": 1502522,
+      "quality": 1462.1536
+    },
+    {
+      "value": "simplyswords:hiveheart",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplyswords:icewhisper",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplyswords:iron_chakram",
+      "weight": 11564620,
+      "quality": 1331.1063
+    },
+    {
+      "value": "simplyswords:iron_claymore",
+      "weight": 3661394,
+      "quality": 1433.5186
+    },
+    {
+      "value": "simplyswords:iron_cutlass",
+      "weight": 7686581,
+      "quality": 1380.8849
+    },
+    {
+      "value": "simplyswords:iron_glaive",
+      "weight": 7686581,
+      "quality": 1380.8849
+    },
+    {
+      "value": "simplyswords:iron_greataxe",
+      "weight": 2643023,
+      "quality": 1446.9908
+    },
+    {
+      "value": "simplyswords:iron_greathammer",
+      "weight": 1960926,
+      "quality": 1456.0499
+    },
+    {
+      "value": "simplyswords:iron_halberd",
+      "weight": 2643023,
+      "quality": 1446.9908
+    },
+    {
+      "value": "simplyswords:iron_katana",
+      "weight": 7686581,
+      "quality": 1380.8849
+    },
+    {
+      "value": "simplyswords:iron_longsword",
+      "weight": 7686581,
+      "quality": 1380.8849
+    },
+    {
+      "value": "simplyswords:iron_rapier",
+      "weight": 11564620,
+      "quality": 1331.1063
+    },
+    {
+      "value": "simplyswords:iron_sai",
+      "weight": 24884182,
+      "quality": 1167.0956
+    },
+    {
+      "value": "simplyswords:iron_scythe",
+      "weight": 5226289,
+      "quality": 1412.9387
+    },
+    {
+      "value": "simplyswords:iron_spear",
+      "weight": 7686581,
+      "quality": 1380.8849
+    },
+    {
+      "value": "simplyswords:iron_twinblade",
+      "weight": 7686581,
+      "quality": 1380.8849
+    },
+    {
+      "value": "simplyswords:iron_warglaive",
+      "weight": 7686581,
+      "quality": 1380.8849
+    },
+    {
+      "value": "simplyswords:livyatan",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplyswords:magiblade",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:magiscythe",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplyswords:magispear",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplyswords:mjolnir",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:molten_edge",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplyswords:netherite_chakram",
+      "weight": 4536700,
+      "quality": 1421.9891
+    },
+    {
+      "value": "simplyswords:netherite_claymore",
+      "weight": 1855305,
+      "quality": 1457.4552
+    },
+    {
+      "value": "simplyswords:netherite_cutlass",
+      "weight": 3309592,
+      "quality": 1438.1655
+    },
+    {
+      "value": "simplyswords:netherite_glaive",
+      "weight": 3309592,
+      "quality": 1438.1655
+    },
+    {
+      "value": "simplyswords:netherite_greataxe",
+      "weight": 1646983,
+      "quality": 1460.2288
+    },
+    {
+      "value": "simplyswords:netherite_greathammer",
+      "weight": 1614007,
+      "quality": 1460.6682
+    },
+    {
+      "value": "simplyswords:netherite_halberd",
+      "weight": 1646983,
+      "quality": 1460.2288
+    },
+    {
+      "value": "simplyswords:netherite_katana",
+      "weight": 3309592,
+      "quality": 1438.1655
+    },
+    {
+      "value": "simplyswords:netherite_longsword",
+      "weight": 3309592,
+      "quality": 1438.1655
+    },
+    {
+      "value": "simplyswords:netherite_rapier",
+      "weight": 4536700,
+      "quality": 1421.9891
+    },
+    {
+      "value": "simplyswords:netherite_sai",
+      "weight": 8657809,
+      "quality": 1368.3325
+    },
+    {
+      "value": "simplyswords:netherite_scythe",
+      "weight": 2454670,
+      "quality": 1449.4896
+    },
+    {
+      "value": "simplyswords:netherite_spear",
+      "weight": 3309592,
+      "quality": 1438.1655
+    },
+    {
+      "value": "simplyswords:netherite_twinblade",
+      "weight": 3309592,
+      "quality": 1438.1655
+    },
+    {
+      "value": "simplyswords:netherite_warglaive",
+      "weight": 3309592,
+      "quality": 1438.1655
+    },
+    {
+      "value": "simplyswords:ribboncleaver",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplyswords:righteous_relic",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:runic_chakram",
+      "weight": 3263430,
+      "quality": 1438.7758
+    },
+    {
+      "value": "simplyswords:runic_claymore",
+      "weight": 1635470,
+      "quality": 1460.3822
+    },
+    {
+      "value": "simplyswords:runic_cutlass",
+      "weight": 2429185,
+      "quality": 1449.828
+    },
+    {
+      "value": "simplyswords:runic_glaive",
+      "weight": 2429185,
+      "quality": 1449.828
+    },
+    {
+      "value": "simplyswords:runic_greataxe",
+      "weight": 1603084,
+      "quality": 1460.8137
+    },
+    {
+      "value": "simplyswords:runic_greathammer",
+      "weight": 1569254,
+      "quality": 1461.2643
+    },
+    {
+      "value": "simplyswords:runic_halberd",
+      "weight": 1603084,
+      "quality": 1460.8137
+    },
+    {
+      "value": "simplyswords:runic_katana",
+      "weight": 2429185,
+      "quality": 1449.828
+    },
+    {
+      "value": "simplyswords:runic_longsword",
+      "weight": 2429185,
+      "quality": 1449.828
+    },
+    {
+      "value": "simplyswords:runic_rapier",
+      "weight": 3263430,
+      "quality": 1438.7758
+    },
+    {
+      "value": "simplyswords:runic_sai",
+      "weight": 6119842,
+      "quality": 1401.2545
+    },
+    {
+      "value": "simplyswords:runic_scythe",
+      "weight": 1840708,
+      "quality": 1457.6495
+    },
+    {
+      "value": "simplyswords:runic_spear",
+      "weight": 2429185,
+      "quality": 1449.828
+    },
+    {
+      "value": "simplyswords:runic_twinblade",
+      "weight": 2429185,
+      "quality": 1449.828
+    },
+    {
+      "value": "simplyswords:runic_warglaive",
+      "weight": 2429185,
+      "quality": 1449.828
+    },
+    {
+      "value": "simplyswords:shadowsting",
+      "weight": 9559395,
+      "quality": 1356.7312
+    },
+    {
+      "value": "simplyswords:slumbering_lichblade",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplyswords:soulkeeper",
+      "weight": 1502522,
+      "quality": 1462.1536
+    },
+    {
+      "value": "simplyswords:soulpyre",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplyswords:soulrender",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:soulstealer",
+      "weight": 5642854,
+      "quality": 1407.486
+    },
+    {
+      "value": "simplyswords:stars_edge",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:stormbringer",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:storms_edge",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:sunfire",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:sword_on_a_stick",
+      "weight": 8153721,
+      "quality": 1374.8402
+    },
+    {
+      "value": "simplyswords:tainted_relic",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:tempest",
+      "weight": 5642854,
+      "quality": 1407.486
+    },
+    {
+      "value": "simplyswords:thunderbrand",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplyswords:toxic_longsword",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:twisted_blade",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplyswords:waking_lichblade",
+      "weight": 1535962,
+      "quality": 1461.7081
+    },
+    {
+      "value": "simplyswords:watcher_claymore",
+      "weight": 1568228,
+      "quality": 1461.278
+    },
+    {
+      "value": "simplyswords:watching_warglaive",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:waxweaver",
+      "weight": 1568228,
+      "quality": 1461.278
+    },
+    {
+      "value": "simplyswords:whisperwind",
+      "weight": 2350325,
+      "quality": 1450.8749
+    },
+    {
+      "value": "simplyswords:wickpiercer",
+      "weight": 1795070,
+      "quality": 1458.2566
+    },
+    {
+      "value": "simplyswords:wraithfang",
+      "weight": 4193597,
+      "quality": 1426.5029
+    },
+    {
+      "value": "tfmg:aluminum_axe",
+      "weight": 2625661,
+      "quality": 1447.2213
+    },
+    {
+      "value": "tfmg:aluminum_sword",
+      "weight": 11239428,
+      "quality": 1335.2455
+    },
+    {
+      "value": "tfmg:lead_axe",
+      "weight": 4658986,
+      "quality": 1420.3824
+    },
+    {
+      "value": "tfmg:lead_sword",
+      "weight": 30599210,
+      "quality": 1100.0278
+    },
+    {
+      "value": "tfmg:lit_lithium_blade",
+      "weight": 4858371,
+      "quality": 1417.7639
+    },
+    {
+      "value": "tfmg:lithium_blade",
+      "weight": 6916260,
+      "quality": 1390.8816
+    },
+    {
+      "value": "tfmg:steel_axe",
+      "weight": 1906749,
+      "quality": 1456.7705
+    },
+    {
+      "value": "tfmg:steel_sword",
+      "weight": 6916260,
+      "quality": 1390.8816
+    }
+  ],
+  "OFFHAND": [
+    {
+      "value": "aquaculture:neptunium_bow",
+      "weight": 13228,
+      "quality": 3.5735483
+    },
+    {
+      "value": "cataclysm:azure_sea_shield",
+      "weight": 16803,
+      "quality": 3.051271
+    },
+    {
+      "value": "cataclysm:black_steel_targe",
+      "weight": 15865,
+      "quality": 3.1843033
+    },
+    {
+      "value": "magistuarmory:bronze_buckler",
+      "weight": 16811,
+      "quality": 3.0500991
+    },
+    {
+      "value": "magistuarmory:bronze_ellipticalshield",
+      "weight": 16745,
+      "quality": 3.0594478
+    },
+    {
+      "value": "magistuarmory:bronze_heatershield",
+      "weight": 16811,
+      "quality": 3.0500991
+    },
+    {
+      "value": "magistuarmory:bronze_kiteshield",
+      "weight": 16745,
+      "quality": 3.0594478
+    },
+    {
+      "value": "magistuarmory:bronze_pavese",
+      "weight": 16548,
+      "quality": 3.0871377
+    },
+    {
+      "value": "magistuarmory:bronze_rondache",
+      "weight": 16340,
+      "quality": 3.116546
+    },
+    {
+      "value": "magistuarmory:bronze_roundshield",
+      "weight": 16811,
+      "quality": 3.0500991
+    },
+    {
+      "value": "magistuarmory:bronze_target",
+      "weight": 16811,
+      "quality": 3.0500991
+    },
+    {
+      "value": "magistuarmory:bronze_tartsche",
+      "weight": 16811,
+      "quality": 3.0500991
+    },
+    {
+      "value": "magistuarmory:copper_buckler",
+      "weight": 16954,
+      "quality": 3.030033
+    },
+    {
+      "value": "magistuarmory:copper_ellipticalshield",
+      "weight": 16887,
+      "quality": 3.03951
+    },
+    {
+      "value": "magistuarmory:copper_heatershield",
+      "weight": 16954,
+      "quality": 3.030033
+    },
+    {
+      "value": "magistuarmory:copper_kiteshield",
+      "weight": 16887,
+      "quality": 3.03951
+    },
+    {
+      "value": "magistuarmory:copper_pavese",
+      "weight": 16662,
+      "quality": 3.0710497
+    },
+    {
+      "value": "magistuarmory:copper_rondache",
+      "weight": 16516,
+      "quality": 3.0917017
+    },
+    {
+      "value": "magistuarmory:copper_roundshield",
+      "weight": 16954,
+      "quality": 3.030033
+    },
+    {
+      "value": "magistuarmory:copper_target",
+      "weight": 16954,
+      "quality": 3.030033
+    },
+    {
+      "value": "magistuarmory:copper_tartsche",
+      "weight": 16954,
+      "quality": 3.030033
+    },
+    {
+      "value": "magistuarmory:corruptedroundshield",
+      "weight": 18626,
+      "quality": 2.8008382
+    },
+    {
+      "value": "magistuarmory:diamond_buckler",
+      "weight": 14467,
+      "quality": 3.3878505
+    },
+    {
+      "value": "magistuarmory:diamond_ellipticalshield",
+      "weight": 14442,
+      "quality": 3.3915057
+    },
+    {
+      "value": "magistuarmory:diamond_heatershield",
+      "weight": 14467,
+      "quality": 3.3878505
+    },
+    {
+      "value": "magistuarmory:diamond_kiteshield",
+      "weight": 14442,
+      "quality": 3.3915057
+    },
+    {
+      "value": "magistuarmory:diamond_pavese",
+      "weight": 14548,
+      "quality": 3.3758998
+    },
+    {
+      "value": "magistuarmory:diamond_rondache",
+      "weight": 13606,
+      "quality": 3.5164037
+    },
+    {
+      "value": "magistuarmory:diamond_roundshield",
+      "weight": 14467,
+      "quality": 3.3878505
+    },
+    {
+      "value": "magistuarmory:diamond_target",
+      "weight": 14467,
+      "quality": 3.3878505
+    },
+    {
+      "value": "magistuarmory:diamond_tartsche",
+      "weight": 14467,
+      "quality": 3.3878505
+    },
+    {
+      "value": "magistuarmory:gold_buckler",
+      "weight": 17337,
+      "quality": 2.976798
+    },
+    {
+      "value": "magistuarmory:gold_ellipticalshield",
+      "weight": 17248,
+      "quality": 2.9890645
+    },
+    {
+      "value": "magistuarmory:gold_heatershield",
+      "weight": 17337,
+      "quality": 2.976798
+    },
+    {
+      "value": "magistuarmory:gold_kiteshield",
+      "weight": 17248,
+      "quality": 2.9890645
+    },
+    {
+      "value": "magistuarmory:gold_pavese",
+      "weight": 16946,
+      "quality": 3.0312212
+    },
+    {
+      "value": "magistuarmory:gold_rondache",
+      "weight": 16997,
+      "quality": 3.024079
+    },
+    {
+      "value": "magistuarmory:gold_roundshield",
+      "weight": 17337,
+      "quality": 2.976798
+    },
+    {
+      "value": "magistuarmory:gold_target",
+      "weight": 17337,
+      "quality": 2.976798
+    },
+    {
+      "value": "magistuarmory:gold_tartsche",
+      "weight": 17337,
+      "quality": 2.976798
+    },
+    {
+      "value": "magistuarmory:iron_buckler",
+      "weight": 16679,
+      "quality": 3.068737
+    },
+    {
+      "value": "magistuarmory:iron_ellipticalshield",
+      "weight": 16613,
+      "quality": 3.0779667
+    },
+    {
+      "value": "magistuarmory:iron_heatershield",
+      "weight": 16679,
+      "quality": 3.068737
+    },
+    {
+      "value": "magistuarmory:iron_kiteshield",
+      "weight": 16613,
+      "quality": 3.0779667
+    },
+    {
+      "value": "magistuarmory:iron_pavese",
+      "weight": 16443,
+      "quality": 3.1019177
+    },
+    {
+      "value": "magistuarmory:iron_rondache",
+      "weight": 16176,
+      "quality": 3.139864
+    },
+    {
+      "value": "magistuarmory:iron_roundshield",
+      "weight": 16679,
+      "quality": 3.068737
+    },
+    {
+      "value": "magistuarmory:iron_target",
+      "weight": 16679,
+      "quality": 3.068737
+    },
+    {
+      "value": "magistuarmory:iron_tartsche",
+      "weight": 16679,
+      "quality": 3.068737
+    },
+    {
+      "value": "magistuarmory:longbow",
+      "weight": 16878,
+      "quality": 3.040691
+    },
+    {
+      "value": "magistuarmory:netherite_buckler",
+      "weight": 13971,
+      "quality": 3.461588
+    },
+    {
+      "value": "magistuarmory:netherite_ellipticalshield",
+      "weight": 13942,
+      "quality": 3.4658933
+    },
+    {
+      "value": "magistuarmory:netherite_heatershield",
+      "weight": 13971,
+      "quality": 3.461588
+    },
+    {
+      "value": "magistuarmory:netherite_kiteshield",
+      "weight": 13942,
+      "quality": 3.4658933
+    },
+    {
+      "value": "magistuarmory:netherite_pavese",
+      "weight": 14099,
+      "quality": 3.4424648
+    },
+    {
+      "value": "magistuarmory:netherite_rondache",
+      "weight": 13060,
+      "quality": 3.5991905
+    },
+    {
+      "value": "magistuarmory:netherite_roundshield",
+      "weight": 13971,
+      "quality": 3.461588
+    },
+    {
+      "value": "magistuarmory:netherite_target",
+      "weight": 13971,
+      "quality": 3.461588
+    },
+    {
+      "value": "magistuarmory:netherite_tartsche",
+      "weight": 13971,
+      "quality": 3.461588
+    },
+    {
+      "value": "magistuarmory:silver_buckler",
+      "weight": 16728,
+      "quality": 3.0617757
+    },
+    {
+      "value": "magistuarmory:silver_ellipticalshield",
+      "weight": 16662,
+      "quality": 3.0710497
+    },
+    {
+      "value": "magistuarmory:silver_heatershield",
+      "weight": 16728,
+      "quality": 3.0617757
+    },
+    {
+      "value": "magistuarmory:silver_kiteshield",
+      "weight": 16662,
+      "quality": 3.0710497
+    },
+    {
+      "value": "magistuarmory:silver_pavese",
+      "weight": 16484,
+      "quality": 3.096251
+    },
+    {
+      "value": "magistuarmory:silver_rondache",
+      "weight": 16238,
+      "quality": 3.131026
+    },
+    {
+      "value": "magistuarmory:silver_roundshield",
+      "weight": 16728,
+      "quality": 3.0617757
+    },
+    {
+      "value": "magistuarmory:silver_target",
+      "weight": 16728,
+      "quality": 3.0617757
+    },
+    {
+      "value": "magistuarmory:silver_tartsche",
+      "weight": 16728,
+      "quality": 3.0617757
+    },
+    {
+      "value": "magistuarmory:steel_buckler",
+      "weight": 16309,
+      "quality": 3.1210175
+    },
+    {
+      "value": "magistuarmory:steel_ellipticalshield",
+      "weight": 16254,
+      "quality": 3.1288083
+    },
+    {
+      "value": "magistuarmory:steel_heatershield",
+      "weight": 16309,
+      "quality": 3.1210175
+    },
+    {
+      "value": "magistuarmory:steel_kiteshield",
+      "weight": 16254,
+      "quality": 3.1288083
+    },
+    {
+      "value": "magistuarmory:steel_pavese",
+      "weight": 16145,
+      "quality": 3.144262
+    },
+    {
+      "value": "magistuarmory:steel_rondache",
+      "weight": 15725,
+      "quality": 3.204425
+    },
+    {
+      "value": "magistuarmory:steel_roundshield",
+      "weight": 16309,
+      "quality": 3.1210175
+    },
+    {
+      "value": "magistuarmory:steel_target",
+      "weight": 16309,
+      "quality": 3.1210175
+    },
+    {
+      "value": "magistuarmory:steel_tartsche",
+      "weight": 16309,
+      "quality": 3.1210175
+    },
+    {
+      "value": "magistuarmory:stone_buckler",
+      "weight": 17014,
+      "quality": 3.0216906
+    },
+    {
+      "value": "magistuarmory:stone_ellipticalshield",
+      "weight": 16946,
+      "quality": 3.0312212
+    },
+    {
+      "value": "magistuarmory:stone_heatershield",
+      "weight": 17014,
+      "quality": 3.0216906
+    },
+    {
+      "value": "magistuarmory:stone_kiteshield",
+      "weight": 16946,
+      "quality": 3.0312212
+    },
+    {
+      "value": "magistuarmory:stone_pavese",
+      "weight": 16712,
+      "quality": 3.0640996
+    },
+    {
+      "value": "magistuarmory:stone_rondache",
+      "weight": 16589,
+      "quality": 3.0814123
+    },
+    {
+      "value": "magistuarmory:stone_roundshield",
+      "weight": 17014,
+      "quality": 3.0216906
+    },
+    {
+      "value": "magistuarmory:stone_target",
+      "weight": 17014,
+      "quality": 3.0216906
+    },
+    {
+      "value": "magistuarmory:stone_tartsche",
+      "weight": 17014,
+      "quality": 3.0216906
+    },
+    {
+      "value": "magistuarmory:tin_buckler",
+      "weight": 17014,
+      "quality": 3.0216906
+    },
+    {
+      "value": "magistuarmory:tin_ellipticalshield",
+      "weight": 16946,
+      "quality": 3.0312212
+    },
+    {
+      "value": "magistuarmory:tin_heatershield",
+      "weight": 17014,
+      "quality": 3.0216906
+    },
+    {
+      "value": "magistuarmory:tin_kiteshield",
+      "weight": 16946,
+      "quality": 3.0312212
+    },
+    {
+      "value": "magistuarmory:tin_pavese",
+      "weight": 16712,
+      "quality": 3.0640996
+    },
+    {
+      "value": "magistuarmory:tin_rondache",
+      "weight": 16597,
+      "quality": 3.0802648
+    },
+    {
+      "value": "magistuarmory:tin_roundshield",
+      "weight": 17014,
+      "quality": 3.0216906
+    },
+    {
+      "value": "magistuarmory:tin_target",
+      "weight": 17014,
+      "quality": 3.0216906
+    },
+    {
+      "value": "magistuarmory:tin_tartsche",
+      "weight": 17014,
+      "quality": 3.0216906
+    },
+    {
+      "value": "magistuarmory:wood_buckler",
+      "weight": 17240,
+      "quality": 2.9902864
+    },
+    {
+      "value": "magistuarmory:wood_ellipticalshield",
+      "weight": 17161,
+      "quality": 3.001232
+    },
+    {
+      "value": "magistuarmory:wood_heatershield",
+      "weight": 17240,
+      "quality": 2.9902864
+    },
+    {
+      "value": "magistuarmory:wood_kiteshield",
+      "weight": 17161,
+      "quality": 3.001232
+    },
+    {
+      "value": "magistuarmory:wood_pavese",
+      "weight": 16878,
+      "quality": 3.040691
+    },
+    {
+      "value": "magistuarmory:wood_rondache",
+      "weight": 16887,
+      "quality": 3.03951
+    },
+    {
+      "value": "magistuarmory:wood_roundshield",
+      "weight": 17240,
+      "quality": 2.9902864
+    },
+    {
+      "value": "magistuarmory:wood_target",
+      "weight": 17240,
+      "quality": 2.9902864
+    },
+    {
+      "value": "magistuarmory:wood_tartsche",
+      "weight": 17240,
+      "quality": 2.9902864
+    },
+    {
+      "value": "minecraft:bow",
+      "weight": 17023,
+      "quality": 3.0204954
+    },
+    {
+      "value": {
+        "id": "minecraft:lingering_potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 17284,
+      "quality": 2.98417
+    },
+    {
+      "value": "minecraft:shield",
+      "weight": 17507,
+      "quality": 2.9532125
+    },
+    {
+      "value": "minecraft:snowball",
+      "weight": 47842,
+      "quality": 0.25
+    },
+    {
+      "value": {
+        "id": "minecraft:splash_potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 17284,
+      "quality": 2.98417
+    },
+    {
+      "value": "minecraft:tnt",
+      "weight": 11944,
+      "quality": 3.7712853
+    },
+    {
+      "value": "mowziesmobs:blowgun",
+      "weight": 17399,
+      "quality": 2.9681516
+    },
+    {
+      "value": {
+        "id": "spawn:fly_bottle",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 17284,
+      "quality": 2.98417
+    },
+    {
+      "value": "too_many_bows:aethers_call",
+      "weight": 10206,
+      "quality": 4.047167
+    },
+    {
+      "value": "too_many_bows:ancient_sage_bow",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:arc_heavens",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:arcane_bow",
+      "weight": 11435,
+      "quality": 3.851075
+    },
+    {
+      "value": "too_many_bows:astral_bound",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:auroras_grace",
+      "weight": 14123,
+      "quality": 3.438955
+    },
+    {
+      "value": "too_many_bows:burnt_relic",
+      "weight": 10855,
+      "quality": 3.9430277
+    },
+    {
+      "value": "too_many_bows:crimson_nexus",
+      "weight": 10855,
+      "quality": 3.9430277
+    },
+    {
+      "value": "too_many_bows:cyroheart_bow",
+      "weight": 10303,
+      "quality": 4.0316057
+    },
+    {
+      "value": "too_many_bows:dark_bow",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:demons_grasp",
+      "weight": 15396,
+      "quality": 3.2519486
+    },
+    {
+      "value": "too_many_bows:dragons_breath",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:dusk_reaper",
+      "weight": 10206,
+      "quality": 4.047167
+    },
+    {
+      "value": "too_many_bows:emerald_sage_bow",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:ethereal_hunter",
+      "weight": 10206,
+      "quality": 4.047167
+    },
+    {
+      "value": "too_many_bows:flame_bow",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:frostbite",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:hunter_bow",
+      "weight": 10411,
+      "quality": 4.014233
+    },
+    {
+      "value": "too_many_bows:ironclad_bow",
+      "weight": 10206,
+      "quality": 4.047167
+    },
+    {
+      "value": "too_many_bows:necro_flame_bow",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:radiance",
+      "weight": 15396,
+      "quality": 3.2519486
+    },
+    {
+      "value": "too_many_bows:scatter_bow",
+      "weight": 10411,
+      "quality": 4.014233
+    },
+    {
+      "value": "too_many_bows:sentinels_wrath",
+      "weight": 10411,
+      "quality": 4.014233
+    },
+    {
+      "value": "too_many_bows:shulker_blast",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:solar_bow",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:spectral_whisper",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:tidal_bow",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:torchbearer",
+      "weight": 10206,
+      "quality": 4.047167
+    },
+    {
+      "value": "too_many_bows:twin_shadows",
+      "weight": 10206,
+      "quality": 4.047167
+    },
+    {
+      "value": "too_many_bows:verdant_vigor",
+      "weight": 10206,
+      "quality": 4.047167
+    },
+    {
+      "value": "too_many_bows:verdant_viper",
+      "weight": 10411,
+      "quality": 4.014233
+    },
+    {
+      "value": "too_many_bows:vitality_weaver",
+      "weight": 10721,
+      "quality": 3.9644625
+    },
+    {
+      "value": "too_many_bows:webstring",
+      "weight": 10206,
+      "quality": 4.047167
+    },
+    {
+      "value": "too_many_bows:wind_bow",
+      "weight": 10411,
+      "quality": 4.014233
+    }
+  ],
+  "FEET": [
+    {
+      "value": "aquaculture:neptunium_boots",
+      "weight": 7956,
+      "quality": 4.2616854
+    },
+    {
+      "value": "beachparty:crocs",
+      "weight": 22135,
+      "quality": 2.1529698
+    },
+    {
+      "value": "betternether:cincinnasite_boots",
+      "weight": 8693,
+      "quality": 4.134578
+    },
+    {
+      "value": "betternether:flaming_ruby_boots",
+      "weight": 7231,
+      "quality": 4.3887825
+    },
+    {
+      "value": "betternether:nether_ruby_boots",
+      "weight": 8021,
+      "quality": 4.2504
+    },
+    {
+      "value": "born_in_chaos_v1:dark_metal_armor_boots",
+      "weight": 5838,
+      "quality": 4.638031
+    },
+    {
+      "value": "born_in_chaos_v1:nightmare_mantleofthe_night_boots",
+      "weight": 14504,
+      "quality": 3.1993206
+    },
+    {
+      "value": "brewery:brewfest_boots",
+      "weight": 22135,
+      "quality": 2.1529698
+    },
+    {
+      "value": "brewery:brewfest_shoes",
+      "weight": 22135,
+      "quality": 2.1529698
+    },
+    {
+      "value": "candlelight:chefs_boots",
+      "weight": 22135,
+      "quality": 2.1529698
+    },
+    {
+      "value": "cataclysm:cursium_boots",
+      "weight": 1133,
+      "quality": 5.5307007
+    },
+    {
+      "value": "cataclysm:ignitium_boots",
+      "weight": 771,
+      "quality": 5.6026397
+    },
+    {
+      "value": "create:cardboard_boots",
+      "weight": 45104,
+      "quality": 0.25
+    },
+    {
+      "value": "create:copper_diving_boots",
+      "weight": 39249,
+      "quality": 0.5573766
+    },
+    {
+      "value": "create:netherite_diving_boots",
+      "weight": 6083,
+      "quality": 4.5936556
+    },
+    {
+      "value": "create_deep_dark:echo_armor_boots",
+      "weight": 7259,
+      "quality": 4.3837333
+    },
+    {
+      "value": "create_sa:brass_boots",
+      "weight": 16890,
+      "quality": 2.8499477
+    },
+    {
+      "value": "create_sa:copper_boots",
+      "weight": 33676,
+      "quality": 0.962865
+    },
+    {
+      "value": "create_sa:slime_boots",
+      "weight": 19321,
+      "quality": 2.5147078
+    },
+    {
+      "value": "create_sa:zinc_boots",
+      "weight": 17304,
+      "quality": 2.7913468
+    },
+    {
+      "value": "create_things_and_misc:sticky_boots_boots",
+      "weight": 8898,
+      "quality": 4.0995035
+    },
+    {
+      "value": "deeperdarker:resonarium_boots",
+      "weight": 8130,
+      "quality": 4.231487
+    },
+    {
+      "value": "deeperdarker:warden_boots",
+      "weight": 4286,
+      "quality": 4.92373
+    },
+    {
+      "value": "hybrid-aquatic:diving_boots",
+      "weight": 14405,
+      "quality": 3.2142098
+    },
+    {
+      "value": "immersive_armors:bone_boots",
+      "weight": 34349,
+      "quality": 0.9080726
+    },
+    {
+      "value": "immersive_armors:divine_boots",
+      "weight": 8748,
+      "quality": 4.1251154
+    },
+    {
+      "value": "immersive_armors:heavy_boots",
+      "weight": 7019,
+      "quality": 4.4262905
+    },
+    {
+      "value": "immersive_armors:prismarine_boots",
+      "weight": 9361,
+      "quality": 4.020888
+    },
+    {
+      "value": "immersive_armors:robe_boots",
+      "weight": 23718,
+      "quality": 1.9616889
+    },
+    {
+      "value": "immersive_armors:slime_boots",
+      "weight": 17185,
+      "quality": 2.8081017
+    },
+    {
+      "value": "immersive_armors:steampunk_boots",
+      "weight": 19308,
+      "quality": 2.5165195
+    },
+    {
+      "value": "immersive_armors:warrior_boots",
+      "weight": 17004,
+      "quality": 2.8336442
+    },
+    {
+      "value": "immersive_armors:wither_boots",
+      "weight": 20186,
+      "quality": 2.4005408
+    },
+    {
+      "value": "immersive_armors:wooden_boots",
+      "weight": 41003,
+      "quality": 0.4524952
+    },
+    {
+      "value": "magistuarmory:ceremonial_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmory:chainmail_boots",
+      "weight": 34478,
+      "quality": 0.8977379
+    },
+    {
+      "value": "magistuarmory:crusader_boots",
+      "weight": 32522,
+      "quality": 1.0606347
+    },
+    {
+      "value": "magistuarmory:cuirassier_boots",
+      "weight": 33029,
+      "quality": 1.0170667
+    },
+    {
+      "value": "magistuarmory:gambeson_boots",
+      "weight": 37433,
+      "quality": 0.6773888
+    },
+    {
+      "value": "magistuarmory:gothic_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmory:jousting_boots",
+      "weight": 8218,
+      "quality": 4.216354
+    },
+    {
+      "value": "magistuarmory:kastenbrust_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmory:knight_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmory:lamellar_boots",
+      "weight": 17435,
+      "quality": 2.7728605
+    },
+    {
+      "value": "magistuarmory:maximilian_boots",
+      "weight": 8255,
+      "quality": 4.2099605
+    },
+    {
+      "value": "magistuarmory:platemail_boots",
+      "weight": 9236,
+      "quality": 4.042145
+    },
+    {
+      "value": "magistuarmory:rustedchainmail_boots",
+      "weight": 38266,
+      "quality": 0.6208748
+    },
+    {
+      "value": "magistuarmory:rustedcrusader_boots",
+      "weight": 38915,
+      "quality": 0.5785184
+    },
+    {
+      "value": "magistuarmory:xivcenturyknight_boots",
+      "weight": 15959,
+      "quality": 2.9838178
+    },
+    {
+      "value": "magistuarmoryaddon:alla_tedesca_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:avant_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:ceremonial_kastenbrust_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:chained_gambeson_boots",
+      "weight": 18006,
+      "quality": 2.6934187
+    },
+    {
+      "value": "magistuarmoryaddon:coat_of_plates_boots",
+      "weight": 17185,
+      "quality": 2.8081017
+    },
+    {
+      "value": "magistuarmoryaddon:dark_crusader_boots",
+      "weight": 32522,
+      "quality": 1.0606347
+    },
+    {
+      "value": "magistuarmoryaddon:dark_gilded_greenwich_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:dark_gilded_parade_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:dark_gothic_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:dark_greenwich_boots",
+      "weight": 15362,
+      "quality": 3.0713096
+    },
+    {
+      "value": "magistuarmoryaddon:dark_heavy_brigandine_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:dark_heavy_cuirassier_boots",
+      "weight": 15440,
+      "quality": 3.0598674
+    },
+    {
+      "value": "magistuarmoryaddon:dark_jousting_boots",
+      "weight": 8218,
+      "quality": 4.216354
+    },
+    {
+      "value": "magistuarmoryaddon:dark_kastenbrust_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:dark_knight_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:dark_maximilian_boots",
+      "weight": 8335,
+      "quality": 4.1961427
+    },
+    {
+      "value": "magistuarmoryaddon:dark_proto_maximilian_boots",
+      "weight": 15142,
+      "quality": 3.103842
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_gothic_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_greenwich_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_kastenbrust_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_knight_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_maximilian_boots",
+      "weight": 8335,
+      "quality": 4.1961427
+    },
+    {
+      "value": "magistuarmoryaddon:embosed_parade_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:english_knight_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_gothic_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_greenwich_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_jousting_boots",
+      "weight": 8218,
+      "quality": 4.216354
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_kastenbrust_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_knight_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_maximilian_boots",
+      "weight": 8335,
+      "quality": 4.1961427
+    },
+    {
+      "value": "magistuarmoryaddon:gallowglass_boots",
+      "weight": 34478,
+      "quality": 0.8977379
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_dark_gothic_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_darkblued_greenwich_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_gothic_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_greenwich_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_heavy_brigandine_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_maximilian_boots",
+      "weight": 8335,
+      "quality": 4.1961427
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_steel_puff_and_slash_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_xivcenturyknight_boots",
+      "weight": 15959,
+      "quality": 2.9838178
+    },
+    {
+      "value": "magistuarmoryaddon:greenwich_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:heavy_brigandine_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:heavy_cuirassier_boots",
+      "weight": 15440,
+      "quality": 3.0598674
+    },
+    {
+      "value": "magistuarmoryaddon:mirror_boots",
+      "weight": 17164,
+      "quality": 2.811129
+    },
+    {
+      "value": "magistuarmoryaddon:pikeman_boots",
+      "weight": 17293,
+      "quality": 2.7928772
+    },
+    {
+      "value": "magistuarmoryaddon:proto_maximilian_boots",
+      "weight": 15142,
+      "quality": 3.103842
+    },
+    {
+      "value": "magistuarmoryaddon:puff_and_slash_boots",
+      "weight": 36441,
+      "quality": 0.7478717
+    },
+    {
+      "value": "magistuarmoryaddon:saracen_boots",
+      "weight": 17558,
+      "quality": 2.755721
+    },
+    {
+      "value": "magistuarmoryaddon:shoes",
+      "weight": 38002,
+      "quality": 0.63853705
+    },
+    {
+      "value": "magistuarmoryaddon:silvered_dark_maximilian_boots",
+      "weight": 8335,
+      "quality": 4.1961427
+    },
+    {
+      "value": "magistuarmoryaddon:splint_boots",
+      "weight": 16983,
+      "quality": 2.836621
+    },
+    {
+      "value": "magistuarmoryaddon:steel_puff_and_slash_boots",
+      "weight": 15830,
+      "quality": 3.0025504
+    },
+    {
+      "value": "magistuarmoryaddon:tunic_boots",
+      "weight": 38002,
+      "quality": 0.63853705
+    },
+    {
+      "value": "magistuarmoryaddon:xiii_century_knight_boots",
+      "weight": 17380,
+      "quality": 2.7805898
+    },
+    {
+      "value": "meadow:fur_boots",
+      "weight": 17110,
+      "quality": 2.8186707
+    },
+    {
+      "value": "minecraft:chainmail_boots",
+      "weight": 27000,
+      "quality": 1.5936313
+    },
+    {
+      "value": "minecraft:diamond_boots",
+      "weight": 6735,
+      "quality": 4.47667
+    },
+    {
+      "value": "minecraft:golden_boots",
+      "weight": 26128,
+      "quality": 1.6876749
+    },
+    {
+      "value": "minecraft:iron_boots",
+      "weight": 14832,
+      "quality": 3.1500406
+    },
+    {
+      "value": "minecraft:leather_boots",
+      "weight": 30268,
+      "quality": 1.2651587
+    },
+    {
+      "value": "minecraft:netherite_boots",
+      "weight": 6083,
+      "quality": 4.5936556
+    },
+    {
+      "value": "mowziesmobs:geomancer_sandals",
+      "weight": 16328,
+      "quality": 2.930319
+    },
+    {
+      "value": "spawn:blue_footed_boots",
+      "weight": 16994,
+      "quality": 2.8351338
+    },
+    {
+      "value": "vinery:winemaker_boots",
+      "weight": 36345,
+      "quality": 0.75490075
+    }
+  ],
+  "LEGS": [
+    {
+      "value": "aquaculture:neptunium_leggings",
+      "weight": 5750,
+      "quality": 86.147125
+    },
+    {
+      "value": "beachparty:trunks",
+      "weight": 62821,
+      "quality": 26.059828
+    },
+    {
+      "value": "betternether:cincinnasite_leggings",
+      "weight": 8960,
+      "quality": 81.84161
+    },
+    {
+      "value": "betternether:flaming_ruby_leggings",
+      "weight": 5606,
+      "quality": 86.34351
+    },
+    {
+      "value": "betternether:nether_ruby_leggings",
+      "weight": 8685,
+      "quality": 82.20621
+    },
+    {
+      "value": "born_in_chaos_v1:dark_metal_armor_leggings",
+      "weight": 3740,
+      "quality": 88.899345
+    },
+    {
+      "value": "born_in_chaos_v1:nightmare_mantleofthe_night_leggings",
+      "weight": 5829,
+      "quality": 86.03926
+    },
+    {
+      "value": "brewery:brewfest_dress",
+      "weight": 62821,
+      "quality": 26.059828
+    },
+    {
+      "value": "brewery:brewfest_trousers",
+      "weight": 62821,
+      "quality": 26.059828
+    },
+    {
+      "value": "candlelight:chefs_pants",
+      "weight": 62821,
+      "quality": 26.059828
+    },
+    {
+      "value": "candlelight:trousers_and_vest",
+      "weight": 62821,
+      "quality": 26.059828
+    },
+    {
+      "value": "cataclysm:cursium_leggings",
+      "weight": 1113,
+      "quality": 92.56205
+    },
+    {
+      "value": "cataclysm:ignitium_leggings",
+      "weight": 829,
+      "quality": 92.96199
+    },
+    {
+      "value": "create:cardboard_leggings",
+      "weight": 125742,
+      "quality": 0.25
+    },
+    {
+      "value": "create_deep_dark:echo_armor_leggings",
+      "weight": 5612,
+      "quality": 86.33474
+    },
+    {
+      "value": "create_sa:brass_leggings",
+      "weight": 9120,
+      "quality": 81.62972
+    },
+    {
+      "value": "create_sa:copper_leggings",
+      "weight": 9217,
+      "quality": 81.50166
+    },
+    {
+      "value": "create_sa:zinc_leggings",
+      "weight": 9165,
+      "quality": 81.57028
+    },
+    {
+      "value": "deeperdarker:resonarium_leggings",
+      "weight": 5782,
+      "quality": 86.10317
+    },
+    {
+      "value": "deeperdarker:warden_leggings",
+      "weight": 3838,
+      "quality": 88.7647
+    },
+    {
+      "value": "farm_and_charm:dungarees",
+      "weight": 62821,
+      "quality": 26.059828
+    },
+    {
+      "value": "hybrid-aquatic:diving_leggings",
+      "weight": 14146,
+      "quality": 75.11855
+    },
+    {
+      "value": "immersive_armors:bone_leggings",
+      "weight": 50508,
+      "quality": 36.07133
+    },
+    {
+      "value": "immersive_armors:divine_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "immersive_armors:heavy_leggings",
+      "weight": 8243,
+      "quality": 82.79369
+    },
+    {
+      "value": "immersive_armors:prismarine_leggings",
+      "weight": 5983,
+      "quality": 85.8314
+    },
+    {
+      "value": "immersive_armors:robe_leggings",
+      "weight": 40904,
+      "quality": 45.00831
+    },
+    {
+      "value": "immersive_armors:slime_leggings",
+      "weight": 14910,
+      "quality": 74.15195
+    },
+    {
+      "value": "immersive_armors:steampunk_leggings",
+      "weight": 27690,
+      "quality": 58.919212
+    },
+    {
+      "value": "immersive_armors:warrior_leggings",
+      "weight": 5958,
+      "quality": 85.86483
+    },
+    {
+      "value": "immersive_armors:wither_leggings",
+      "weight": 28302,
+      "quality": 58.23339
+    },
+    {
+      "value": "immersive_armors:wooden_leggings",
+      "weight": 55145,
+      "quality": 32.11014
+    },
+    {
+      "value": "magistuarmory:chainmail_leggings",
+      "weight": 15063,
+      "quality": 73.95992
+    },
+    {
+      "value": "magistuarmory:crusader_leggings",
+      "weight": 9109,
+      "quality": 81.64381
+    },
+    {
+      "value": "magistuarmory:cuirassier_leggings",
+      "weight": 99220,
+      "quality": 5.9586406
+    },
+    {
+      "value": "magistuarmory:gothic_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmory:jousting_leggings",
+      "weight": 5789,
+      "quality": 86.09385
+    },
+    {
+      "value": "magistuarmory:kastenbrust_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmory:knight_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmory:maximilian_leggings",
+      "weight": 5796,
+      "quality": 86.08452
+    },
+    {
+      "value": "magistuarmory:pantyhose",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmory:platemail_leggings",
+      "weight": 14922,
+      "quality": 74.137596
+    },
+    {
+      "value": "magistuarmory:rustedchainmail_leggings",
+      "weight": 15344,
+      "quality": 73.6064
+    },
+    {
+      "value": "magistuarmory:xivcenturyknight_leggings",
+      "weight": 8988,
+      "quality": 81.80475
+    },
+    {
+      "value": "magistuarmoryaddon:avant_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmoryaddon:black_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:blue_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:brown_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:cyan_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:dark_crusader_leggings",
+      "weight": 9109,
+      "quality": 81.64381
+    },
+    {
+      "value": "magistuarmoryaddon:dark_gothic_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmoryaddon:dark_heavy_brigandine_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmoryaddon:dark_jousting_leggings",
+      "weight": 5789,
+      "quality": 86.09385
+    },
+    {
+      "value": "magistuarmoryaddon:dark_kastenbrust_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmoryaddon:dark_knight_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmoryaddon:dark_maximilian_leggings",
+      "weight": 5810,
+      "quality": 86.065765
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_gothic_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_kastenbrust_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_knight_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_maximilian_leggings",
+      "weight": 5810,
+      "quality": 86.065765
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_gothic_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_jousting_leggings",
+      "weight": 5789,
+      "quality": 86.09385
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_kastenbrust_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_knight_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_maximilian_leggings",
+      "weight": 5810,
+      "quality": 86.065765
+    },
+    {
+      "value": "magistuarmoryaddon:gallowglass_leggings",
+      "weight": 15063,
+      "quality": 73.95992
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_chainmail_leggings",
+      "weight": 15063,
+      "quality": 73.95992
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_heavy_brigandine_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmoryaddon:gray_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:green_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:heavy_brigandine_leggings",
+      "weight": 8980,
+      "quality": 81.81568
+    },
+    {
+      "value": "magistuarmoryaddon:light_blue_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:light_gray_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:lime_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:magenta_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:orange_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:pink_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:purple_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:red_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:splint_leggings",
+      "weight": 9108,
+      "quality": 81.645195
+    },
+    {
+      "value": "magistuarmoryaddon:white_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "magistuarmoryaddon:xiii_century_knight_leggings",
+      "weight": 9177,
+      "quality": 81.55463
+    },
+    {
+      "value": "magistuarmoryaddon:yellow_puff_and_slash_leggings",
+      "weight": 106239,
+      "quality": 3.7145078
+    },
+    {
+      "value": "meadow:fur_leggings",
+      "weight": 14902,
+      "quality": 74.16271
+    },
+    {
+      "value": "minecraft:chainmail_leggings",
+      "weight": 12490,
+      "quality": 77.234375
+    },
+    {
+      "value": "minecraft:diamond_leggings",
+      "weight": 4811,
+      "quality": 87.42731
+    },
+    {
+      "value": "minecraft:golden_leggings",
+      "weight": 21697,
+      "quality": 65.84533
+    },
+    {
+      "value": "minecraft:iron_leggings",
+      "weight": 7680,
+      "quality": 83.54477
+    },
+    {
+      "value": "minecraft:leather_leggings",
+      "weight": 43429,
+      "quality": 42.56279
+    },
+    {
+      "value": "minecraft:netherite_leggings",
+      "weight": 4684,
+      "quality": 87.60119
+    },
+    {
+      "value": "mowziesmobs:geomancer_belt",
+      "weight": 5923,
+      "quality": 85.91264
+    },
+    {
+      "value": "vinery:winemaker_leggings",
+      "weight": 52127,
+      "quality": 34.662632
+    }
+  ],
+  "CHEST": [
+    {
+      "value": "aquaculture:neptunium_chestplate",
+      "weight": 11723,
+      "quality": 6146.871
+    },
+    {
+      "value": "beachparty:bikini",
+      "weight": 257917,
+      "quality": 5119.9043
+    },
+    {
+      "value": "beachparty:rubber_ring_axolotl",
+      "weight": 257917,
+      "quality": 5119.9043
+    },
+    {
+      "value": "beachparty:rubber_ring_blue",
+      "weight": 257917,
+      "quality": 5119.9043
+    },
+    {
+      "value": "beachparty:rubber_ring_pelican",
+      "weight": 257917,
+      "quality": 5119.9043
+    },
+    {
+      "value": "beachparty:rubber_ring_pink",
+      "weight": 257917,
+      "quality": 5119.9043
+    },
+    {
+      "value": "beachparty:rubber_ring_stripped",
+      "weight": 257917,
+      "quality": 5119.9043
+    },
+    {
+      "value": "beachparty:swim_wings",
+      "weight": 257917,
+      "quality": 5119.9043
+    },
+    {
+      "value": "betternether:cincinnasite_chestplate",
+      "weight": 24128,
+      "quality": 6092.88
+    },
+    {
+      "value": "betternether:flaming_ruby_chestplate",
+      "weight": 11574,
+      "quality": 6147.521
+    },
+    {
+      "value": "betternether:nether_ruby_chestplate",
+      "weight": 16353,
+      "quality": 6126.693
+    },
+    {
+      "value": "born_in_chaos_v1:dark_metal_armor_chestplate",
+      "weight": 6423,
+      "quality": 6170.0093
+    },
+    {
+      "value": "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate",
+      "weight": 16487,
+      "quality": 6126.1064
+    },
+    {
+      "value": "born_in_chaos_v1:spiny_shell_armor_chestplate",
+      "weight": 16641,
+      "quality": 6125.4365
+    },
+    {
+      "value": "brewery:brewfest_blouse",
+      "weight": 162572,
+      "quality": 5506.4956
+    },
+    {
+      "value": "brewery:brewfest_regalia",
+      "weight": 162572,
+      "quality": 5506.4956
+    },
+    {
+      "value": "candlelight:chefs_jacket",
+      "weight": 162572,
+      "quality": 5506.4956
+    },
+    {
+      "value": "candlelight:dress",
+      "weight": 162572,
+      "quality": 5506.4956
+    },
+    {
+      "value": "candlelight:formal_shirt",
+      "weight": 162572,
+      "quality": 5506.4956
+    },
+    {
+      "value": "candlelight:gold_ring",
+      "weight": 257917,
+      "quality": 5119.9043
+    },
+    {
+      "value": "candlelight:shirt",
+      "weight": 162572,
+      "quality": 5506.4956
+    },
+    {
+      "value": "cataclysm:bloom_stone_pauldrons",
+      "weight": 8661,
+      "quality": 6160.233
+    },
+    {
+      "value": "cataclysm:bone_reptile_chestplate",
+      "weight": 5106,
+      "quality": 6175.7666
+    },
+    {
+      "value": "cataclysm:cursium_chestplate",
+      "weight": 2597,
+      "quality": 6186.7407
+    },
+    {
+      "value": "cataclysm:ignitium_chestplate",
+      "weight": 2023,
+      "quality": 6189.2505
+    },
+    {
+      "value": "cataclysm:ignitium_elytra_chestplate",
+      "weight": 2023,
+      "quality": 6189.2505
+    },
+    {
+      "value": "crabbersdelight:pearl_necklace",
+      "weight": 510495,
+      "quality": 4163.791
+    },
+    {
+      "value": "create:cardboard_chestplate",
+      "weight": 512126,
+      "quality": 4157.9375
+    },
+    {
+      "value": "create:copper_backtank",
+      "weight": 58332,
+      "quality": 5945.25
+    },
+    {
+      "value": "create:netherite_backtank",
+      "weight": 9606,
+      "quality": 6156.107
+    },
+    {
+      "value": "create_deep_dark:echo_armor_chestplate",
+      "weight": 11580,
+      "quality": 6147.491
+    },
+    {
+      "value": "create_sa:andesite_exoskeleton_chestplate",
+      "weight": 16514,
+      "quality": 6125.9883
+    },
+    {
+      "value": "create_sa:andesite_jetpack_chestplate",
+      "weight": 23966,
+      "quality": 6093.5835
+    },
+    {
+      "value": "create_sa:brass_chestplate",
+      "weight": 16720,
+      "quality": 6125.0923
+    },
+    {
+      "value": "create_sa:brass_exoskeleton_chestplate",
+      "weight": 11817,
+      "quality": 6146.461
+    },
+    {
+      "value": "create_sa:brass_jetpack_chestplate",
+      "weight": 26362,
+      "quality": 6083.181
+    },
+    {
+      "value": "create_sa:copper_chestplate",
+      "weight": 24576,
+      "quality": 6090.9346
+    },
+    {
+      "value": "create_sa:copper_exoskeleton_chestplate",
+      "weight": 23966,
+      "quality": 6093.5835
+    },
+    {
+      "value": "create_sa:copper_jetpack_chestplate",
+      "weight": 23966,
+      "quality": 6093.5835
+    },
+    {
+      "value": "create_sa:netherite_jetpack_chestplate",
+      "weight": 11553,
+      "quality": 6147.6094
+    },
+    {
+      "value": "create_sa:zinc_chestplate",
+      "weight": 24484,
+      "quality": 6091.335
+    },
+    {
+      "value": "deeperdarker:resonarium_chestplate",
+      "weight": 11756,
+      "quality": 6146.7275
+    },
+    {
+      "value": "deeperdarker:soul_elytra",
+      "weight": 113004,
+      "quality": 5713.034
+    },
+    {
+      "value": "deeperdarker:warden_chestplate",
+      "weight": 8508,
+      "quality": 6160.9023
+    },
+    {
+      "value": "hybrid-aquatic:diving_suit",
+      "weight": 36369,
+      "quality": 6039.838
+    },
+    {
+      "value": "hybrid-aquatic:eel_scarf",
+      "weight": 257917,
+      "quality": 5119.9043
+    },
+    {
+      "value": "hybrid-aquatic:manglerfish_fin",
+      "weight": 257917,
+      "quality": 5119.9043
+    },
+    {
+      "value": "hybrid-aquatic:nautilus_pauldrons",
+      "weight": 56772,
+      "quality": 5951.9424
+    },
+    {
+      "value": "hybrid-aquatic:turtle_chestplate",
+      "weight": 245664,
+      "quality": 5168.7993
+    },
+    {
+      "value": "immersive_armors:bone_chestplate",
+      "weight": 109379,
+      "quality": 5728.2847
+    },
+    {
+      "value": "immersive_armors:divine_chestplate",
+      "weight": 16607,
+      "quality": 6125.587
+    },
+    {
+      "value": "immersive_armors:heavy_chestplate",
+      "weight": 22823,
+      "quality": 6098.5503
+    },
+    {
+      "value": "immersive_armors:prismarine_chestplate",
+      "weight": 11955,
+      "quality": 6145.857
+    },
+    {
+      "value": "immersive_armors:robe_chestplate",
+      "weight": 97237,
+      "quality": 5779.526
+    },
+    {
+      "value": "immersive_armors:slime_chestplate",
+      "weight": 37527,
+      "quality": 6034.832
+    },
+    {
+      "value": "immersive_armors:steampunk_chestplate",
+      "weight": 24817,
+      "quality": 6089.8867
+    },
+    {
+      "value": "immersive_armors:warrior_chestplate",
+      "weight": 37479,
+      "quality": 6035.0405
+    },
+    {
+      "value": "immersive_armors:wither_chestplate",
+      "weight": 64093,
+      "quality": 5920.5625
+    },
+    {
+      "value": "immersive_armors:wooden_chestplate",
+      "weight": 114456,
+      "quality": 5706.929
+    },
+    {
+      "value": "magistuarmory:brigandine_chestplate",
+      "weight": 37619,
+      "quality": 6034.4326
+    },
+    {
+      "value": "magistuarmory:ceremonial_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmory:chainmail_chestplate",
+      "weight": 37765,
+      "quality": 6033.801
+    },
+    {
+      "value": "magistuarmory:crusader_chestplate",
+      "weight": 24391,
+      "quality": 6091.7397
+    },
+    {
+      "value": "magistuarmory:cuirassier_chestplate",
+      "weight": 24393,
+      "quality": 6091.7305
+    },
+    {
+      "value": "magistuarmory:gambeson_chestplate",
+      "weight": 111743,
+      "quality": 5718.335
+    },
+    {
+      "value": "magistuarmory:gothic_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmory:halfarmor_chestplate",
+      "weight": 24393,
+      "quality": 6091.7305
+    },
+    {
+      "value": "magistuarmory:jousting_chestplate",
+      "weight": 8695,
+      "quality": 6160.086
+    },
+    {
+      "value": "magistuarmory:kastenbrust_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmory:knight_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmory:lamellar_chestplate",
+      "weight": 24510,
+      "quality": 6091.2207
+    },
+    {
+      "value": "magistuarmory:maximilian_chestplate",
+      "weight": 8698,
+      "quality": 6160.0703
+    },
+    {
+      "value": "magistuarmory:platemail_chestplate",
+      "weight": 24420,
+      "quality": 6091.61
+    },
+    {
+      "value": "magistuarmory:rustedchainmail_chestplate",
+      "weight": 38197,
+      "quality": 6031.934
+    },
+    {
+      "value": "magistuarmory:rustedcrusader_chestplate",
+      "weight": 24703,
+      "quality": 6090.385
+    },
+    {
+      "value": "magistuarmory:rustedhalfarmor_chestplate",
+      "weight": 24672,
+      "quality": 6090.5166
+    },
+    {
+      "value": "magistuarmory:wingedhussar_chestplate",
+      "weight": 24346,
+      "quality": 6091.9316
+    },
+    {
+      "value": "magistuarmory:xivcenturyknight_chestplate",
+      "weight": 16613,
+      "quality": 6125.5605
+    },
+    {
+      "value": "magistuarmoryaddon:alla_tedesca_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:articulated_chestplate",
+      "weight": 11860,
+      "quality": 6146.273
+    },
+    {
+      "value": "magistuarmoryaddon:avant_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:black_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:blue_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:brown_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:ceremonial_kastenbrust_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:chained_gambeson",
+      "weight": 61830,
+      "quality": 5930.25
+    },
+    {
+      "value": "magistuarmoryaddon:coat_of_plates_chestplate",
+      "weight": 24445,
+      "quality": 6091.5054
+    },
+    {
+      "value": "magistuarmoryaddon:cyan_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:dark_crusader_chestplate",
+      "weight": 24391,
+      "quality": 6091.7397
+    },
+    {
+      "value": "magistuarmoryaddon:dark_gilded_greenwich_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:dark_gilded_parade_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:dark_gothic_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:dark_greenwich_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:dark_heavy_brigandine_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:dark_heavy_cuirassier_chestplate",
+      "weight": 11843,
+      "quality": 6146.346
+    },
+    {
+      "value": "magistuarmoryaddon:dark_jousting_chestplate",
+      "weight": 8695,
+      "quality": 6160.086
+    },
+    {
+      "value": "magistuarmoryaddon:dark_kastenbrust_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:dark_knight_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:dark_maximilian_chestplate",
+      "weight": 8706,
+      "quality": 6160.0366
+    },
+    {
+      "value": "magistuarmoryaddon:dark_peascod_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:dark_proto_maximilian_chestplate",
+      "weight": 11838,
+      "quality": 6146.366
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_gothic_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_greenwich_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_kastenbrust_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_knight_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_maximilian_chestplate",
+      "weight": 8706,
+      "quality": 6160.0366
+    },
+    {
+      "value": "magistuarmoryaddon:doublet",
+      "weight": 424624,
+      "quality": 4477.7715
+    },
+    {
+      "value": "magistuarmoryaddon:embosed_parade_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:english_knight_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:engraved_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_articulated_chestplate",
+      "weight": 11860,
+      "quality": 6146.273
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_gothic_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_greenwich_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_jousting_chestplate",
+      "weight": 8695,
+      "quality": 6160.086
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_kastenbrust_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_knight_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_maximilian_chestplate",
+      "weight": 8706,
+      "quality": 6160.0366
+    },
+    {
+      "value": "magistuarmoryaddon:gallowglass_chestplate",
+      "weight": 37765,
+      "quality": 6033.801
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_chainmail_chestplate",
+      "weight": 37765,
+      "quality": 6033.801
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_dark_gothic_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_dark_peascod_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_darkblued_greenwich_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_gothic_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_greenwich_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_half_armor",
+      "weight": 24393,
+      "quality": 6091.7305
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_heavy_brigandine_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_maximilian_chestplate",
+      "weight": 8706,
+      "quality": 6160.0366
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_peascod_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_steel_puff_and_slash_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_xivcenturyknight_chestplate",
+      "weight": 16613,
+      "quality": 6125.5605
+    },
+    {
+      "value": "magistuarmoryaddon:golden_cross_necklace_decoration",
+      "weight": 1319305,
+      "quality": 1766.3938
+    },
+    {
+      "value": "magistuarmoryaddon:golden_necklace_decoration",
+      "weight": 1319305,
+      "quality": 1766.3938
+    },
+    {
+      "value": "magistuarmoryaddon:gray_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:green_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:greenwich_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:heavy_brigandine_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:heavy_cuirassier_chestplate",
+      "weight": 11843,
+      "quality": 6146.346
+    },
+    {
+      "value": "magistuarmoryaddon:light_blue_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:light_gray_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:lime_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:magenta_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:mirror_chestplate",
+      "weight": 11899,
+      "quality": 6146.101
+    },
+    {
+      "value": "magistuarmoryaddon:orange_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:peascod_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:pikeman_chestplate",
+      "weight": 11902,
+      "quality": 6146.089
+    },
+    {
+      "value": "magistuarmoryaddon:pink_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:proto_maximilian_chestplate",
+      "weight": 11838,
+      "quality": 6146.366
+    },
+    {
+      "value": "magistuarmoryaddon:purple_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:red_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:saracen_chestplate",
+      "weight": 24506,
+      "quality": 6091.2373
+    },
+    {
+      "value": "magistuarmoryaddon:silver_cross_necklace_decoration",
+      "weight": 1319305,
+      "quality": 1766.3938
+    },
+    {
+      "value": "magistuarmoryaddon:silver_necklace_decoration",
+      "weight": 1319305,
+      "quality": 1766.3938
+    },
+    {
+      "value": "magistuarmoryaddon:silvered_dark_half_armor",
+      "weight": 24393,
+      "quality": 6091.7305
+    },
+    {
+      "value": "magistuarmoryaddon:silvered_dark_maximilian_chestplate",
+      "weight": 8706,
+      "quality": 6160.0366
+    },
+    {
+      "value": "magistuarmoryaddon:splint_chestplate",
+      "weight": 11915,
+      "quality": 6146.0327
+    },
+    {
+      "value": "magistuarmoryaddon:steel_puff_and_slash_chestplate",
+      "weight": 11864,
+      "quality": 6146.2563
+    },
+    {
+      "value": "magistuarmoryaddon:tunic",
+      "weight": 424624,
+      "quality": 4477.7715
+    },
+    {
+      "value": "magistuarmoryaddon:white_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "magistuarmoryaddon:xiii_century_knight_chestplate",
+      "weight": 24454,
+      "quality": 6091.465
+    },
+    {
+      "value": "magistuarmoryaddon:yellow_puff_and_slash_chestplate",
+      "weight": 213443,
+      "quality": 5298.481
+    },
+    {
+      "value": "meadow:fur_chestplate",
+      "weight": 61065,
+      "quality": 5933.5303
+    },
+    {
+      "value": "minecraft:chainmail_chestplate",
+      "weight": 31375,
+      "quality": 6061.4478
+    },
+    {
+      "value": "minecraft:diamond_chestplate",
+      "weight": 9788,
+      "quality": 6155.3105
+    },
+    {
+      "value": "minecraft:elytra",
+      "weight": 679218,
+      "quality": 3580.109
+    },
+    {
+      "value": "minecraft:golden_chestplate",
+      "weight": 31308,
+      "quality": 6061.74
+    },
+    {
+      "value": "minecraft:iron_chestplate",
+      "weight": 20480,
+      "quality": 6108.732
+    },
+    {
+      "value": "minecraft:leather_chestplate",
+      "weight": 92683,
+      "quality": 5798.804
+    },
+    {
+      "value": "minecraft:netherite_chestplate",
+      "weight": 9658,
+      "quality": 6155.878
+    },
+    {
+      "value": "mowziesmobs:geomancer_robe",
+      "weight": 16667,
+      "quality": 6125.324
+    },
+    {
+      "value": "powergrid:portable_battery",
+      "weight": 96564,
+      "quality": 5782.3755
+    },
+    {
+      "value": "vinery:winemaker_apron",
+      "weight": 111239,
+      "quality": 5720.456
+    },
+    {
+      "value": "wildernature:fur_cloak",
+      "weight": 2812203,
+      "quality": 0.25
+    }
+  ],
+  "HEAD": [
+    {
+      "value": "aeronautics:aviators_goggles",
+      "weight": 48548,
+      "quality": 227.40602
+    },
+    {
+      "value": "aquaculture:neptunium_helmet",
+      "weight": 17629,
+      "quality": 247.61581
+    },
+    {
+      "value": "beachparty:beach_hat",
+      "weight": 48548,
+      "quality": 227.40602
+    },
+    {
+      "value": "beachparty:sunglasses",
+      "weight": 48548,
+      "quality": 227.40602
+    },
+    {
+      "value": "betternether:cincinnasite_helmet",
+      "weight": 19212,
+      "quality": 246.56036
+    },
+    {
+      "value": "betternether:flaming_ruby_helmet",
+      "weight": 16024,
+      "quality": 248.68883
+    },
+    {
+      "value": "betternether:nether_ruby_helmet",
+      "weight": 17780,
+      "quality": 247.51527
+    },
+    {
+      "value": "born_in_chaos_v1:damned_demomans_hat_helmet",
+      "weight": 35602,
+      "quality": 235.7635
+    },
+    {
+      "value": "born_in_chaos_v1:dark_metal_armor_helmet",
+      "weight": 8741,
+      "quality": 253.58507
+    },
+    {
+      "value": "born_in_chaos_v1:killer_rabbit_ears_helmet",
+      "weight": 35166,
+      "quality": 236.04735
+    },
+    {
+      "value": "born_in_chaos_v1:lord_pumpkinheads_hat_helmet",
+      "weight": 14406,
+      "quality": 249.77248
+    },
+    {
+      "value": "born_in_chaos_v1:missionary_hat_helmet",
+      "weight": 18799,
+      "quality": 246.83551
+    },
+    {
+      "value": "born_in_chaos_v1:nightmare_mantleofthe_night_helmet",
+      "weight": 11022,
+      "quality": 252.04623
+    },
+    {
+      "value": "born_in_chaos_v1:spiny_shell_armor_helmet",
+      "weight": 19618,
+      "quality": 246.28996
+    },
+    {
+      "value": "born_in_chaos_v1:spiritual_guide_sombrero_helmet",
+      "weight": 18858,
+      "quality": 246.79637
+    },
+    {
+      "value": "brewery:brewfest_hat",
+      "weight": 48548,
+      "quality": 227.40602
+    },
+    {
+      "value": "brewery:brewfest_hat_red",
+      "weight": 48548,
+      "quality": 227.40602
+    },
+    {
+      "value": "candlelight:cooking_hat",
+      "weight": 48548,
+      "quality": 227.40602
+    },
+    {
+      "value": "candlelight:flower_crown",
+      "weight": 48548,
+      "quality": 227.40602
+    },
+    {
+      "value": "candlelight:necktie",
+      "weight": 48548,
+      "quality": 227.40602
+    },
+    {
+      "value": "cataclysm:aptrgangr_head",
+      "weight": 735916,
+      "quality": 0.25
+    },
+    {
+      "value": "cataclysm:bone_reptile_helmet",
+      "weight": 4419,
+      "quality": 256.51294
+    },
+    {
+      "value": "cataclysm:cursium_helmet",
+      "weight": 2495,
+      "quality": 257.82184
+    },
+    {
+      "value": "cataclysm:draugr_head",
+      "weight": 735916,
+      "quality": 0.25
+    },
+    {
+      "value": "cataclysm:ignitium_helmet",
+      "weight": 1696,
+      "quality": 258.3667
+    },
+    {
+      "value": "cataclysm:kobolediator_skull",
+      "weight": 735916,
+      "quality": 0.25
+    },
+    {
+      "value": "cataclysm:monstrous_helm",
+      "weight": 5328,
+      "quality": 255.89601
+    },
+    {
+      "value": "crabbersdelight:coconut_helmet",
+      "weight": 25071,
+      "quality": 242.67322
+    },
+    {
+      "value": "create:cardboard_helmet",
+      "weight": 100912,
+      "quality": 195.14095
+    },
+    {
+      "value": "create:copper_diving_helmet",
+      "weight": 42677,
+      "quality": 231.17746
+    },
+    {
+      "value": "create:goggles",
+      "weight": 735916,
+      "quality": 0.25
+    },
+    {
+      "value": "create:netherite_diving_helmet",
+      "weight": 13473,
+      "quality": 250.39821
+    },
+    {
+      "value": "create_deep_dark:echo_armor_helmet",
+      "weight": 16079,
+      "quality": 248.6517
+    },
+    {
+      "value": "create_sa:brass_helmet",
+      "weight": 37716,
+      "quality": 234.38858
+    },
+    {
+      "value": "create_sa:copper_helmet",
+      "weight": 39649,
+      "quality": 233.1349
+    },
+    {
+      "value": "create_sa:slime_helmet",
+      "weight": 42798,
+      "quality": 231.09938
+    },
+    {
+      "value": "create_sa:zinc_helmet",
+      "weight": 38609,
+      "quality": 233.80907
+    },
+    {
+      "value": "createbigcannons:traffic_cone",
+      "weight": 735916,
+      "quality": 0.25
+    },
+    {
+      "value": "deeperdarker:resonarium_helmet",
+      "weight": 18008,
+      "quality": 247.36302
+    },
+    {
+      "value": "deeperdarker:warden_helmet",
+      "weight": 9457,
+      "quality": 253.10133
+    },
+    {
+      "value": "friendsandfoes:wildfire_crown",
+      "weight": 19006,
+      "quality": 246.6974
+    },
+    {
+      "value": "hybrid-aquatic:diving_helmet",
+      "weight": 31594,
+      "quality": 238.38116
+    },
+    {
+      "value": "hybrid-aquatic:manglerfish_lure",
+      "weight": 48548,
+      "quality": 227.40602
+    },
+    {
+      "value": "hybrid-aquatic:moon_jellyfish_hat",
+      "weight": 48548,
+      "quality": 227.40602
+    },
+    {
+      "value": "hybrid-aquatic:nautilus_helmet",
+      "weight": 29639,
+      "quality": 239.66351
+    },
+    {
+      "value": "immersive_armors:bone_helmet",
+      "weight": 76873,
+      "quality": 209.64667
+    },
+    {
+      "value": "immersive_armors:divine_helmet",
+      "weight": 19341,
+      "quality": 246.47424
+    },
+    {
+      "value": "immersive_armors:heavy_helmet",
+      "weight": 9849,
+      "quality": 252.83679
+    },
+    {
+      "value": "immersive_armors:prismarine_helmet",
+      "weight": 20709,
+      "quality": 245.5644
+    },
+    {
+      "value": "immersive_armors:robe_helmet",
+      "weight": 32339,
+      "quality": 237.89348
+    },
+    {
+      "value": "immersive_armors:slime_helmet",
+      "weight": 20442,
+      "quality": 245.74168
+    },
+    {
+      "value": "immersive_armors:steampunk_helmet",
+      "weight": 21676,
+      "quality": 244.92198
+    },
+    {
+      "value": "immersive_armors:warrior_helmet",
+      "weight": 37858,
+      "quality": 234.29637
+    },
+    {
+      "value": "immersive_armors:wither_helmet",
+      "weight": 44967,
+      "quality": 229.70293
+    },
+    {
+      "value": "immersive_armors:wooden_helmet",
+      "weight": 92271,
+      "quality": 200.29518
+    },
+    {
+      "value": "magistuarmory:armet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmory:barbute",
+      "weight": 38242,
+      "quality": 234.0472
+    },
+    {
+      "value": "magistuarmory:bascinet",
+      "weight": 19286,
+      "quality": 246.51129
+    },
+    {
+      "value": "magistuarmory:ceremonialarmet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmory:chainmail_helmet",
+      "weight": 38857,
+      "quality": 233.64781
+    },
+    {
+      "value": "magistuarmory:coif",
+      "weight": 83580,
+      "quality": 205.54672
+    },
+    {
+      "value": "magistuarmory:crown_decoration",
+      "weight": 37929,
+      "quality": 234.25002
+    },
+    {
+      "value": "magistuarmory:cuirassier_helmet",
+      "weight": 38242,
+      "quality": 234.0472
+    },
+    {
+      "value": "magistuarmory:face_helmet",
+      "weight": 37598,
+      "quality": 234.46489
+    },
+    {
+      "value": "magistuarmory:flowercrown_decoration",
+      "weight": 46135,
+      "quality": 228.95203
+    },
+    {
+      "value": "magistuarmory:grand_bascinet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmory:greathelm",
+      "weight": 20075,
+      "quality": 245.98595
+    },
+    {
+      "value": "magistuarmory:kettlehat",
+      "weight": 37044,
+      "quality": 234.82487
+    },
+    {
+      "value": "magistuarmory:maximilian_helmet",
+      "weight": 10799,
+      "quality": 252.19637
+    },
+    {
+      "value": "magistuarmory:minicrown_decoration",
+      "weight": 37929,
+      "quality": 234.25002
+    },
+    {
+      "value": "magistuarmory:norman_helmet",
+      "weight": 38683,
+      "quality": 233.76088
+    },
+    {
+      "value": "magistuarmory:rustedbarbute",
+      "weight": 41531,
+      "quality": 231.9169
+    },
+    {
+      "value": "magistuarmory:rustedchainmail_helmet",
+      "weight": 41219,
+      "quality": 232.11855
+    },
+    {
+      "value": "magistuarmory:rustedgreathelm",
+      "weight": 21159,
+      "quality": 245.26523
+    },
+    {
+      "value": "magistuarmory:rustedkettlehat",
+      "weight": 40691,
+      "quality": 232.46
+    },
+    {
+      "value": "magistuarmory:rustednorman_helmet",
+      "weight": 41675,
+      "quality": 231.82425
+    },
+    {
+      "value": "magistuarmory:sallet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmory:shishak",
+      "weight": 38073,
+      "quality": 234.15681
+    },
+    {
+      "value": "magistuarmory:stechhelm",
+      "weight": 10770,
+      "quality": 252.21587
+    },
+    {
+      "value": "magistuarmoryaddon:bellows_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:bicoque",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:british_armet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:burgundian_kettlehat",
+      "weight": 37739,
+      "quality": 234.37325
+    },
+    {
+      "value": "magistuarmoryaddon:cabasset",
+      "weight": 37389,
+      "quality": 234.60109
+    },
+    {
+      "value": "magistuarmoryaddon:cervelliere",
+      "weight": 39058,
+      "quality": 233.5174
+    },
+    {
+      "value": "magistuarmoryaddon:chapel",
+      "weight": 37905,
+      "quality": 234.26549
+    },
+    {
+      "value": "magistuarmoryaddon:close_helmet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:closed_barbute",
+      "weight": 35207,
+      "quality": 236.02063
+    },
+    {
+      "value": "magistuarmoryaddon:closed_burgonet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:condottiero_cap",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:cuman_captain_helmet",
+      "weight": 19988,
+      "quality": 246.04347
+    },
+    {
+      "value": "magistuarmoryaddon:cuman_helmet",
+      "weight": 37622,
+      "quality": 234.44968
+    },
+    {
+      "value": "magistuarmoryaddon:dark_bellows_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:dark_crusader_helmet",
+      "weight": 20075,
+      "quality": 245.98595
+    },
+    {
+      "value": "magistuarmoryaddon:dark_early_cabasset",
+      "weight": 37389,
+      "quality": 234.60109
+    },
+    {
+      "value": "magistuarmoryaddon:dark_gilded_greenwich_armet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:dark_gilded_parade_burgonet",
+      "weight": 34326,
+      "quality": 236.5953
+    },
+    {
+      "value": "magistuarmoryaddon:dark_gothic_helmet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:dark_grand_bascinet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:dark_greenwich_armet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:dark_jousting_helmet",
+      "weight": 10770,
+      "quality": 252.21587
+    },
+    {
+      "value": "magistuarmoryaddon:dark_knight_helmet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:dark_late_sallet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:dark_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_armet",
+      "weight": 19206,
+      "quality": 246.5644
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_greenwich_armet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:darkblued_sallet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:devilish_grotesque_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:early_cabasset",
+      "weight": 37389,
+      "quality": 234.60109
+    },
+    {
+      "value": "magistuarmoryaddon:early_greathelm",
+      "weight": 20243,
+      "quality": 245.87392
+    },
+    {
+      "value": "magistuarmoryaddon:embosed_parade_burgonet",
+      "weight": 34326,
+      "quality": 236.5953
+    },
+    {
+      "value": "magistuarmoryaddon:engraved_close_helmet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:exquisite_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:facial_grotesque_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:fancy_hat",
+      "weight": 82102,
+      "quality": 206.44682
+    },
+    {
+      "value": "magistuarmoryaddon:fox_grotesque_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_armet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_grand_bascinet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_greenwich_armet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_grilled_helmet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_jousting_helmet",
+      "weight": 10770,
+      "quality": 252.21587
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_milanese_armet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:fully_gilded_sallet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:german_bascinet",
+      "weight": 19286,
+      "quality": 246.51129
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_cabasset",
+      "weight": 37389,
+      "quality": 234.60109
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_chainmail_coif",
+      "weight": 38857,
+      "quality": 233.64781
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_close_helmet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_dark_close_helmet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_dark_sallet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_darkblued_greenwich_armet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_early_cabasset",
+      "weight": 37389,
+      "quality": 234.60109
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_exquisite_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_fox_grotesque_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_grand_bascinet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_greathelm",
+      "weight": 20075,
+      "quality": 245.98595
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_greenwich_armet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_grilled_helmet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_sallet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:gilded_sugarloaf_helmet",
+      "weight": 20075,
+      "quality": 245.98595
+    },
+    {
+      "value": "magistuarmoryaddon:greenwich_armet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:grilled_helmet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:klappvisor_bascinet",
+      "weight": 19286,
+      "quality": 246.51129
+    },
+    {
+      "value": "magistuarmoryaddon:kulah_khud",
+      "weight": 37929,
+      "quality": 234.25002
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_black_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_blue_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_brown_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_cyan_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_gray_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_green_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_light_blue_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_light_gray_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_lime_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_magenta_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_orange_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_pink_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_purple_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_red_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_white_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:landsknecht_yellow_hat_decoration",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:late_bascinet",
+      "weight": 19286,
+      "quality": 246.51129
+    },
+    {
+      "value": "magistuarmoryaddon:late_burgonet",
+      "weight": 19942,
+      "quality": 246.07423
+    },
+    {
+      "value": "magistuarmoryaddon:late_greathelm",
+      "weight": 19097,
+      "quality": 246.63731
+    },
+    {
+      "value": "magistuarmoryaddon:late_kettlehat",
+      "weight": 37905,
+      "quality": 234.26549
+    },
+    {
+      "value": "magistuarmoryaddon:late_sallet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:light_burgonet",
+      "weight": 37692,
+      "quality": 234.40385
+    },
+    {
+      "value": "magistuarmoryaddon:light_cuman_helmet",
+      "weight": 39058,
+      "quality": 233.5174
+    },
+    {
+      "value": "magistuarmoryaddon:linen_coif",
+      "weight": 113006,
+      "quality": 188.03952
+    },
+    {
+      "value": "magistuarmoryaddon:lion_helmet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:lobster_tailed_helmet",
+      "weight": 20277,
+      "quality": 245.85132
+    },
+    {
+      "value": "magistuarmoryaddon:mamluk_helmet",
+      "weight": 39545,
+      "quality": 233.20221
+    },
+    {
+      "value": "magistuarmoryaddon:maximilian_burgonet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:milanese_armet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:morion",
+      "weight": 37739,
+      "quality": 234.37325
+    },
+    {
+      "value": "magistuarmoryaddon:opened_sallet",
+      "weight": 34151,
+      "quality": 236.70938
+    },
+    {
+      "value": "magistuarmoryaddon:patrician_tuher_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:red_greathelm",
+      "weight": 20075,
+      "quality": 245.98595
+    },
+    {
+      "value": "magistuarmoryaddon:sallet_without_neck_protection",
+      "weight": 19877,
+      "quality": 246.11795
+    },
+    {
+      "value": "magistuarmoryaddon:sallet_without_visor",
+      "weight": 37204,
+      "quality": 234.72092
+    },
+    {
+      "value": "magistuarmoryaddon:saracen_helmet",
+      "weight": 38683,
+      "quality": 233.76088
+    },
+    {
+      "value": "magistuarmoryaddon:savoyard_helmet",
+      "weight": 19391,
+      "quality": 246.4411
+    },
+    {
+      "value": "magistuarmoryaddon:scale_helmet",
+      "weight": 39262,
+      "quality": 233.38557
+    },
+    {
+      "value": "magistuarmoryaddon:silvered_dark_bellows_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:silvered_dark_maximilian_helmet",
+      "weight": 10863,
+      "quality": 252.15317
+    },
+    {
+      "value": "magistuarmoryaddon:straw_hat",
+      "weight": 83350,
+      "quality": 205.68716
+    },
+    {
+      "value": "magistuarmoryaddon:sturmhaube",
+      "weight": 37227,
+      "quality": 234.70601
+    },
+    {
+      "value": "magistuarmoryaddon:sugarloaf_helmet",
+      "weight": 20075,
+      "quality": 245.98595
+    },
+    {
+      "value": "magistuarmoryaddon:tablet_helmet",
+      "weight": 38510,
+      "quality": 233.873
+    },
+    {
+      "value": "magistuarmoryaddon:tilted_puff_and_slash_hat",
+      "weight": 79927,
+      "quality": 207.77463
+    },
+    {
+      "value": "magistuarmoryaddon:two_eye_slits_sallet",
+      "weight": 19188,
+      "quality": 246.57663
+    },
+    {
+      "value": "magistuarmoryaddon:visored_kettlehat",
+      "weight": 36484,
+      "quality": 235.189
+    },
+    {
+      "value": "magistuarmoryaddon:white_greathelm",
+      "weight": 20075,
+      "quality": 245.98595
+    },
+    {
+      "value": "magistuarmoryaddon:yellow_greathelm",
+      "weight": 20075,
+      "quality": 245.98595
+    },
+    {
+      "value": "meadow:fur_helmet",
+      "weight": 20366,
+      "quality": 245.79213
+    },
+    {
+      "value": "minecraft:chainmail_helmet",
+      "weight": 32339,
+      "quality": 237.89348
+    },
+    {
+      "value": "minecraft:diamond_helmet",
+      "weight": 14926,
+      "quality": 249.42383
+    },
+    {
+      "value": "minecraft:golden_helmet",
+      "weight": 31611,
+      "quality": 238.37032
+    },
+    {
+      "value": "minecraft:iron_helmet",
+      "weight": 33030,
+      "quality": 237.44197
+    },
+    {
+      "value": "minecraft:leather_helmet",
+      "weight": 67576,
+      "quality": 215.39624
+    },
+    {
+      "value": "minecraft:netherite_helmet",
+      "weight": 13473,
+      "quality": 250.39821
+    },
+    {
+      "value": "minecraft:shulker_shell",
+      "weight": 309462,
+      "quality": 91.11946
+    },
+    {
+      "value": "minecraft:turtle_helmet",
+      "weight": 31430,
+      "quality": 238.48895
+    },
+    {
+      "value": "mowziesmobs:geomancer_beads",
+      "weight": 36573,
+      "quality": 235.13142
+    },
+    {
+      "value": "mowziesmobs:sol_visage",
+      "weight": 29265,
+      "quality": 239.90904
+    },
+    {
+      "value": "mowziesmobs:umvuthana_mask_bliss",
+      "weight": 89268,
+      "quality": 202.10213
+    },
+    {
+      "value": "mowziesmobs:umvuthana_mask_faith",
+      "weight": 89268,
+      "quality": 202.10213
+    },
+    {
+      "value": "mowziesmobs:umvuthana_mask_fear",
+      "weight": 89268,
+      "quality": 202.10213
+    },
+    {
+      "value": "mowziesmobs:umvuthana_mask_fury",
+      "weight": 89268,
+      "quality": 202.10213
+    },
+    {
+      "value": "mowziesmobs:umvuthana_mask_misery",
+      "weight": 89268,
+      "quality": 202.10213
+    },
+    {
+      "value": "mowziesmobs:umvuthana_mask_rage",
+      "weight": 89268,
+      "quality": 202.10213
+    },
+    {
+      "value": "mowziesmobs:wrought_helmet",
+      "weight": 31594,
+      "quality": 238.38116
+    },
+    {
+      "value": "spawn:dangling_date_leaves",
+      "weight": 735916,
+      "quality": 0.25
+    },
+    {
+      "value": "spawn:dodo_translator",
+      "weight": 735916,
+      "quality": 0.25
+    },
+    {
+      "value": "vinery:straw_hat",
+      "weight": 81109,
+      "quality": 207.05266
+    },
+    {
+      "value": "wildernature:stylin_purple_hat",
+      "weight": 58701,
+      "quality": 220.95685
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create_sa:experience_pickaxe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm:infernal_forge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm:void_forge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"neoorigins:orb_of_origin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:hopper"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"darkutils:vector_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:wind_charge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"darkutils:vector_plate_ultra"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm:wrath_of_the_desert"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"jewelry:unique_attack_ring"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"justpotionrings:ring","components":{"mob:effect":{"effect":"skill_tree_rpgs:arcane_exposure"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"justpotionrings:ring","components":{"mob:effect":{"effect":"more_relics:greater_sunfire_cape"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"justpotionrings:ring","components":{"mob:effect":{"effect":"forcemaster_rpg:stone_hand"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:pyromancer_chestplate","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":1,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:infernal_sorcerer_chestplate","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":1,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"magistuarmoryaddon:dark_gothic_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"born_in_chaos_v1:supreme_measure"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enchanted_book","components":{"minecraft:stored_enchantments":{"levels":{"nova_structures:shulker_miniboss":1}}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

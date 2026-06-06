@@ -1,0 +1,470 @@
+{
+  "enabled": {
+    "value": "ON"
+  },
+  "showHudFps": {
+    "value": "ON"
+  },
+  "downscale": {
+    "value": "OFF"
+  },
+  "numberOfPasses": 3,
+  "maxFps": 125,
+  "screenMaxFps": 65,
+  "mapVanillaElements": {
+    "minecraft:spectator_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "epicfight:weapon_innate": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "securitycraft:camera_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:toolbox": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "epicfight:charging_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "patchouli:multiblock_progress": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "spell_engine:spell_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:subtitle_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "relics:active_abilities": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "icarus:stamina": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "relics:stun_effect": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:jump_meter": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "epicfight:stamina_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "supplementaries:selectable_container_item": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "naturescompass:natures_compass": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "createbigcannons:entity_goggles_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:scoreboard_sidebar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:hotbar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "figura:figura_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "artifacts:artifact_cooldowns": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create_pattern_schematics:pattern_schematic": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:debug_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "gnetum:minecraft_hand": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "irons_spellbooks:screen_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "barbequesdelight:block_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "travelerstitles:overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "xaerohud:hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:experience_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "minecraft:saving_indicator": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "sophisticatedstorage:storage_tool_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:title": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:value_settings": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:selected_item_name": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "xaeroworldmap:crosshair_message": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:overlay_message": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "irons_spellbooks:screen_effects": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:schematic": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "sophisticatedstorage:paintbrush_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "figura:figura_underlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "epicfight:skills": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:blueprint": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "cfwinfo:tank_sprite_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "simulated:linked_typewriter_binding": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "deeperdarker:otherside_portal": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "relics:info_tile": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:track_placement": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:sleep_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "biomeswevegone:textures/misc/palepumpkinblur.png": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:experience_level": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "cfwinfo:tank_tooltip_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "irons_spellbooks:cast_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "toms_storage:configurator_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "createbigcannons:gas_mask_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "irons_spellbooks:spell_wheel": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:boss_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "relics:piglin_mask/teeth": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:linked_controller": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "gnetum:status_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "minecraft:effects": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "relics:leafy_ring_hide": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "explorerscompass:explorers_compass": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "yungscavebiomes:buffeted": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "dsurround:layer/overlaymanager": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "patchouli:book_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "supplementaries:slimed": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:tab_list": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:goggle_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:chat": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    }
+  },
+  "mapModdedElementsPre": {
+    "dynamic_fps": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "epicfight": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    }
+  },
+  "mapModdedElementsPost": {
+    "gnetum_unknown": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "via_romana": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "fabric_rendering_v1": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "jade": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "creativecore": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    }
+  }
+}

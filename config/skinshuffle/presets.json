@@ -1,0 +1,22 @@
+{
+  "chosenPreset": 1,
+  "apiPreset": 1,
+  "loadedPresets": [
+    {
+      "skin": {
+        "skin_name": "168553524",
+        "model": "classic",
+        "type": "skinshuffle:config"
+      },
+      "name": "halo93_"
+    },
+    {
+      "skin": {
+        "skin_name": "168553524",
+        "model": "slim",
+        "type": "skinshuffle:config"
+      },
+      "name": "Unnamed Preset"
+    }
+  ]
+}
