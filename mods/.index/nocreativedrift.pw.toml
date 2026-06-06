@@ -1,0 +1,25 @@
+filename = 'nocreativedrift-neoforge-1.21.1-6.0.0.2.jar'
+name = 'NoCreativeDrift'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-6.0.0.2-neoforge'
+
+[download]
+hash = '275032c207afd419fa87228da1572d87e3fa0c337506bd6f8b692de940ce1460b82b0cca95d2167d70ce6b18692456e2ba55da7f5a412bd4ebc548b6fecb00af'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VPrmY5T9/versions/joWoWCow/nocreativedrift-neoforge-1.21.1-6.0.0.2.jar'
+
+[update.modrinth]
+mod-id = 'VPrmY5T9'
+version = 'joWoWCow'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'DWIEOniQ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ce6I4WUE'
+type = 'OPTIONAL'
