@@ -17,9 +17,9 @@ mod-id = 'RSeLon5O'
 version = '2QF4NhZD'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'hYykXjDp'
+addonId = 'ordsPcFz'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'ordsPcFz'
+addonId = 'hYykXjDp'
 type = 'REQUIRED'

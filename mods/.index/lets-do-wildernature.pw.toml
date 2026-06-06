@@ -4,6 +4,7 @@ side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.4'
 
 [download]
 hash = 'cbb62c9ad4d4155c9397a845b45e11974955315de5c25e6335ebd062c2d471b9a8126887105a4a3f41412053fa274a7655e334ced1934e270d8a82c1d93c212c'
@@ -14,3 +15,11 @@ url = 'https://cdn.modrinth.com/data/AAiRU4aQ/versions/CyiRcevd/letsdo-wildernat
 [update.modrinth]
 mod-id = 'AAiRU4aQ'
 version = 'CyiRcevd'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'REQUIRED'

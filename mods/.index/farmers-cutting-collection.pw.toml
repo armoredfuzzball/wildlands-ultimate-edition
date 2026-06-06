@@ -21,10 +21,6 @@ addonId = 'IcERKldh'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'NTi7d3Xc'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
 addonId = 'R2OftAxM'
 type = 'REQUIRED'
 
@@ -41,11 +37,7 @@ addonId = 'Tkikq67H'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'YhmgMVyu'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '3e4LaIlU'
+addonId = 'NTi7d3Xc'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -54,4 +46,12 @@ type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'HXF82T3G'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'YhmgMVyu'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '3e4LaIlU'
 type = 'OPTIONAL'

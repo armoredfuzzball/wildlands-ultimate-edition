@@ -17,9 +17,9 @@ mod-id = 'vmg6jaPW'
 version = 'LxZKFbNR'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'BNuR43mM'
+addonId = 'vBbPDuOs'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'vBbPDuOs'
+addonId = 'BNuR43mM'
 type = 'REQUIRED'

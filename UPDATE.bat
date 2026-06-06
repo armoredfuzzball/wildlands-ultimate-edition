@@ -26,13 +26,16 @@ if not exist ".git" (
   echo Checking out release-2 branch...
   .\PortableGit\bin\git.exe checkout -b release-2 origin/release-2 -f
 ) else (
+  echo Detecting current branch...
+  for /f "tokens=*" %%i in ('.\PortableGit\bin\git.exe rev-parse --abbrev-ref HEAD 2^>nul') do set "current_branch=%%i"
+  if "!current_branch!"=="" set "current_branch=release-2"
   echo Available branches:
   .\PortableGit\bin\git.exe branch -r
   echo.
   set "userinput="
-  set /p "userinput=Enter the branch to switch to. If you don't know what you're doing, just press Enter. Do not include origin/ (default: release-2): "
+  set /p "userinput=Enter the branch to switch to. If you don't know what you're doing, just press Enter. Do not include origin/ (default: !current_branch!): "
   if "!userinput!"=="" (
-    set "branch=release-2"
+    set "branch=!current_branch!"
   ) else (
     set "branch=!userinput!"
   )

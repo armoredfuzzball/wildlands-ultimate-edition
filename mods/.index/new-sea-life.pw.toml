@@ -1,0 +1,16 @@
+filename = 'SeaLife-v21.1.0-mc1.21.1-NeoForge.jar'
+name = 'Sea Life'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2fde34f27f57f5938c8de408da9ff2b550d2c914dd3b0e50cedc33a71cdcd31df5204a63c90c8eb7acda39c6bf76414b0ef22b4a02a945861e738522069e208d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2RxBOoXP/versions/dSNJ1iNb/SeaLife-v21.1.0-mc1.21.1-NeoForge.jar'
+
+[update.modrinth]
+mod-id = '2RxBOoXP'
+version = 'dSNJ1iNb'

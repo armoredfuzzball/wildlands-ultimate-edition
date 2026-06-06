@@ -1,6 +1,6 @@
 filename = 'vinurl-2.4.0+mc1.21.1.jar'
 name = 'VinURL'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -21,9 +21,9 @@ addonId = 'Aqlf1Shp'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'u58R1TMW'
+addonId = 'ccKDOlHs'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'ccKDOlHs'
+addonId = 'u58R1TMW'
 type = 'REQUIRED'
