@@ -3,7 +3,6 @@
 .pg-native
 .sable
 .vscode
-config/
 crash-reports/
 debug/
 defaultconfigs/

@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"supplementaries:cage"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:compass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:sand"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:sandstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"chipped:kelp_sand"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
