@@ -7,7 +7,7 @@ crash-reports/
 debug/
 defaultconfigs/
 CustomSkinLoader
-data
+./data/
 downloads
 Distant_Horizons_server_data/
 dynamic-data-pack-cache
