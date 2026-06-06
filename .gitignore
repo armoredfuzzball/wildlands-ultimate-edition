@@ -3,10 +3,13 @@
 .pg-native
 .sable
 .vscode
-crash-reports
+crash-reports/
+debug/
+defaultconfigs/
 CustomSkinLoader
 data
 downloads
+Distant_Horizons_server_data/
 dynamic-data-pack-cache
 dynamic-resource-pack-cache
 figura

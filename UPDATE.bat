@@ -23,16 +23,19 @@ if not exist ".git" (
   .\PortableGit\bin\git.exe remote add origin https://github.com/ArmoredFuzzball/Wildlands-Ultimate-Edition.git
   echo Fetching from remote...
   .\PortableGit\bin\git.exe fetch origin
-  echo Checking out release branch...
-  .\PortableGit\bin\git.exe checkout -b release origin/release -f
+  echo Checking out main branch...
+  .\PortableGit\bin\git.exe checkout -b main origin/main -f
 ) else (
+  echo Detecting current branch...
+  for /f "tokens=*" %%i in ('.\PortableGit\bin\git.exe rev-parse --abbrev-ref HEAD 2^>nul') do set "current_branch=%%i"
+  if "!current_branch!"=="" set "current_branch=main"
   echo Available branches:
   .\PortableGit\bin\git.exe branch -r
   echo.
   set "userinput="
-  set /p "userinput=Enter the branch to switch to. If you don't know what you're doing, just press Enter. Do not include origin/ (default: release): "
+  set /p "userinput=Enter the branch to switch to. If you don't know what you're doing, just press Enter. Do not include origin/ (default: !current_branch!): "
   if "!userinput!"=="" (
-    set "branch=release"
+    set "branch=!current_branch!"
   ) else (
     set "branch=!userinput!"
   )
