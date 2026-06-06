@@ -1,18 +1,18 @@
-filename = 'epic-fight-21.17.3.1-mc1.21.1-neoforge.jar'
+filename = 'epic-fight-21.16.4-mc1.21.1-neoforge.jar'
 name = 'Epic Fight'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '21.17.3.1-mc1.21.1-neoforge'
+x-prismlauncher-version-number = '21.16.4-mc1.21.1-neoforge'
 
 [download]
-hash = 'd39c1d4a2198e7f2080cdc98de890d26d658a02b44c8399a301c7c0005d9991ff97cc94881823a9daa8952f3b89eb3d9197c2f83cf0fbba9c7992c77921b2122'
+hash = '406f3c82ce06e0345a591f5b2a9372f8317dc316ab2b65b9ccf012707df404d10538b3d71cf883554914ae2955bd848e439137757293c3c103d7658eacd69cbe'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/vu3NZ5Ma/versions/8HHhJt6i/epic-fight-21.17.3.1-mc1.21.1-neoforge.jar'
+url = 'https://cdn.modrinth.com/data/vu3NZ5Ma/versions/dSV7xWi5/epic-fight-21.16.4-mc1.21.1-neoforge.jar'
 
 [update.modrinth]
 mod-id = 'vu3NZ5Ma'
-version = '8HHhJt6i'
+version = 'dSV7xWi5'
